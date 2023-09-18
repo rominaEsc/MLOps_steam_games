@@ -31,9 +31,9 @@ def userdata(user_id: str):
 
     # Porcentaje de recomendaciones
     df_filtrado_recomendaciones = df_reviews[df_reviews.user_id == user_id]
-
+    
     if df_filtrado_recomendaciones.shape[0] == 0:
-        porcentaje_de_recomendacion = 0
+         porcentaje_de_recomendacion = 0
     else:
         porcentaje_de_recomendacion = round(df_filtrado_recomendaciones.recommend.mean(),3)*100
     
@@ -43,10 +43,9 @@ def userdata(user_id: str):
     # items recomendados
     items_recomendados = int(df_filtrado_recomendaciones.shape[0])
 
+    out = {"dinero_gastado":dinero_gastado, "porcentaje_de_recomendaciones": porcentaje_de_recomendacion, 'items_recomendados': items_recomendados,'items_comprados':items_comprados}
 
-    return {"dinero_gastado":dinero_gastado, "porcentaje_de_recomendaciones": porcentaje_de_recomendacion, 'items_recomendados': items_recomendados,'items_comprados':items_comprados}
-
-
+    return out
 # ---------------------------------------------------------------------------------------
 # 2. Función 2: countreviews
 
@@ -64,14 +63,16 @@ def countreviews (fecha_inicio:(str), fecha_fin):
 
 @app.get('/genre/{genero}')
 
-
 def genre (genero):
     genero_minusculas = genero.lower().strip()
     if genero_minusculas in list(df_genres.name):
         puesto = int(df_genres[df_genres.name == genero_minusculas].reset_index().at[0,'ranking'])
+        salida = {"genero": genero_minusculas, "ranking":puesto}
     else:
         puesto = 'No se encuentra. Intente nuevamente. Ej: Action'
-    return {"genero": genero_minusculas, "ranking":puesto}
+        salida = {"genero": genero_minusculas, "ranking":puesto}
+    return salida
+
 
 # Función 4: función genre
 
