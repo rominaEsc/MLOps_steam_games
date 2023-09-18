@@ -31,25 +31,30 @@ def userdata(user_id: str):
     
     user_id = user_id.strip()
 
-    # Dinero gastado
-    df_filtrado_dinero = df_user_id_item_id_price[df_user_id_item_id_price.user_id == user_id]
-    dinero_gastado = round(df_filtrado_dinero.price.sum(),2)
+    if check(user_id,df_user_id_item_id_price,'user_id'):
 
-    # Porcentaje de recomendaciones
-    df_filtrado_recomendaciones = df_reviews[df_reviews.user_id == user_id]
-    
-    if df_filtrado_recomendaciones.shape[0] == 0:
-         porcentaje_de_recomendacion = 0
+        # Dinero gastado
+        df_filtrado_dinero = df_user_id_item_id_price[df_user_id_item_id_price.user_id == user_id]
+        dinero_gastado = round(df_filtrado_dinero.price.sum(),2)
+
+        # Porcentaje de recomendaciones
+        df_filtrado_recomendaciones = df_reviews[df_reviews.user_id == user_id]
+        
+        if df_filtrado_recomendaciones.shape[0] == 0:
+            porcentaje_de_recomendacion = 0
+        else:
+            porcentaje_de_recomendacion = round(df_filtrado_recomendaciones.recommend.mean(),3)*100
+        
+        # items comprados
+        items_comprados = int(df_filtrado_dinero.shape[0])
+        
+        # items recomendados
+        items_recomendados = int(df_filtrado_recomendaciones.shape[0])
+
+        out = {"dinero_gastado":dinero_gastado, "porcentaje_de_recomendaciones": porcentaje_de_recomendacion, 'items_recomendados': items_recomendados,'items_comprados':items_comprados}
+
     else:
-        porcentaje_de_recomendacion = round(df_filtrado_recomendaciones.recommend.mean(),3)*100
-    
-    # items comprados
-    items_comprados = int(df_filtrado_dinero.shape[0])
-    
-    # items recomendados
-    items_recomendados = int(df_filtrado_recomendaciones.shape[0])
-
-    out = {"dinero_gastado":dinero_gastado, "porcentaje_de_recomendaciones": porcentaje_de_recomendacion, 'items_recomendados': items_recomendados,'items_comprados':items_comprados}
+         out = (F'El usuario {user_id}, no éxiste. Intente nuevamente. EJ: "76561197970982479"')
 
     return out
 # ---------------------------------------------------------------------------------------
@@ -129,7 +134,7 @@ def developer(desarrollador : str ):
         porcentaje_free_por_anio = df['porcentaje'].tolist()
 
         out = {
-            "cantidad_de_items": cantidad_de_items,
+            "cantidad_de_items_free": cantidad_de_items,
             "anios": anios,
             "porcentaje_free_por_anio": porcentaje_free_por_anio
             }
