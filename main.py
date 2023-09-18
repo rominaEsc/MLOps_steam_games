@@ -96,3 +96,37 @@ def userforgenre( genero : str ):
     else:
         mensaje = 'el género ', genero, ' no éxiste. Intente nuevamente. EJ: "Action"'
         return mensaje
+
+
+# Función 5:
+
+@app.get('/developer/{desarrollador}')
+
+def developer(desarrollador : str ):
+
+    desarrollador_minusculas = desarrollador.lower().strip()
+
+    if check(desarrollador_minusculas,df_developer,'developer'):
+        
+        df_filtrado = df_developer[df_developer.developer == desarrollador_minusculas]
+        cantidad_de_items = df_filtrado.shape[0]
+
+
+        df_xanio = df_filtrado.groupby(['year']).size().reset_index(name=('cantidad_total'))
+        df_filtrado_free = df_filtrado[df_filtrado.price == 0].groupby(['year']).size().reset_index(name=('cantidad_free'))
+        df = df_xanio.merge(df_filtrado_free,how='left')
+        df['porcentaje'] = df.cantidad_free /df.cantidad_total *100
+        df['porcentaje'] = df['porcentaje'].fillna(0)
+
+
+        anios = df_xanio['year'].tolist()
+        porcentaje_free_por_anio = df['porcentaje'].tolist()
+
+        out = {
+            "cantidad_de_items": cantidad_de_items,
+            "anios": anios,
+            "porcentaje_free_por_anio": porcentaje_free_por_anio
+        }
+    else:
+         out = (F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "kotoshiro"')
+    return out

@@ -31,14 +31,6 @@ item_id,genres
 774278,indie
 774278,simulation
 774278,sports
-768800,casual
-768800,indie
-768800,racing
-768800,simulation
-768570,action
-768570,indie
-768570,simulation
-768570,early access
 770380,action
 770380,adventure
 770380,casual
@@ -85,23 +77,9 @@ item_id,genres
 752360,action
 752360,indie
 752360,rpg
-520680,casual
-520680,indie
-520680,strategy
-690410,action
 766850,casual
 766850,indie
 766850,simulation
-413120,action
-413120,casual
-413120,indie
-413120,massively multiplayer
-413120,simulation
-413120,sports
-413120,strategy
-773120,adventure
-773120,casual
-773120,indie
 754360,action
 754360,adventure
 754360,rpg
@@ -114,24 +92,10 @@ item_id,genres
 2400,action
 2400,indie
 2400,rpg
-662570,strategy
-381620,indie
-381620,massively multiplayer
-381620,rpg
-381620,early access
-714020,adventure
-714020,free to play
-714020,rpg
-714020,early access
 759920,action
 759920,indie
 759920,strategy
 759920,early access
-659780,action
-659780,adventure
-659780,indie
-659780,rpg
-659780,strategy
 603280,action
 603280,adventure
 603280,indie
@@ -187,8 +151,6 @@ item_id,genres
 8200,action
 8200,adventure
 2290,action
-2570,indie
-2570,rpg
 8210,action
 8210,adventure
 2280,action
@@ -210,8 +172,6 @@ item_id,genres
 4760,strategy
 4770,strategy
 50970,casual
-12170,action
-12180,action
 12130,action
 12160,racing
 12150,action
@@ -270,7 +230,6 @@ item_id,genres
 12560,simulation
 12540,casual
 11050,adventure
-10520,sports
 11040,adventure
 11040,rpg
 19500,adventure
@@ -364,12 +323,9 @@ item_id,genres
 22180,indie
 13210,action
 12640,rpg
-21600,casual
-21600,strategy
 27020,indie
 27020,simulation
 24740,racing
-90047,action
 26000,action
 26000,indie
 26006,action
@@ -452,7 +408,6 @@ item_id,genres
 35310,action
 35310,racing
 31980,adventure
-31990,adventure
 10140,sports
 10100,adventure
 10130,action
@@ -476,8 +431,6 @@ item_id,genres
 38410,rpg
 38420,strategy
 38430,action
-35050,action
-35050,adventure
 31180,adventure
 37960,casual
 38000,casual
@@ -586,7 +539,6 @@ item_id,genres
 36320,casual
 37030,strategy
 32450,adventure
-34180,sports
 44100,action
 44100,indie
 44100,racing
@@ -636,11 +588,8 @@ item_id,genres
 19080,action
 19080,adventure
 19080,casual
-31700,action
-31700,indie
 19030,action
 19030,adventure
-50820,indie
 49800,action
 49800,indie
 33650,casual
@@ -752,7 +701,6 @@ item_id,genres
 9940,action
 9940,adventure
 22650,action
-901553,action
 50620,action
 50620,adventure
 2840,simulation
@@ -911,7 +859,6 @@ item_id,genres
 63660,casual
 90504,strategy
 7520,rpg
-99200,casual
 9930,racing
 24449,rpg
 41814,strategy
@@ -1056,7 +1003,6 @@ item_id,genres
 72750,action
 72750,rpg
 56538,strategy
-63950,simulation
 61100,indie
 61100,casual
 65228,simulation
@@ -1211,7 +1157,6 @@ item_id,genres
 24200,free to play
 24200,massively multiplayer
 24200,rpg
-55370,action
 57696,simulation
 57696,strategy
 71340,action
@@ -1246,7 +1191,6 @@ item_id,genres
 73058,rpg
 25812,strategy
 46350,strategy
-200880,action
 202200,strategy
 24083,simulation
 113400,action
@@ -1254,7 +1198,6 @@ item_id,genres
 113400,massively multiplayer
 80340,adventure
 80340,indie
-200870,action
 64017,strategy
 35429,action
 201510,racing
@@ -1274,10 +1217,6 @@ item_id,genres
 55340,action
 49337,strategy
 55343,action
-91616,action
-91616,casual
-91616,indie
-91616,strategy
 201310,action
 201310,simulation
 35720,action
@@ -1286,10 +1225,6 @@ item_id,genres
 204381,action
 204381,rpg
 204381,indie
-204010,action
-204010,indie
-111403,action
-111403,indie
 203990,action
 203990,indie
 204030,action
@@ -1311,8 +1246,6 @@ item_id,genres
 23553,action
 23552,action
 23551,action
-200890,action
-200860,action
 23550,action
 200390,indie
 200390,strategy
@@ -1352,8 +1285,6 @@ item_id,genres
 203210,action
 203210,casual
 203210,indie
-45773,action
-45774,action
 205160,action
 205160,indie
 203770,rpg
@@ -1363,8 +1294,6 @@ item_id,genres
 203773,strategy
 92620,action
 92620,indie
-205120,action
-205120,indie
 108710,action
 108710,adventure
 24065,simulation
@@ -1510,10 +1439,6 @@ item_id,genres
 201277,strategy
 55397,action
 211206,action
-91609,action
-91609,strategy
-91609,indie
-91609,casual
 65258,simulation
 108232,casual
 108232,indie
@@ -1559,11 +1484,6 @@ item_id,genres
 203765,action
 204182,action
 204182,indie
-98821,adventure
-98821,casual
-98821,free to play
-98821,indie
-98821,rpg
 212500,free to play
 212500,massively multiplayer
 212500,rpg
@@ -1614,14 +1534,11 @@ item_id,genres
 205550,casual
 204384,rpg
 204384,indie
-1840,animation &amp; modeling
-1840,video production
 97368,strategy
 97364,strategy
 210041,action
 97371,strategy
 97369,strategy
-98421,action
 206522,action
 206522,adventure
 206522,free to play
@@ -1679,7 +1596,6 @@ item_id,genres
 115120,strategy
 215241,action
 215240,action
-202181,action
 212010,action
 212010,indie
 212010,simulation
@@ -1753,7 +1669,6 @@ item_id,genres
 210012,action
 210019,action
 210013,action
-58648,strategy
 205650,adventure
 214570,action
 65740,action
@@ -1863,9 +1778,6 @@ item_id,genres
 209811,strategy
 219150,action
 219150,indie
-215120,free to play
-215120,massively multiplayer
-215120,rpg
 215245,action
 215245,adventure
 215248,action
@@ -1891,8 +1803,6 @@ item_id,genres
 223470,action
 223470,adventure
 223470,indie
-216330,action
-216330,adventure
 203680,racing
 220740,adventure
 220740,indie
@@ -2015,9 +1925,6 @@ item_id,genres
 222063,simulation
 222062,casual
 222062,simulation
-207660,action
-207660,strategy
-207660,indie
 225640,rpg
 65239,simulation
 209801,indie
@@ -2272,7 +2179,6 @@ item_id,genres
 234820,software training
 234820,utilities
 234820,web publishing
-235920,strategy
 208817,action
 208817,adventure
 208818,action
@@ -2509,7 +2415,6 @@ item_id,genres
 230690,simulation
 230690,sports
 230690,strategy
-245660,strategy
 222590,simulation
 210870,indie
 219101,action
@@ -2524,14 +2429,9 @@ item_id,genres
 93304,adventure
 93304,casual
 93304,indie
-94304,adventure
-94304,casual
-94304,indie
 243950,action
 243950,rpg
 243950,strategy
-242590,action
-242590,adventure
 231485,strategy
 231477,strategy
 231484,strategy
@@ -2606,7 +2506,6 @@ item_id,genres
 244710,indie
 250030,adventure
 250030,indie
-246340,indie
 247190,free to play
 247190,massively multiplayer
 247190,rpg
@@ -2614,12 +2513,7 @@ item_id,genres
 246800,indie
 246360,casual
 246360,indie
-246640,action
-246640,casual
-246640,indie
 222595,simulation
-203290,action
-203290,free to play
 225430,simulation
 239820,casual
 239820,indie
@@ -2646,8 +2540,6 @@ item_id,genres
 249630,indie
 249630,rpg
 249630,early access
-221169,racing
-221169,sports
 224140,action
 224140,rpg
 224141,action
@@ -2729,8 +2621,6 @@ item_id,genres
 237740,indie
 249680,action
 249680,adventure
-247120,action
-247120,adventure
 248470,action
 248470,adventure
 248470,indie
@@ -2799,8 +2689,6 @@ item_id,genres
 248710,rpg
 253900,simulation
 253900,strategy
-257140,adventure
-257140,strategy
 251310,adventure
 251310,indie
 250460,casual
@@ -3068,9 +2956,6 @@ item_id,genres
 259600,indie
 260710,adventure
 260690,adventure
-267660,adventure
-267660,free to play
-267660,indie
 266940,casual
 237619,action
 237619,adventure
@@ -3152,7 +3037,6 @@ item_id,genres
 246840,action
 246840,adventure
 246840,rpg
-268100,action
 257120,action
 257120,indie
 257120,strategy
@@ -3167,10 +3051,6 @@ item_id,genres
 268281,simulation
 268280,free to play
 268280,simulation
-271110,action
-271110,rpg
-268560,action
-268560,adventure
 261392,casual
 261392,indie
 266740,action
@@ -3181,18 +3061,11 @@ item_id,genres
 271100,action
 271100,adventure
 271100,indie
-267381,action
-267381,rpg
-241373,simulation
-241373,strategy
 265090,free to play
 265090,massively multiplayer
 265090,rpg
 259122,action
 259122,indie
-226671,rpg
-226671,simulation
-226671,strategy
 261393,casual
 261393,indie
 261397,casual
@@ -3277,7 +3150,6 @@ item_id,genres
 249570,strategy
 263320,indie
 263320,rpg
-267130,utilities
 271550,casual
 271550,indie
 271550,strategy
@@ -3287,10 +3159,6 @@ item_id,genres
 267980,strategy
 253790,indie
 253790,strategy
-272060,adventure
-272060,indie
-275590,action
-275590,rpg
 224480,action
 224480,adventure
 224480,indie
@@ -3343,9 +3211,6 @@ item_id,genres
 226673,rpg
 226673,simulation
 226673,strategy
-250600,casual
-250600,free to play
-250600,indie
 224040,action
 224040,adventure
 224040,casual
@@ -3398,8 +3263,6 @@ item_id,genres
 271900,strategy
 258760,indie
 258760,simulation
-284430,action
-284430,rpg
 277721,casual
 277721,animation &amp; modeling
 277721,audio production
@@ -3434,8 +3297,6 @@ item_id,genres
 266170,action
 266170,indie
 266170,rpg
-285690,action
-285690,simulation
 255750,action
 273760,simulation
 283530,simulation
@@ -3701,9 +3562,6 @@ item_id,genres
 292880,adventure
 283940,adventure
 283940,casual
-295210,action
-295210,casual
-295210,indie
 293420,action
 293420,casual
 293420,indie
@@ -3723,9 +3581,6 @@ item_id,genres
 291270,action
 291270,casual
 291270,indie
-294350,action
-294350,casual
-294350,indie
 279480,casual
 279480,strategy
 292160,strategy
@@ -3748,9 +3603,6 @@ item_id,genres
 286340,adventure
 286340,indie
 288730,casual
-285540,action
-285540,adventure
-285540,indie
 297570,strategy
 283660,action
 283660,casual
@@ -3773,7 +3625,6 @@ item_id,genres
 284830,adventure
 284830,casual
 295770,action
-298010,action
 296210,simulation
 296210,strategy
 290406,rpg
@@ -3798,23 +3649,16 @@ item_id,genres
 266050,action
 266050,adventure
 266050,indie
-296750,action
-296750,early access
-296750,indie
 274880,indie
 274880,racing
 274880,sports
 264060,adventure
 264060,casual
 264060,indie
-298920,action
-298920,indie
 295730,action
 295730,indie
 286100,action
 286100,indie
-299130,adventure
-299130,indie
 273300,action
 273300,adventure
 273300,indie
@@ -3843,8 +3687,6 @@ item_id,genres
 265630,free to play
 265630,indie
 296530,rpg
-301060,indie
-301060,strategy
 266490,adventure
 266490,indie
 266490,rpg
@@ -3875,10 +3717,6 @@ item_id,genres
 294910,simulation
 294909,casual
 294909,simulation
-282740,action
-282740,casual
-282740,indie
-282740,early access
 294912,casual
 294912,simulation
 258652,simulation
@@ -4031,9 +3869,6 @@ item_id,genres
 301200,action
 301200,casual
 301200,indie
-303630,action
-303630,casual
-303630,indie
 301690,casual
 300870,indie
 300870,rpg
@@ -4043,8 +3878,6 @@ item_id,genres
 285050,strategy
 303330,indie
 303330,rpg
-267382,action
-267382,rpg
 279560,adventure
 304590,strategy
 279622,simulation
@@ -4194,9 +4027,6 @@ item_id,genres
 280040,action
 280040,indie
 280040,rpg
-309890,action
-309890,casual
-309890,indie
 263040,adventure
 263040,casual
 263040,indie
@@ -4221,8 +4051,6 @@ item_id,genres
 292930,adventure
 303470,action
 303470,strategy
-306690,action
-306690,rpg
 306170,simulation
 306170,strategy
 294934,casual
@@ -4233,8 +4061,6 @@ item_id,genres
 294935,simulation
 294937,casual
 294937,simulation
-305450,indie
-305450,rpg
 304290,indie
 304290,rpg
 308140,indie
@@ -4243,8 +4069,6 @@ item_id,genres
 297100,adventure
 297100,simulation
 300320,strategy
-305440,indie
-305440,rpg
 222570,simulation
 255260,simulation
 295430,action
@@ -4254,32 +4078,7 @@ item_id,genres
 295433,action
 295432,action
 295431,action
-308162,action
-308162,free to play
-308162,indie
-308162,massively multiplayer
-308162,rpg
 295435,action
-308161,action
-308161,free to play
-308161,indie
-308161,massively multiplayer
-308161,rpg
-308160,action
-308160,free to play
-308160,indie
-308160,massively multiplayer
-308160,rpg
-308164,action
-308164,free to play
-308164,indie
-308164,massively multiplayer
-308164,rpg
-308163,action
-308163,free to play
-308163,indie
-308163,massively multiplayer
-308163,rpg
 310260,free to play
 310260,massively multiplayer
 310260,rpg
@@ -4298,15 +4097,11 @@ item_id,genres
 297960,racing
 297960,simulation
 297960,sports
-306850,indie
-306850,rpg
-306850,strategy
 260309,strategy
 284580,action
 284580,indie
 284580,strategy
 287370,strategy
-295100,racing
 287371,strategy
 297950,racing
 297950,sports
@@ -4356,9 +4151,6 @@ item_id,genres
 241240,casual
 241240,indie
 241240,simulation
-313030,action
-313030,indie
-313030,strategy
 252830,action
 252830,adventure
 252830,indie
@@ -4392,8 +4184,6 @@ item_id,genres
 302120,casual
 302730,adventure
 302730,casual
-313920,indie
-313920,rpg
 300360,adventure
 300360,casual
 286730,action
@@ -4406,13 +4196,7 @@ item_id,genres
 304500,indie
 302390,adventure
 302390,casual
-294560,simulation
-298620,simulation
-310410,simulation
-310420,simulation
 292180,simulation
-310430,simulation
-310440,simulation
 293900,action
 293900,casual
 293900,indie
@@ -4434,7 +4218,6 @@ item_id,genres
 307800,indie
 307800,massively multiplayer
 307800,rpg
-310450,rpg
 302590,action
 302590,casual
 302590,free to play
@@ -4500,10 +4283,6 @@ item_id,genres
 303840,action
 303840,casual
 303840,indie
-314280,action
-314280,adventure
-314280,free to play
-314280,indie
 305490,adventure
 305490,casual
 305490,indie
@@ -4549,7 +4328,6 @@ item_id,genres
 301600,action
 301600,indie
 269890,adventure
-311020,simulation
 290260,indie
 311860,adventure
 311860,indie
@@ -4583,14 +4361,6 @@ item_id,genres
 307290,free to play
 307290,indie
 307290,rpg
-303251,action
-303251,free to play
-303251,massively multiplayer
-303251,rpg
-303250,action
-303250,free to play
-303250,massively multiplayer
-303250,rpg
 289020,racing
 289020,sports
 301420,action
@@ -4631,8 +4401,6 @@ item_id,genres
 316360,action
 316360,indie
 311550,racing
-316050,action
-316050,indie
 316680,action
 316680,indie
 316680,rpg
@@ -4685,10 +4453,6 @@ item_id,genres
 298520,indie
 298520,simulation
 301660,action
-317430,action
-317430,free to play
-317430,massively multiplayer
-317430,rpg
 313280,strategy
 307980,sports
 306240,simulation
@@ -4728,8 +4492,6 @@ item_id,genres
 314360,adventure
 314360,indie
 305980,action
-316100,adventure
-316100,indie
 314500,design &amp; illustration
 314500,photo editing
 304170,action
@@ -4751,7 +4513,6 @@ item_id,genres
 316864,action
 316865,action
 316866,action
-316869,action
 316863,action
 316560,action
 316560,indie
@@ -4782,20 +4543,9 @@ item_id,genres
 318440,casual
 318440,indie
 318440,strategy
-265770,action
-265770,free to play
-265770,indie
-265770,massively multiplayer
 315650,action
 315650,casual
 315650,indie
-318780,adventure
-318780,casual
-318780,indie
-318780,rpg
-316090,indie
-316090,rpg
-316090,strategy
 250700,action
 250700,indie
 302190,adventure
@@ -4828,27 +4578,17 @@ item_id,genres
 320560,indie
 320560,rpg
 319300,casual
-319620,indie
-319620,strategy
 320110,casual
-317160,action
-317160,indie
 316140,adventure
 316140,indie
 297880,strategy
 301900,action
 301900,indie
 301900,racing
-297897,strategy
-307330,strategy
-297898,strategy
-297896,strategy
 320570,indie
 320570,rpg
-298771,strategy
 312010,action
 312010,adventure
-298770,strategy
 320020,adventure
 320020,casual
 320020,indie
@@ -4868,8 +4608,6 @@ item_id,genres
 306890,strategy
 318310,indie
 318310,rpg
-318320,indie
-318320,rpg
 262750,action
 262750,indie
 262750,simulation
@@ -4880,7 +4618,6 @@ item_id,genres
 298830,casual
 298830,indie
 298830,rpg
-214190,action
 284500,action
 284500,adventure
 284500,free to play
@@ -4928,9 +4665,6 @@ item_id,genres
 301893,adventure
 301894,action
 301894,adventure
-318640,action
-318640,adventure
-318640,indie
 272510,action
 272510,adventure
 297370,action
@@ -4946,7 +4680,6 @@ item_id,genres
 290730,indie
 290730,massively multiplayer
 290730,strategy
-321690,video production
 313311,casual
 313311,free to play
 313311,indie
@@ -5024,9 +4757,6 @@ item_id,genres
 240760,indie
 240760,rpg
 240760,strategy
-321310,indie
-321310,simulation
-321310,early access
 230860,action
 230860,adventure
 230860,indie
@@ -5046,7 +4776,6 @@ item_id,genres
 232890,simulation
 232890,strategy
 276750,strategy
-323760,simulation
 317540,adventure
 317540,indie
 308180,adventure
@@ -5086,8 +4815,6 @@ item_id,genres
 241930,adventure
 253610,action
 253610,indie
-315520,action
-315520,indie
 318500,indie
 318500,simulation
 295014,casual
@@ -5119,9 +4846,6 @@ item_id,genres
 312610,action
 304460,adventure
 304460,indie
-324690,adventure
-324690,indie
-324690,rpg
 324110,racing
 324110,sports
 323290,adventure
@@ -5144,7 +4868,6 @@ item_id,genres
 273110,casual
 273110,free to play
 273110,massively multiplayer
-324030,action
 323430,action
 323430,adventure
 323430,indie
@@ -5170,10 +4893,6 @@ item_id,genres
 322980,action
 322980,casual
 322980,strategy
-328120,action
-328120,free to play
-328120,massively multiplayer
-328120,rpg
 270190,adventure
 270190,casual
 270190,indie
@@ -5201,9 +4920,6 @@ item_id,genres
 316180,indie
 320440,action
 320440,indie
-326260,action
-326260,adventure
-326260,indie
 284750,adventure
 284750,casual
 306660,indie
@@ -5269,8 +4985,6 @@ item_id,genres
 318220,action
 318220,adventure
 318220,simulation
-326220,adventure
-326220,indie
 313400,action
 313400,indie
 304810,indie
@@ -5318,8 +5032,6 @@ item_id,genres
 330520,sports
 330520,early access
 313160,simulation
-329370,action
-329370,indie
 299740,action
 299740,adventure
 299740,indie
@@ -5348,7 +5060,6 @@ item_id,genres
 304380,simulation
 304380,strategy
 316160,adventure
-317330,strategy
 326470,action
 326470,indie
 326470,racing
@@ -5370,9 +5081,6 @@ item_id,genres
 329670,simulation
 323240,action
 323240,rpg
-332210,action
-332210,adventure
-332210,indie
 315540,action
 315540,indie
 315540,early access
@@ -5385,8 +5093,6 @@ item_id,genres
 305740,adventure
 305740,indie
 305740,rpg
-324130,racing
-324130,sports
 294370,indie
 294370,rpg
 294370,strategy
@@ -5450,8 +5156,6 @@ item_id,genres
 333520,indie
 333520,rpg
 333520,strategy
-333310,casual
-333310,indie
 323230,strategy
 298110,action
 298110,adventure
@@ -5557,26 +5261,18 @@ item_id,genres
 326480,adventure
 326480,casual
 326480,simulation
-321010,adventure
-321010,indie
-321010,rpg
 326160,massively multiplayer
 326160,rpg
 326160,early access
-314850,adventure
 295051,casual
 295051,simulation
 282513,action
-334990,adventure
-334990,indie
 318410,action
 318410,adventure
 314210,adventure
 314210,indie
 304010,strategy
 325136,simulation
-282960,indie
-282960,early access
 303800,adventure
 303800,strategy
 279440,adventure
@@ -5604,8 +5300,6 @@ item_id,genres
 277739,simulation
 298950,adventure
 298950,indie
-318340,indie
-318340,rpg
 294160,free to play
 294160,indie
 294160,strategy
@@ -5619,9 +5313,6 @@ item_id,genres
 324070,racing
 270370,free to play
 270370,strategy
-337050,action
-337050,casual
-337050,indie
 335320,action
 277753,simulation
 252290,adventure
@@ -5653,18 +5344,11 @@ item_id,genres
 336320,racing
 328890,casual
 328890,strategy
-334810,action
-334810,strategy
 333400,action
 333400,strategy
-334580,action
-334580,adventure
-334580,simulation
 297842,indie
 297842,simulation
 297842,strategy
-337310,casual
-337310,indie
 292140,rpg
 337420,action
 337420,adventure
@@ -5674,9 +5358,6 @@ item_id,genres
 331440,adventure
 331440,indie
 331440,rpg
-337710,action
-337710,indie
-337710,rpg
 318650,indie
 318650,strategy
 335670,adventure
@@ -5686,7 +5367,6 @@ item_id,genres
 327960,indie
 327960,rpg
 327960,early access
-335640,action
 334230,indie
 334230,rpg
 334230,strategy
@@ -5710,13 +5390,6 @@ item_id,genres
 295075,simulation
 295074,casual
 295074,simulation
-338490,action
-338490,adventure
-338490,casual
-338490,free to play
-338490,indie
-338490,rpg
-338490,strategy
 295076,casual
 295076,simulation
 336851,strategy
@@ -5737,10 +5410,6 @@ item_id,genres
 338030,early access
 338240,simulation
 338230,simulation
-339120,action
-339120,adventure
-339120,free to play
-339120,indie
 311340,action
 311340,adventure
 207140,action
@@ -5767,16 +5436,11 @@ item_id,genres
 324240,indie
 339350,indie
 339350,rpg
-335981,action
-335981,adventure
-335981,strategy
 335982,action
 335982,adventure
 335982,strategy
 339510,indie
 339510,rpg
-339520,indie
-339520,rpg
 322170,action
 322170,indie
 336770,adventure
@@ -5807,9 +5471,6 @@ item_id,genres
 295092,simulation
 295093,casual
 295093,simulation
-321990,adventure
-321990,casual
-321990,indie
 335991,action
 335991,adventure
 335991,strategy
@@ -5836,7 +5497,6 @@ item_id,genres
 340300,adventure
 340300,casual
 340300,indie
-340890,indie
 316963,simulation
 341380,adventure
 341380,indie
@@ -5907,10 +5567,6 @@ item_id,genres
 328740,indie
 328740,rpg
 328740,early access
-341210,adventure
-341210,indie
-341210,rpg
-341210,strategy
 340330,adventure
 340330,indie
 340330,rpg
@@ -5920,17 +5576,9 @@ item_id,genres
 341220,indie
 341220,rpg
 341220,strategy
-339480,action
-339480,rpg
-344140,action
-344140,rpg
 295690,action
 295690,adventure
 295690,indie
-341720,casual
-341720,free to play
-341720,indie
-341720,simulation
 345670,indie
 250070,action
 250070,indie
@@ -5979,11 +5627,6 @@ item_id,genres
 345300,education
 343430,adventure
 343430,casual
-346640,rpg
-335680,adventure
-335680,casual
-335680,indie
-335680,simulation
 342510,casual
 342510,indie
 342510,rpg
@@ -5996,9 +5639,6 @@ item_id,genres
 341060,indie
 330180,action
 330180,indie
-345000,adventure
-345000,indie
-345000,rpg
 347490,indie
 347490,rpg
 347490,strategy
@@ -6017,11 +5657,6 @@ item_id,genres
 347493,indie
 347493,rpg
 347493,strategy
-348010,action
-348010,adventure
-348010,casual
-348010,indie
-348010,rpg
 339240,action
 339240,adventure
 339240,indie
@@ -6029,11 +5664,6 @@ item_id,genres
 347103,indie
 347103,rpg
 347103,strategy
-346690,action
-346690,indie
-347780,casual
-347780,indie
-347780,rpg
 318875,action
 318875,adventure
 343100,action
@@ -6064,8 +5694,6 @@ item_id,genres
 344730,adventure
 344730,indie
 344730,rpg
-313372,action
-313372,adventure
 329200,adventure
 329200,indie
 324360,action
@@ -6139,9 +5767,6 @@ item_id,genres
 339630,action
 339630,casual
 339630,strategy
-348110,action
-348110,casual
-348110,indie
 342740,action
 342740,casual
 342740,indie
@@ -6155,7 +5780,6 @@ item_id,genres
 349450,rpg
 349450,strategy
 349450,early access
-347920,indie
 329890,animation &amp; modeling
 329890,design &amp; illustration
 329890,education
@@ -6181,7 +5805,6 @@ item_id,genres
 326650,indie
 326650,rpg
 350520,indie
-350230,indie
 346510,action
 346510,casual
 346510,indie
@@ -6199,8 +5822,6 @@ item_id,genres
 341090,casual
 341090,indie
 335020,strategy
-351020,adventure
-351020,indie
 339130,adventure
 339130,indie
 266510,action
@@ -6208,8 +5829,6 @@ item_id,genres
 266510,rpg
 327177,action
 327177,adventure
-349560,action
-349560,indie
 342771,casual
 342771,simulation
 342773,casual
@@ -6244,8 +5863,6 @@ item_id,genres
 346170,action
 346120,action
 346120,free to play
-347680,adventure
-347680,indie
 338371,indie
 338371,simulation
 338371,strategy
@@ -6273,10 +5890,6 @@ item_id,genres
 327470,indie
 327470,strategy
 337740,racing
-349130,animation &amp; modeling
-349130,design &amp; illustration
-349130,utilities
-349130,video production
 320381,action
 320381,adventure
 320383,action
@@ -6318,10 +5931,6 @@ item_id,genres
 296280,indie
 296280,simulation
 296280,strategy
-353020,action
-353020,casual
-353020,indie
-353020,strategy
 342560,action
 342560,indie
 342560,strategy
@@ -6358,8 +5967,6 @@ item_id,genres
 351740,action
 351740,adventure
 351740,indie
-351890,action
-351890,rpg
 343420,adventure
 343420,rpg
 343420,strategy
@@ -6438,15 +6045,10 @@ item_id,genres
 351170,indie
 351170,strategy
 351170,early access
-351270,action
-351270,indie
-351270,strategy
 351280,indie
 349690,action
 349690,indie
 279720,rpg
-348090,action
-348090,rpg
 348040,adventure
 348040,indie
 348040,simulation
@@ -6460,11 +6062,6 @@ item_id,genres
 334490,casual
 349050,adventure
 349050,indie
-355320,adventure
-355320,indie
-355320,rpg
-355300,adventure
-355300,casual
 339031,action
 339031,adventure
 347990,indie
@@ -6485,10 +6082,6 @@ item_id,genres
 355760,adventure
 355760,casual
 355760,indie
-340540,action
-340540,adventure
-340540,free to play
-340540,massively multiplayer
 277758,simulation
 293760,simulation
 293760,strategy
@@ -6506,8 +6099,6 @@ item_id,genres
 339200,adventure
 339200,indie
 339200,rpg
-337640,adventure
-337640,indie
 337730,action
 337730,casual
 337730,indie
@@ -6548,12 +6139,6 @@ item_id,genres
 348530,action
 348530,adventure
 348530,indie
-339530,action
-339530,adventure
-339530,casual
-339530,indie
-339530,strategy
-339530,early access
 306100,adventure
 306100,indie
 306100,rpg
@@ -6611,9 +6196,6 @@ item_id,genres
 356123,rpg
 356123,simulation
 356123,strategy
-355070,action
-355070,free to play
-355070,massively multiplayer
 334850,casual
 334850,indie
 334850,rpg
@@ -6640,8 +6222,6 @@ item_id,genres
 356440,adventure
 356440,casual
 356440,indie
-358150,action
-358150,rpg
 343423,adventure
 343423,rpg
 343423,strategy
@@ -6679,9 +6259,6 @@ item_id,genres
 270810,casual
 270810,indie
 270810,racing
-253530,action
-253530,free to play
-253530,indie
 354730,casual
 354730,rpg
 357600,casual
@@ -6751,10 +6328,6 @@ item_id,genres
 357900,adventure
 357900,indie
 357900,simulation
-318490,action
-318490,adventure
-318490,free to play
-318490,indie
 355150,adventure
 355150,indie
 355150,strategy
@@ -6769,8 +6342,6 @@ item_id,genres
 341610,indie
 341610,simulation
 316962,simulation
-335800,action
-335800,adventure
 347230,simulation
 347230,strategy
 347240,adventure
@@ -6953,10 +6524,6 @@ item_id,genres
 358142,action
 358143,action
 305380,action
-359800,free to play
-359800,racing
-359800,simulation
-359800,sports
 332350,action
 332350,simulation
 332350,strategy
@@ -6971,7 +6538,6 @@ item_id,genres
 346780,strategy
 361380,strategy
 222633,simulation
-362710,indie
 361990,indie
 360600,action
 360600,indie
@@ -6992,8 +6558,6 @@ item_id,genres
 341640,strategy
 356800,indie
 356800,rpg
-356810,indie
-356810,rpg
 295590,indie
 295590,rpg
 295590,simulation
@@ -7014,9 +6578,6 @@ item_id,genres
 277520,indie
 325330,video production
 343390,casual
-350700,free to play
-350700,massively multiplayer
-350700,rpg
 355140,action
 355140,adventure
 355140,casual
@@ -7037,8 +6598,6 @@ item_id,genres
 288930,indie
 288940,adventure
 288940,indie
-349800,adventure
-349800,indie
 306390,rpg
 306390,simulation
 306390,strategy
@@ -7053,8 +6612,6 @@ item_id,genres
 360750,action
 360750,casual
 360750,indie
-362050,action
-362050,indie
 333580,action
 333580,casual
 333580,indie
@@ -7070,7 +6627,6 @@ item_id,genres
 365270,indie
 365270,rpg
 365270,strategy
-348683,action
 348682,action
 354710,action
 348020,action
@@ -7091,9 +6647,6 @@ item_id,genres
 353761,strategy
 342820,casual
 342820,simulation
-365630,adventure
-365630,indie
-365630,simulation
 348200,design &amp; illustration
 348200,utilities
 348200,web publishing
@@ -7113,18 +6666,11 @@ item_id,genres
 364400,adventure
 364400,indie
 364400,racing
-365490,casual
 319780,simulation
 277749,simulation
 318560,action
 318560,casual
 318560,indie
-358110,action
-358110,adventure
-358110,casual
-358110,free to play
-358110,rpg
-358110,strategy
 295191,simulation
 324140,action
 324140,casual
@@ -7156,9 +6702,6 @@ item_id,genres
 350070,action
 350070,adventure
 350070,indie
-350400,action
-350400,adventure
-350400,indie
 346770,action
 346770,indie
 365290,indie
@@ -7283,9 +6826,6 @@ item_id,genres
 354260,action
 354260,adventure
 354260,indie
-365382,indie
-365382,rpg
-365382,strategy
 364270,indie
 364270,rpg
 364270,strategy
@@ -7300,8 +6840,6 @@ item_id,genres
 360010,rpg
 367060,action
 367060,indie
-365220,indie
-365220,rpg
 349980,action
 349980,adventure
 349980,indie
@@ -7373,7 +6911,6 @@ item_id,genres
 368550,indie
 359040,adventure
 359040,indie
-362630,indie
 320090,indie
 320090,simulation
 347212,indie
@@ -7424,8 +6961,6 @@ item_id,genres
 326410,adventure
 326410,indie
 326410,rpg
-278910,indie
-278910,strategy
 368950,free to play
 368950,indie
 337840,action
@@ -7451,8 +6986,6 @@ item_id,genres
 363970,rpg
 363970,simulation
 363970,strategy
-368440,action
-368440,indie
 369640,adventure
 369640,indie
 226860,indie
@@ -7474,7 +7007,6 @@ item_id,genres
 338420,adventure
 338420,indie
 338420,rpg
-371370,rpg
 371710,casual
 371710,indie
 371710,simulation
@@ -7512,8 +7044,6 @@ item_id,genres
 342840,simulation
 342836,casual
 342836,simulation
-368320,action
-368320,indie
 310740,action
 310740,indie
 341790,action
@@ -7547,8 +7077,6 @@ item_id,genres
 346970,early access
 361620,casual
 361620,indie
-371070,action
-371070,racing
 339280,action
 339280,free to play
 339280,rpg
@@ -7633,9 +7161,6 @@ item_id,genres
 244910,indie
 345080,action
 345080,indie
-305510,action
-305510,strategy
-305510,early access
 366210,casual
 366210,indie
 366210,strategy
@@ -7653,8 +7178,6 @@ item_id,genres
 371850,strategy
 346490,action
 346490,indie
-372440,casual
-372440,free to play
 350310,action
 369503,action
 369503,casual
@@ -7756,10 +7279,6 @@ item_id,genres
 253250,simulation
 253250,strategy
 253250,early access
-375890,indie
-375890,simulation
-375890,sports
-375890,strategy
 314050,casual
 314050,indie
 314050,racing
@@ -7768,9 +7287,6 @@ item_id,genres
 372210,action
 372210,casual
 372210,indie
-374890,adventure
-374890,indie
-374890,strategy
 366130,indie
 366130,simulation
 366130,strategy
@@ -7820,7 +7336,6 @@ item_id,genres
 255240,indie
 255240,rpg
 336230,indie
-337830,indie
 371280,indie
 367780,action
 367780,indie
@@ -7880,10 +7395,6 @@ item_id,genres
 351250,action
 351250,indie
 357180,strategy
-379030,casual
-379030,indie
-379030,simulation
-379030,strategy
 354620,action
 354620,casual
 354620,indie
@@ -7898,7 +7409,6 @@ item_id,genres
 336900,action
 336900,adventure
 336900,indie
-379620,adventure
 376200,indie
 376200,strategy
 359494,action
@@ -7929,10 +7439,6 @@ item_id,genres
 364321,simulation
 277776,simulation
 326006,simulation
-380720,casual
-380720,free to play
-380720,indie
-380720,rpg
 380560,casual
 380560,indie
 380560,rpg
@@ -7940,9 +7446,6 @@ item_id,genres
 350550,casual
 350550,indie
 350550,simulation
-382580,action
-382580,adventure
-382580,indie
 382570,action
 382570,adventure
 382570,indie
@@ -8011,8 +7514,6 @@ item_id,genres
 382080,adventure
 382080,casual
 382080,indie
-377770,action
-377770,indie
 366860,action
 366860,massively multiplayer
 366860,early access
@@ -8047,10 +7548,6 @@ item_id,genres
 370050,strategy
 375710,adventure
 375710,indie
-383380,adventure
-383380,indie
-383380,simulation
-383380,strategy
 383310,action
 383310,adventure
 383310,casual
@@ -8170,10 +7667,6 @@ item_id,genres
 370600,racing
 370600,sports
 372720,indie
-384670,action
-384670,casual
-384670,indie
-384670,strategy
 372200,adventure
 372200,casual
 372200,indie
@@ -8195,8 +7688,6 @@ item_id,genres
 385470,casual
 385470,simulation
 385470,strategy
-381830,indie
-381830,racing
 369570,indie
 369570,racing
 381790,action
@@ -8238,17 +7729,10 @@ item_id,genres
 269770,indie
 269770,rpg
 269770,early access
-372500,action
-372500,adventure
-372500,indie
-372500,rpg
 363600,indie
 363600,simulation
 379350,action
 379350,adventure
-387000,action
-387000,indie
-387000,strategy
 383810,action
 383810,indie
 292050,action
@@ -8347,16 +7831,10 @@ item_id,genres
 354200,massively multiplayer
 354200,rpg
 385870,indie
-388950,action
-388950,free to play
-388950,indie
 362980,casual
 362980,indie
 362980,rpg
 379370,action
-377540,action
-377540,adventure
-377540,indie
 373360,action
 373360,adventure
 373360,indie
@@ -8467,15 +7945,9 @@ item_id,genres
 345180,rpg
 380710,adventure
 380710,indie
-386320,action
-386320,indie
-386320,strategy
 278590,casual
 278590,indie
 278590,rpg
-390020,casual
-390020,indie
-390020,rpg
 388270,casual
 388270,simulation
 388270,sports
@@ -8491,16 +7963,10 @@ item_id,genres
 371690,casual
 371690,indie
 371690,rpg
-384350,action
-384350,casual
-384350,racing
 340960,indie
 340960,simulation
 340960,sports
 340960,early access
-378550,racing
-378552,racing
-378551,racing
 378730,action
 378730,indie
 378730,racing
@@ -8617,7 +8083,6 @@ item_id,genres
 369797,simulation
 369796,casual
 369796,simulation
-384410,indie
 386570,indie
 386570,simulation
 386570,strategy
@@ -8630,11 +8095,6 @@ item_id,genres
 390120,adventure
 390120,indie
 383710,action
-340530,indie
-340530,rpg
-340530,sports
-340530,strategy
-340530,early access
 383120,adventure
 383120,indie
 383120,simulation
@@ -8671,9 +8131,6 @@ item_id,genres
 354270,indie
 390660,action
 390660,indie
-393630,action
-393630,casual
-393630,indie
 355120,casual
 355120,indie
 355120,strategy
@@ -8739,8 +8196,6 @@ item_id,genres
 386840,strategy
 365680,action
 365680,indie
-394190,action
-394190,indie
 393990,action
 393990,casual
 393990,indie
@@ -8759,17 +8214,11 @@ item_id,genres
 394811,indie
 394811,rpg
 394811,strategy
-325760,action
-325760,adventure
-325760,indie
-325760,strategy
 390750,indie
 390750,rpg
 390750,strategy
 392890,racing
 392890,simulation
-393270,adventure
-393270,indie
 271360,simulation
 271360,strategy
 381900,indie
@@ -8820,8 +8269,6 @@ item_id,genres
 369807,casual
 369807,simulation
 392700,strategy
-395070,indie
-395070,simulation
 361841,racing
 361841,simulation
 366050,adventure
@@ -8859,38 +8306,12 @@ item_id,genres
 366450,indie
 366450,simulation
 337180,action
-394350,adventure
-394350,indie
 324400,indie
 324400,strategy
 375950,casual
 375950,free to play
 375950,indie
 375950,simulation
-386913,action
-386913,free to play
-386913,indie
-386913,massively multiplayer
-386920,action
-386920,free to play
-386920,indie
-386920,massively multiplayer
-386920,simulation
-384520,action
-384520,free to play
-384520,indie
-384520,massively multiplayer
-384520,simulation
-384340,action
-384340,free to play
-384340,indie
-384340,massively multiplayer
-384340,simulation
-386911,action
-386911,free to play
-386911,indie
-386911,massively multiplayer
-386911,simulation
 388980,animation &amp; modeling
 391580,casual
 391580,indie
@@ -8937,8 +8358,6 @@ item_id,genres
 374530,indie
 330670,action
 330670,indie
-396240,indie
-396240,rpg
 367710,casual
 367710,indie
 367710,strategy
@@ -8976,11 +8395,6 @@ item_id,genres
 350970,action
 350970,adventure
 350970,indie
-396490,adventure
-396490,indie
-396490,rpg
-396490,simulation
-396490,strategy
 396730,adventure
 396730,casual
 396730,indie
@@ -8994,9 +8408,6 @@ item_id,genres
 386340,adventure
 386340,indie
 386340,early access
-393730,action
-393730,adventure
-393730,indie
 348510,casual
 348510,simulation
 336440,action
@@ -9077,8 +8488,6 @@ item_id,genres
 379730,indie
 379730,rpg
 379730,simulation
-384020,action
-384020,rpg
 394270,casual
 316890,adventure
 316890,indie
@@ -9104,9 +8513,6 @@ item_id,genres
 315330,early access
 369815,casual
 369815,simulation
-398440,action
-398440,indie
-398440,rpg
 395290,action
 395290,indie
 361160,strategy
@@ -9143,9 +8549,6 @@ item_id,genres
 384550,indie
 384550,simulation
 384550,strategy
-395510,action
-395510,adventure
-395510,indie
 392470,strategy
 287700,action
 287700,adventure
@@ -9164,9 +8567,6 @@ item_id,genres
 392640,strategy
 388970,action
 388970,indie
-398600,adventure
-398600,free to play
-398600,indie
 397000,action
 399520,adventure
 399520,casual
@@ -9176,8 +8576,6 @@ item_id,genres
 296970,indie
 296970,rpg
 296970,strategy
-374210,indie
-374210,strategy
 371210,action
 371210,adventure
 371210,indie
@@ -9233,8 +8631,6 @@ item_id,genres
 274350,indie
 395990,indie
 395990,strategy
-401650,action
-401650,rpg
 394480,casual
 374090,action
 374090,simulation
@@ -9248,9 +8644,6 @@ item_id,genres
 401580,indie
 401580,simulation
 401580,strategy
-394720,adventure
-394720,indie
-394720,rpg
 398210,adventure
 398210,indie
 397240,action
@@ -9363,8 +8756,6 @@ item_id,genres
 400720,action
 400720,adventure
 400720,indie
-362070,free to play
-362070,massively multiplayer
 400721,action
 400721,adventure
 400721,indie
@@ -9454,13 +8845,6 @@ item_id,genres
 392950,free to play
 405940,adventure
 405940,indie
-349700,action
-349700,free to play
-349700,indie
-349700,massively multiplayer
-401220,casual
-349580,action
-349580,indie
 368970,adventure
 368970,indie
 388660,indie
@@ -9498,8 +8882,6 @@ item_id,genres
 354040,casual
 354040,indie
 354040,racing
-404760,action
-404760,adventure
 379233,simulation
 379549,simulation
 405070,casual
@@ -9543,8 +8925,6 @@ item_id,genres
 386540,indie
 386540,simulation
 386540,strategy
-405450,indie
-405450,strategy
 370270,action
 370270,adventure
 403061,action
@@ -9554,8 +8934,6 @@ item_id,genres
 399780,indie
 403063,action
 382870,action
-407400,action
-407400,indie
 361600,action
 361600,adventure
 361600,indie
@@ -9589,11 +8967,6 @@ item_id,genres
 351230,action
 351230,indie
 351230,rpg
-407040,adventure
-407040,indie
-388600,design &amp; illustration
-388600,education
-388600,utilities
 401120,action
 401120,casual
 401120,indie
@@ -9619,9 +8992,6 @@ item_id,genres
 390365,casual
 390365,simulation
 393340,software training
-396450,action
-396450,casual
-396450,indie
 347610,casual
 364340,simulation
 379553,simulation
@@ -9847,8 +9217,6 @@ item_id,genres
 325974,simulation
 325973,simulation
 391630,action
-411020,free to play
-411020,massively multiplayer
 324470,indie
 324470,racing
 324470,early access
@@ -9897,8 +9265,6 @@ item_id,genres
 390378,simulation
 382466,rpg
 382469,rpg
-414240,animation &amp; modeling
-414240,video production
 413680,action
 413680,adventure
 413680,indie
@@ -9949,9 +9315,6 @@ item_id,genres
 408260,indie
 397430,adventure
 397430,casual
-408600,rpg
-408600,simulation
-408600,strategy
 383680,adventure
 383680,indie
 415040,simulation
@@ -9981,14 +9344,6 @@ item_id,genres
 414710,adventure
 414710,indie
 325977,simulation
-397930,action
-397930,adventure
-397930,indie
-397930,rpg
-397910,action
-397910,adventure
-397910,indie
-397910,rpg
 291770,adventure
 291770,indie
 374851,simulation
@@ -9998,10 +9353,6 @@ item_id,genres
 415560,indie
 415560,rpg
 415560,strategy
-397920,action
-397920,adventure
-397920,indie
-397920,rpg
 415550,indie
 415550,rpg
 415550,strategy
@@ -10089,10 +9440,6 @@ item_id,genres
 385100,casual
 385100,indie
 385100,rpg
-416100,casual
-416100,indie
-416100,rpg
-416100,strategy
 416030,casual
 416030,free to play
 416030,indie
@@ -10102,8 +9449,6 @@ item_id,genres
 409257,design &amp; illustration
 409257,photo editing
 409257,utilities
-396540,indie
-396540,strategy
 409192,design &amp; illustration
 409192,photo editing
 409192,utilities
@@ -10167,10 +9512,6 @@ item_id,genres
 409490,rpg
 409490,strategy
 409490,early access
-416400,action
-416400,adventure
-416400,indie
-416400,rpg
 326015,simulation
 411760,adventure
 411760,indie
@@ -10183,7 +9524,6 @@ item_id,genres
 400170,rpg
 366843,action
 366843,adventure
-416440,indie
 329790,free to play
 329790,strategy
 401460,free to play
@@ -10313,13 +9653,6 @@ item_id,genres
 366121,indie
 390389,casual
 390389,simulation
-391130,action
-391130,indie
-418110,casual
-418110,free to play
-418110,indie
-418110,strategy
-418110,early access
 410120,adventure
 419040,adventure
 419040,indie
@@ -10371,12 +9704,6 @@ item_id,genres
 413490,early access
 321060,indie
 321060,simulation
-411410,free to play
-411410,massively multiplayer
-413000,free to play
-413000,massively multiplayer
-413001,free to play
-413001,massively multiplayer
 378420,strategy
 400780,adventure
 400780,indie
@@ -10449,8 +9776,6 @@ item_id,genres
 416920,strategy
 411110,action
 411110,indie
-422170,action
-422170,indie
 390396,casual
 390396,simulation
 390397,casual
@@ -10513,9 +9838,6 @@ item_id,genres
 412980,action
 412980,casual
 412980,indie
-319830,action
-319830,indie
-319830,simulation
 420270,adventure
 420270,indie
 420270,rpg
@@ -10627,9 +9949,6 @@ item_id,genres
 421810,indie
 421810,rpg
 421810,strategy
-427090,adventure
-427090,casual
-427090,indie
 404190,strategy
 407100,action
 407100,indie
@@ -10667,9 +9986,6 @@ item_id,genres
 426730,adventure
 416550,action
 416550,indie
-424220,casual
-424220,indie
-424220,strategy
 390407,casual
 390407,simulation
 390408,casual
@@ -10721,24 +10037,16 @@ item_id,genres
 326340,action
 326340,adventure
 326340,sports
-426340,indie
-426340,rpg
 426330,indie
 426330,rpg
 391050,utilities
 416430,indie
 416430,strategy
-426650,action
-426650,indie
 428800,audio production
 428800,education
 428800,software training
 428800,video production
 428800,web publishing
-360250,action
-360250,adventure
-360250,indie
-360250,racing
 413740,indie
 413740,early access
 427950,action
@@ -10939,7 +10247,6 @@ item_id,genres
 372690,indie
 431710,adventure
 431710,indie
-430182,simulation
 419471,action
 419470,action
 419472,action
@@ -10968,8 +10275,6 @@ item_id,genres
 323060,strategy
 419460,adventure
 419460,indie
-430430,adventure
-430430,casual
 359610,action
 359610,adventure
 433390,adventure
@@ -11059,8 +10364,6 @@ item_id,genres
 425840,indie
 425840,simulation
 314370,indie
-433730,action
-433730,rpg
 435140,casual
 435140,strategy
 434500,action
@@ -11071,9 +10374,6 @@ item_id,genres
 428740,indie
 434250,action
 434250,indie
-412390,indie
-412390,rpg
-412390,strategy
 388880,adventure
 388880,indie
 434380,action
@@ -11084,9 +10384,6 @@ item_id,genres
 434380,simulation
 326025,simulation
 325965,simulation
-427720,action
-427720,casual
-427720,indie
 428950,action
 428950,adventure
 428950,casual
@@ -11226,8 +10523,6 @@ item_id,genres
 400880,racing
 400880,simulation
 400880,sports
-432810,adventure
-432810,indie
 385030,rpg
 435040,adventure
 435040,casual
@@ -11237,11 +10532,6 @@ item_id,genres
 433830,indie
 433830,rpg
 433830,strategy
-426560,casual
-426560,free to play
-426560,massively multiplayer
-426560,sports
-426560,strategy
 423700,casual
 423700,indie
 423700,rpg
@@ -11383,10 +10673,6 @@ item_id,genres
 437430,simulation
 437430,strategy
 326027,simulation
-408180,adventure
-408180,casual
-408180,indie
-408180,rpg
 441240,action
 441240,adventure
 441240,indie
@@ -11440,8 +10726,6 @@ item_id,genres
 440470,adventure
 432780,adventure
 432780,casual
-441600,action
-441600,rpg
 438710,action
 443300,simulation
 440770,adventure
@@ -11626,11 +10910,6 @@ item_id,genres
 439740,casual
 439740,indie
 439740,early access
-439390,audio production
-439390,software training
-439390,utilities
-439390,video production
-439390,web publishing
 437710,adventure
 437710,casual
 437710,indie
@@ -11707,8 +10986,6 @@ item_id,genres
 431730,design &amp; illustration
 432760,adventure
 432760,casual
-445450,design &amp; illustration
-445450,web publishing
 444000,indie
 444000,racing
 444000,simulation
@@ -11825,7 +11102,6 @@ item_id,genres
 411030,strategy
 445080,adventure
 445080,indie
-439700,massively multiplayer
 268360,indie
 268360,racing
 373410,indie
@@ -11833,14 +11109,12 @@ item_id,genres
 373410,strategy
 373410,early access
 405900,rpg
-439541,rpg
 447300,action
 447300,adventure
 447300,casual
 447300,indie
 447300,rpg
 439540,rpg
-445440,casual
 441940,rpg
 427030,rpg
 423750,casual
@@ -12190,10 +11464,6 @@ item_id,genres
 356040,indie
 356040,rpg
 356040,strategy
-444460,action
-444460,indie
-444460,strategy
-444460,early access
 450080,indie
 450080,rpg
 450080,strategy
@@ -12232,11 +11502,6 @@ item_id,genres
 413480,casual
 413480,indie
 413480,strategy
-413170,action
-413170,adventure
-413170,casual
-413170,free to play
-413170,rpg
 449200,adventure
 449200,indie
 449200,rpg
@@ -12307,7 +11572,6 @@ item_id,genres
 456890,indie
 456890,rpg
 456890,strategy
-454510,animation &amp; modeling
 403850,action
 403850,adventure
 403850,indie
@@ -12389,9 +11653,6 @@ item_id,genres
 429310,free to play
 429310,indie
 445260,action
-431320,adventure
-431320,casual
-431320,indie
 439500,action
 439500,adventure
 426860,action
@@ -12421,7 +11682,6 @@ item_id,genres
 428564,action
 457710,action
 457710,racing
-440914,strategy
 257850,action
 257850,adventure
 257850,indie
@@ -12436,15 +11696,10 @@ item_id,genres
 420500,action
 420500,adventure
 420500,indie
-441560,action
-441560,adventure
-441560,indie
-441560,rpg
 419110,action
 448610,action
 448610,indie
 448610,racing
-293800,simulation
 448570,adventure
 448570,free to play
 448570,indie
@@ -12538,11 +11793,6 @@ item_id,genres
 394010,rpg
 394010,simulation
 394010,early access
-436410,action
-436410,indie
-436410,massively multiplayer
-436410,rpg
-436410,early access
 455980,indie
 455980,simulation
 455980,strategy
@@ -12614,11 +11864,6 @@ item_id,genres
 461400,indie
 461400,early access
 366260,action
-452890,indie
-452890,rpg
-452890,strategy
-397170,rpg
-397170,strategy
 414290,action
 414290,adventure
 414290,indie
@@ -12683,8 +11928,6 @@ item_id,genres
 425440,strategy
 376934,simulation
 394160,action
-463990,casual
-463990,indie
 375210,indie
 375210,simulation
 403400,action
@@ -12787,8 +12030,6 @@ item_id,genres
 455280,sports
 464230,casual
 464230,indie
-444210,action
-444210,indie
 370940,action
 370940,indie
 251270,adventure
@@ -12839,7 +12080,6 @@ item_id,genres
 428430,adventure
 428430,casual
 428430,indie
-439890,action
 458640,indie
 458640,simulation
 458640,strategy
@@ -13234,8 +12474,6 @@ item_id,genres
 433910,indie
 466490,adventure
 466490,casual
-468410,action
-468410,rpg
 467000,action
 467000,indie
 449420,action
@@ -13417,7 +12655,6 @@ item_id,genres
 463810,casual
 463810,indie
 463810,simulation
-434520,simulation
 449394,action
 449394,adventure
 466020,adventure
@@ -13783,9 +13020,6 @@ item_id,genres
 490860,adventure
 490860,indie
 490860,rpg
-450240,action
-450240,indie
-450240,early access
 488620,action
 488620,indie
 488640,audio production
@@ -13969,10 +13203,6 @@ item_id,genres
 455990,early access
 450530,utilities
 450530,video production
-491760,indie
-491760,massively multiplayer
-491760,strategy
-491760,early access
 463110,adventure
 463110,casual
 463110,indie
@@ -13985,9 +13215,6 @@ item_id,genres
 391310,casual
 391310,indie
 391310,simulation
-334350,action
-334350,adventure
-334350,indie
 455400,action
 460940,adventure
 490380,simulation
@@ -14079,8 +13306,6 @@ item_id,genres
 441480,action
 441480,indie
 441480,strategy
-466541,action
-466541,adventure
 439241,action
 439241,adventure
 489610,action
@@ -14332,10 +13557,6 @@ item_id,genres
 437340,early access
 452510,action
 449830,adventure
-497270,action
-497270,indie
-497270,massively multiplayer
-497270,early access
 499440,casual
 499440,indie
 461720,action
@@ -14444,8 +13665,6 @@ item_id,genres
 378521,adventure
 455350,action
 455350,adventure
-459900,casual
-459900,indie
 500680,action
 500680,indie
 500680,racing
@@ -14628,18 +13847,9 @@ item_id,genres
 474730,indie
 474730,simulation
 474730,strategy
-380130,action
-380130,indie
-318090,casual
-318090,indie
-318090,strategy
 443570,action
 443570,adventure
 443570,indie
-502250,action
-502250,adventure
-502250,indie
-502250,rpg
 501030,adventure
 501030,indie
 501030,rpg
@@ -14648,10 +13858,6 @@ item_id,genres
 501460,indie
 501460,rpg
 501460,strategy
-501740,action
-501740,casual
-501740,massively multiplayer
-501740,early access
 504970,action
 504970,adventure
 504970,indie
@@ -14788,10 +13994,6 @@ item_id,genres
 455320,rpg
 495370,indie
 495370,strategy
-431360,action
-431360,adventure
-431360,indie
-431360,early access
 506350,design &amp; illustration
 506350,utilities
 504070,action
@@ -15135,7 +14337,6 @@ item_id,genres
 426790,casual
 426790,indie
 515990,indie
-440960,action
 511320,adventure
 511320,casual
 511320,indie
@@ -15325,12 +14526,6 @@ item_id,genres
 448780,indie
 516040,indie
 516040,strategy
-500740,action
-500740,adventure
-500740,indie
-394740,action
-394740,free to play
-394740,strategy
 480410,adventure
 480410,casual
 480410,indie
@@ -15467,9 +14662,6 @@ item_id,genres
 523920,casual
 523920,indie
 523920,simulation
-382310,adventure
-382310,indie
-382310,simulation
 522000,action
 522000,indie
 434650,action
@@ -15503,7 +14695,6 @@ item_id,genres
 497580,casual
 501580,action
 425220,action
-458443,action
 504620,indie
 504620,strategy
 504620,early access
@@ -15571,9 +14762,6 @@ item_id,genres
 499370,casual
 499370,indie
 499370,strategy
-504690,adventure
-504690,casual
-504690,indie
 371200,indie
 371200,rpg
 371200,simulation
@@ -15606,10 +14794,6 @@ item_id,genres
 512550,action
 512550,adventure
 512550,indie
-528490,indie
-528490,rpg
-528490,simulation
-528490,strategy
 517350,action
 517350,indie
 517350,rpg
@@ -15955,7 +15139,6 @@ item_id,genres
 533750,adventure
 533750,indie
 533750,rpg
-440961,action
 534960,adventure
 534960,indie
 434740,action
@@ -16639,8 +15822,6 @@ item_id,genres
 544960,strategy
 452320,indie
 452320,strategy
-545100,action
-545100,rpg
 544850,indie
 544850,rpg
 544850,strategy
@@ -16693,10 +15874,6 @@ item_id,genres
 542611,free to play
 542611,massively multiplayer
 542611,rpg
-542612,action
-542612,free to play
-542612,massively multiplayer
-542612,rpg
 545260,action
 545260,free to play
 545260,massively multiplayer
@@ -16911,10 +16088,6 @@ item_id,genres
 545570,casual
 545570,free to play
 545570,indie
-540070,action
-540070,adventure
-540070,casual
-540070,massively multiplayer
 454650,action
 454650,adventure
 454650,casual
@@ -17051,7 +16224,6 @@ item_id,genres
 547400,free to play
 547400,massively multiplayer
 547400,rpg
-440962,action
 509648,casual
 509648,simulation
 509649,casual
@@ -17089,19 +16261,14 @@ item_id,genres
 458630,indie
 458630,simulation
 458630,strategy
-535880,massively multiplayer
-535880,rpg
 551160,adventure
 551160,casual
-539001,massively multiplayer
-539001,rpg
 440660,action
 440660,indie
 440660,early access
 539440,casual
 539440,indie
 539440,simulation
-465290,racing
 552820,casual
 552820,simulation
 508230,indie
@@ -17502,10 +16669,6 @@ item_id,genres
 415070,adventure
 415070,indie
 415070,strategy
-518660,action
-518660,casual
-518660,free to play
-518660,rpg
 558870,action
 558870,casual
 558870,indie
@@ -18056,12 +17219,8 @@ item_id,genres
 571190,indie
 551840,adventure
 551840,indie
-548421,action
-548421,rpg
 570490,casual
 570490,indie
-548422,action
-548422,rpg
 557790,adventure
 557790,indie
 571010,adventure
@@ -18182,9 +17341,6 @@ item_id,genres
 570670,indie
 570670,rpg
 570670,strategy
-503800,action
-503800,adventure
-503800,indie
 570500,adventure
 570500,indie
 570500,early access
@@ -18224,8 +17380,6 @@ item_id,genres
 571250,indie
 571250,rpg
 571250,strategy
-533800,indie
-533800,simulation
 571750,adventure
 571750,indie
 573470,indie
@@ -18324,9 +17478,6 @@ item_id,genres
 576180,indie
 576180,rpg
 576180,strategy
-570660,action
-570660,adventure
-570660,indie
 431340,action
 431340,indie
 575400,indie
@@ -18378,9 +17529,6 @@ item_id,genres
 574972,casual
 574972,indie
 574972,strategy
-573520,action
-573520,adventure
-573520,indie
 575650,adventure
 569760,indie
 563410,action
@@ -18692,9 +17840,6 @@ item_id,genres
 575920,indie
 573050,adventure
 573050,indie
-576960,adventure
-576960,casual
-576960,indie
 570360,casual
 570360,indie
 563890,simulation
@@ -18946,8 +18091,6 @@ item_id,genres
 589650,simulation
 589650,sports
 589650,strategy
-566490,indie
-566490,strategy
 577450,action
 577450,adventure
 577450,casual
@@ -18962,20 +18105,11 @@ item_id,genres
 536930,free to play
 536930,rpg
 578440,rpg
-570980,action
-570980,adventure
-570980,indie
-570980,early access
 583190,indie
 583190,strategy
 587800,action
 587800,indie
 587800,rpg
-568580,action
-568580,free to play
-568580,massively multiplayer
-568580,simulation
-568580,early access
 588280,casual
 588280,free to play
 588280,indie
@@ -19167,9 +18301,6 @@ item_id,genres
 593430,indie
 593430,simulation
 513103,simulation
-593431,adventure
-593431,indie
-593431,simulation
 513101,simulation
 513100,simulation
 564040,action
@@ -19197,9 +18328,6 @@ item_id,genres
 552940,indie
 488120,action
 488120,indie
-588890,indie
-588890,rpg
-588890,strategy
 448199,simulation
 448192,simulation
 590280,casual
@@ -19980,9 +19108,6 @@ item_id,genres
 584860,rpg
 584860,simulation
 536560,action
-602310,adventure
-602310,simulation
-602310,sports
 550870,adventure
 550870,casual
 550870,indie
@@ -20049,11 +19174,6 @@ item_id,genres
 601010,adventure
 601010,indie
 601010,rpg
-455020,casual
-455020,free to play
-455020,massively multiplayer
-455020,sports
-455020,strategy
 599750,indie
 599750,simulation
 599750,strategy
@@ -20383,9 +19503,6 @@ item_id,genres
 585090,rpg
 585090,simulation
 585090,strategy
-618560,action
-618560,adventure
-618560,indie
 592660,casual
 592660,indie
 619980,action
@@ -20470,10 +19587,6 @@ item_id,genres
 381250,strategy
 619330,indie
 619330,simulation
-341110,adventure
-341110,casual
-341110,indie
-341110,rpg
 546810,action
 620000,action
 620000,casual
@@ -20849,9 +19962,6 @@ item_id,genres
 533480,rpg
 533480,simulation
 533480,strategy
-544300,adventure
-544300,indie
-544300,simulation
 556850,utilities
 556850,early access
 563560,action
@@ -20896,9 +20006,6 @@ item_id,genres
 629490,indie
 629490,rpg
 629490,strategy
-628310,indie
-628310,rpg
-628310,strategy
 626240,indie
 626240,rpg
 626240,strategy
@@ -20986,8 +20093,6 @@ item_id,genres
 606950,strategy
 415590,action
 415590,early access
-626780,adventure
-626780,casual
 578340,action
 436070,adventure
 436070,indie
@@ -21103,15 +20208,8 @@ item_id,genres
 480770,action
 480770,casual
 480770,indie
-628680,action
-628680,adventure
-628680,free to play
-628680,indie
-628680,rpg
 567030,casual
 567030,indie
-505330,adventure
-505330,indie
 618840,action
 618840,adventure
 618840,casual
@@ -21611,9 +20709,6 @@ item_id,genres
 494529,simulation
 602818,simulation
 626580,rpg
-630870,adventure
-630870,casual
-630870,indie
 622810,action
 622810,indie
 622810,early access
@@ -21789,11 +20884,6 @@ item_id,genres
 612480,action
 612480,simulation
 612480,strategy
-629751,action
-629751,indie
-629751,massively multiplayer
-629751,simulation
-629751,strategy
 646280,action
 646280,casual
 646280,indie
@@ -21910,7 +21000,6 @@ item_id,genres
 637940,simulation
 637940,strategy
 448194,simulation
-636360,rpg
 647850,adventure
 647850,casual
 636520,adventure
@@ -22020,10 +21109,6 @@ item_id,genres
 561610,racing
 561610,simulation
 561610,sports
-567380,action
-567380,adventure
-567380,indie
-567380,rpg
 651520,casual
 651520,strategy
 606480,adventure
@@ -22250,12 +21335,6 @@ item_id,genres
 652510,rpg
 653861,design &amp; illustration
 653861,web publishing
-617720,action
-617720,adventure
-617720,free to play
-617720,massively multiplayer
-617720,rpg
-617720,simulation
 406760,action
 406760,adventure
 406760,indie
@@ -22273,7 +21352,6 @@ item_id,genres
 614550,casual
 614550,indie
 614550,early access
-653840,rpg
 662450,indie
 662450,rpg
 662450,strategy
@@ -22366,9 +21444,6 @@ item_id,genres
 652440,casual
 652440,indie
 652440,simulation
-617350,free to play
-617350,rpg
-617350,strategy
 583620,education
 588620,adventure
 588620,casual
@@ -22433,18 +21508,6 @@ item_id,genres
 655440,action
 655440,casual
 655440,simulation
-666140,adventure
-666140,casual
-666140,indie
-666140,rpg
-666140,simulation
-666140,early access
-604330,adventure
-604330,indie
-662850,action
-662850,adventure
-662850,indie
-662850,rpg
 665990,casual
 665990,indie
 665990,simulation
@@ -22578,11 +21641,6 @@ item_id,genres
 645470,indie
 645470,racing
 562384,simulation
-596580,action
-596580,adventure
-596580,indie
-596580,rpg
-596580,strategy
 654020,action
 654020,adventure
 654020,indie
@@ -22851,7 +21909,6 @@ item_id,genres
 641980,action
 641980,adventure
 641980,indie
-658340,indie
 664350,action
 664350,indie
 666310,action
@@ -22918,7 +21975,6 @@ item_id,genres
 664050,indie
 667820,casual
 667820,simulation
-678250,adventure
 654010,action
 654010,indie
 667750,casual
@@ -22964,8 +22020,6 @@ item_id,genres
 597190,casual
 597190,indie
 657200,simulation
-491370,adventure
-491370,indie
 526450,adventure
 526450,simulation
 526450,strategy
@@ -23018,8 +22072,6 @@ item_id,genres
 676800,indie
 676800,rpg
 668070,casual
-612000,action
-612000,indie
 655080,adventure
 655080,casual
 655080,indie
@@ -23077,8 +22129,6 @@ item_id,genres
 656290,simulation
 337890,casual
 337890,indie
-617620,adventure
-617620,indie
 661570,action
 661570,adventure
 661570,indie
@@ -23239,9 +22289,6 @@ item_id,genres
 487120,early access
 669310,indie
 669310,rpg
-632880,adventure
-632880,casual
-632880,indie
 678430,adventure
 678430,casual
 576120,adventure
@@ -23455,8 +22502,6 @@ item_id,genres
 610670,indie
 610670,rpg
 610670,early access
-501680,adventure
-501680,indie
 653050,indie
 653050,simulation
 653050,strategy
@@ -23466,10 +22511,6 @@ item_id,genres
 539591,strategy
 581200,indie
 581200,racing
-635810,casual
-635810,free to play
-635810,massively multiplayer
-635810,sports
 680070,adventure
 680070,casual
 680070,indie
@@ -23508,10 +22549,6 @@ item_id,genres
 644710,simulation
 644780,simulation
 644780,strategy
-606740,action
-606740,casual
-606740,indie
-606740,sports
 679740,indie
 673010,adventure
 673010,casual
@@ -23545,14 +22582,8 @@ item_id,genres
 467270,indie
 467270,rpg
 467270,strategy
-688030,action
-688030,adventure
-688030,free to play
-688030,rpg
 657440,adventure
 657440,indie
-630230,action
-630230,simulation
 631540,indie
 631540,simulation
 631540,strategy
@@ -23706,9 +22737,6 @@ item_id,genres
 681780,indie
 676410,adventure
 676410,casual
-681120,action
-681120,adventure
-681120,indie
 675810,free to play
 675810,indie
 675810,strategy
@@ -23935,7 +22963,6 @@ item_id,genres
 397310,action
 397310,indie
 397310,rpg
-675650,rpg
 686550,action
 686550,casual
 686550,indie
@@ -24042,9 +23069,6 @@ item_id,genres
 654173,action
 654173,free to play
 690220,action
-658280,adventure
-658280,casual
-658280,indie
 690130,action
 690130,casual
 690130,indie
@@ -24106,11 +23130,9 @@ item_id,genres
 535520,action
 535520,casual
 535520,indie
-433050,strategy
 683740,action
 683740,casual
 683740,indie
-603720,action
 655600,casual
 655600,indie
 655600,strategy
@@ -24268,9 +23290,6 @@ item_id,genres
 491660,action
 491660,indie
 491660,rpg
-420560,action
-420560,simulation
-420560,strategy
 693880,action
 693880,casual
 693880,indie
@@ -24403,7 +23422,6 @@ item_id,genres
 655120,casual
 655120,indie
 694430,adventure
-598110,rpg
 694420,adventure
 338290,casual
 338290,indie
@@ -24565,14 +23583,12 @@ item_id,genres
 680160,casual
 680160,indie
 680160,rpg
-585800,indie
 665930,action
 665930,indie
 593380,strategy
 515010,action
 515010,indie
 515010,early access
-671580,casual
 686240,action
 697700,casual
 697700,indie
@@ -24637,8 +23653,6 @@ item_id,genres
 267789,rpg
 267789,strategy
 462640,sports
-684700,indie
-684700,rpg
 672690,action
 672690,indie
 596970,adventure
@@ -24662,9 +23676,6 @@ item_id,genres
 654740,adventure
 654740,indie
 654740,early access
-698770,adventure
-698770,indie
-698770,sports
 700680,adventure
 700680,casual
 700680,free to play
@@ -24704,9 +23715,6 @@ item_id,genres
 673750,action
 673750,indie
 673750,early access
-706150,adventure
-706150,simulation
-706150,sports
 693635,casual
 693635,free to play
 693635,indie
@@ -24799,9 +23807,6 @@ item_id,genres
 693602,casual
 693602,free to play
 693602,indie
-599140,adventure
-599140,indie
-599140,simulation
 693634,casual
 693634,free to play
 693634,indie
@@ -24950,10 +23955,6 @@ item_id,genres
 698357,indie
 698357,rpg
 698357,strategy
-601380,action
-601380,adventure
-601380,indie
-601380,early access
 698310,adventure
 698310,casual
 698310,indie
@@ -25029,7 +24030,6 @@ item_id,genres
 709130,indie
 709130,rpg
 709130,strategy
-706580,adventure
 710050,indie
 710050,rpg
 710050,strategy
@@ -25165,12 +24165,8 @@ item_id,genres
 704440,indie
 637737,casual
 637737,simulation
-677691,action
-677691,rpg
 637738,casual
 637738,simulation
-677692,action
-677692,rpg
 703070,action
 703070,casual
 703070,indie
@@ -25178,8 +24174,6 @@ item_id,genres
 703070,simulation
 702330,massively multiplayer
 702330,rpg
-677690,action
-677690,rpg
 695500,massively multiplayer
 695500,rpg
 704160,massively multiplayer
@@ -25405,10 +24399,6 @@ item_id,genres
 698620,simulation
 698620,sports
 667400,indie
-688730,casual
-688730,free to play
-688730,indie
-688730,massively multiplayer
 715080,simulation
 706200,casual
 706200,indie
@@ -25416,7 +24406,6 @@ item_id,genres
 662990,adventure
 662990,indie
 662990,rpg
-596730,adventure
 706320,action
 706320,casual
 706320,indie
@@ -25681,18 +24670,11 @@ item_id,genres
 461350,rpg
 461350,simulation
 461350,strategy
-712870,action
-712870,casual
-712870,indie
 697680,casual
 697680,early access
 704130,indie
 704130,rpg
 704130,strategy
-604030,action
-604030,adventure
-604030,indie
-604030,simulation
 705260,indie
 705260,simulation
 702220,indie
@@ -25719,7 +24701,6 @@ item_id,genres
 709340,adventure
 709340,casual
 714720,casual
-598120,rpg
 671190,animation &amp; modeling
 671190,design &amp; illustration
 717160,casual
@@ -25829,10 +24810,6 @@ item_id,genres
 723260,casual
 477910,action
 477910,indie
-606000,action
-606000,adventure
-606000,indie
-606000,rpg
 688430,adventure
 688430,free to play
 688430,massively multiplayer
@@ -25887,10 +24864,6 @@ item_id,genres
 720530,action
 683900,simulation
 683900,strategy
-718590,action
-718590,adventure
-718590,indie
-718590,rpg
 657240,indie
 657240,racing
 657240,simulation
@@ -25922,8 +24895,6 @@ item_id,genres
 726050,indie
 723170,adventure
 723170,indie
-697870,action
-697870,indie
 625580,action
 625580,indie
 625580,rpg
@@ -25938,13 +24909,6 @@ item_id,genres
 714570,casual
 714570,indie
 714570,strategy
-644000,action
-644000,adventure
-644000,indie
-644000,rpg
-644000,simulation
-644000,strategy
-644000,early access
 708830,action
 708830,indie
 715440,adventure
@@ -26067,9 +25031,6 @@ item_id,genres
 712630,rpg
 637752,casual
 637752,simulation
-702620,action
-702620,casual
-702620,indie
 654050,action
 654050,indie
 654050,rpg
@@ -26084,9 +25045,6 @@ item_id,genres
 635790,indie
 696540,action
 696540,indie
-573320,adventure
-573320,indie
-573320,rpg
 713160,action
 713160,adventure
 713160,indie
@@ -26207,8 +25165,6 @@ item_id,genres
 665500,indie
 665500,simulation
 665500,strategy
-555980,indie
-555980,rpg
 724280,action
 724280,casual
 724280,free to play
@@ -26221,7 +25177,6 @@ item_id,genres
 702980,action
 702980,rpg
 614090,action
-714380,action
 728640,indie
 728640,rpg
 728640,strategy
@@ -26296,8 +25251,6 @@ item_id,genres
 709280,rpg
 709280,simulation
 709280,early access
-728170,adventure
-728170,indie
 713540,indie
 595960,casual
 595960,indie
@@ -26500,8 +25453,6 @@ item_id,genres
 513330,simulation
 513330,strategy
 513330,early access
-642080,action
-642080,adventure
 358930,action
 358930,adventure
 358930,indie
@@ -26547,10 +25498,6 @@ item_id,genres
 724580,indie
 724580,simulation
 724580,strategy
-508650,action
-508650,adventure
-508650,indie
-508650,early access
 721740,adventure
 721740,casual
 721740,indie
@@ -26627,13 +25574,11 @@ item_id,genres
 610410,indie
 610410,early access
 700020,video production
-688274,rpg
 636570,rpg
 730220,action
 730220,casual
 730220,simulation
 730220,strategy
-696350,rpg
 646330,adventure
 646330,casual
 728870,indie
@@ -26661,12 +25606,6 @@ item_id,genres
 671650,action
 671650,casual
 671650,indie
-731390,action
-731390,adventure
-731390,casual
-731390,free to play
-731390,massively multiplayer
-731390,rpg
 729690,action
 729690,adventure
 729690,casual
@@ -26714,9 +25653,6 @@ item_id,genres
 732190,rpg
 719290,action
 719290,adventure
-438460,action
-438460,casual
-438460,indie
 719310,simulation
 719310,strategy
 727650,action
@@ -26834,9 +25770,6 @@ item_id,genres
 712660,adventure
 712660,indie
 712660,early access
-550370,adventure
-550370,indie
-550370,rpg
 721970,casual
 721970,indie
 721970,racing
@@ -26876,8 +25809,6 @@ item_id,genres
 727510,adventure
 727510,indie
 727510,rpg
-720730,adventure
-720730,indie
 732870,action
 732870,casual
 732870,indie
@@ -26922,8 +25853,6 @@ item_id,genres
 676630,adventure
 656280,action
 656280,indie
-417020,adventure
-417020,indie
 718200,adventure
 718200,indie
 718200,rpg
@@ -26960,8 +25889,6 @@ item_id,genres
 673550,action
 673550,casual
 673550,indie
-614230,action
-614230,indie
 728920,education
 728920,utilities
 722580,action
@@ -27123,12 +26050,6 @@ item_id,genres
 715780,casual
 715780,indie
 715780,simulation
-715850,action
-715850,adventure
-715900,action
-715900,adventure
-715870,action
-715870,adventure
 657070,adventure
 657070,casual
 657070,indie
@@ -27258,8 +26179,6 @@ item_id,genres
 713760,indie
 680990,action
 680990,indie
-737530,adventure
-737530,indie
 732070,adventure
 732070,casual
 732070,indie
@@ -27400,9 +26319,6 @@ item_id,genres
 747020,free to play
 747020,massively multiplayer
 747020,rpg
-662830,action
-662830,rpg
-662830,strategy
 739000,adventure
 739000,casual
 739000,indie
@@ -27681,22 +26597,13 @@ item_id,genres
 749510,action
 749510,casual
 749510,indie
-598410,action
-598410,adventure
-598410,indie
 743400,indie
 736700,education
 731230,action
-491010,action
-491010,adventure
-491010,indie
 718210,casual
 718210,rpg
 718210,simulation
 718210,strategy
-563530,action
-563530,indie
-563530,simulation
 595770,action
 595770,indie
 595770,rpg
@@ -27708,11 +26615,6 @@ item_id,genres
 749990,action
 749990,casual
 749990,indie
-629820,action
-629820,adventure
-629820,indie
-629820,rpg
-629820,early access
 725610,audio production
 725610,education
 725610,utilities
@@ -27821,8 +26723,6 @@ item_id,genres
 669910,adventure
 669910,indie
 562389,simulation
-747220,indie
-628890,simulation
 491070,adventure
 491070,casual
 491070,indie
@@ -27876,11 +26776,6 @@ item_id,genres
 648780,strategy
 704760,action
 704760,indie
-692260,adventure
-692260,indie
-692260,rpg
-692260,simulation
-692260,strategy
 627270,action
 733460,indie
 733460,rpg
@@ -27902,9 +26797,6 @@ item_id,genres
 691600,strategy
 757030,adventure
 757030,casual
-590810,indie
-590810,simulation
-590810,strategy
 729160,action
 730840,action
 730840,casual
@@ -27953,11 +26845,6 @@ item_id,genres
 675230,rpg
 749570,casual
 749570,indie
-724100,rpg
-754020,casual
-754020,indie
-754020,simulation
-754020,early access
 725660,action
 725660,indie
 749870,casual
@@ -28006,9 +26893,6 @@ item_id,genres
 566690,indie
 566690,rpg
 566690,early access
-721000,free to play
-721000,indie
-721000,strategy
 755100,education
 755350,indie
 753670,indie
@@ -28055,9 +26939,6 @@ item_id,genres
 583090,indie
 471550,action
 471550,rpg
-709010,casual
-709010,indie
-709010,simulation
 718010,action
 718010,adventure
 718010,indie
@@ -28065,7 +26946,6 @@ item_id,genres
 522740,action
 686890,action
 686890,sports
-733100,action
 719080,action
 719080,casual
 719080,indie
@@ -28103,8 +26983,6 @@ item_id,genres
 721102,action
 721103,action
 721100,action
-463410,action
-463410,adventure
 561561,action
 561561,indie
 561561,strategy
@@ -28117,7 +26995,6 @@ item_id,genres
 690510,indie
 690510,strategy
 690510,early access
-672240,rpg
 746700,audio production
 746700,utilities
 746700,video production
@@ -28210,7 +27087,6 @@ item_id,genres
 762640,free to play
 762640,massively multiplayer
 762640,rpg
-737790,adventure
 701440,indie
 763370,action
 763370,adventure
@@ -28244,28 +27120,13 @@ item_id,genres
 754920,simulation
 467518,indie
 467518,strategy
-754470,utilities
-755073,utilities
-755071,utilities
-755072,utilities
-755070,utilities
 763530,action
 749470,action
 749470,indie
 751260,action
 751260,adventure
 751260,indie
-530597,action
-530597,adventure
 755860,action
-530596,action
-530596,adventure
-530595,action
-530595,adventure
-530598,action
-530598,adventure
-530599,action
-530599,adventure
 764340,action
 764340,adventure
 764340,indie
@@ -28346,10 +27207,6 @@ item_id,genres
 741420,indie
 457370,casual
 457370,indie
-708790,adventure
-708790,casual
-708790,indie
-708790,strategy
 540190,casual
 540190,indie
 768600,adventure
@@ -28430,9 +27287,6 @@ item_id,genres
 512120,early access
 743290,simulation
 743290,strategy
-580960,action
-580960,adventure
-580960,indie
 754530,simulation
 733610,adventure
 733610,indie
@@ -28461,9 +27315,6 @@ item_id,genres
 720060,indie
 720060,simulation
 720060,strategy
-731690,action
-731690,adventure
-731690,strategy
 452522,rpg
 724470,indie
 724470,strategy
@@ -28501,7 +27352,6 @@ item_id,genres
 714331,adventure
 714331,rpg
 714331,strategy
-715670,utilities
 710160,indie
 755370,education
 763970,adventure
@@ -28539,8 +27389,6 @@ item_id,genres
 769180,free to play
 751580,action
 751580,rpg
-596260,action
-596260,indie
 756600,action
 756600,casual
 756600,indie
@@ -28589,8 +27437,6 @@ item_id,genres
 771780,indie
 750060,simulation
 744836,action
-704740,action
-704740,adventure
 744832,action
 744830,action
 744834,action
@@ -28621,11 +27467,6 @@ item_id,genres
 637806,simulation
 713840,indie
 713840,strategy
-602600,adventure
-602600,free to play
-602600,indie
-602600,strategy
-602600,early access
 745640,utilities
 764350,action
 764350,indie
@@ -28658,10 +27499,6 @@ item_id,genres
 765770,adventure
 765770,casual
 765770,indie
-772430,adventure
-772430,casual
-772430,indie
-772430,rpg
 714060,action
 714060,adventure
 714060,indie
@@ -28749,12 +27586,6 @@ item_id,genres
 767460,indie
 767460,strategy
 583930,casual
-659330,casual
-659330,indie
-523750,indie
-523750,massively multiplayer
-523750,rpg
-523750,strategy
 677280,action
 677280,indie
 765940,casual
@@ -28787,8 +27618,6 @@ item_id,genres
 509920,indie
 715860,action
 715860,adventure
-767600,adventure
-767600,indie
 775600,action
 775600,free to play
 775600,indie
@@ -28806,7 +27635,6 @@ item_id,genres
 774111,adventure
 774111,casual
 774111,indie
-593931,simulation
 772400,action
 772400,adventure
 772400,indie
@@ -28814,16 +27642,12 @@ item_id,genres
 750040,casual
 750040,indie
 750040,simulation
-770510,action
-770510,adventure
 747190,adventure
 747190,indie
 747190,rpg
 758450,action
 758450,massively multiplayer
 758450,racing
-752570,adventure
-752570,casual
 749880,action
 749880,casual
 749880,indie
@@ -28873,12 +27697,6 @@ item_id,genres
 768300,casual
 768300,indie
 768300,simulation
-762120,action
-762120,adventure
-762120,casual
-762120,indie
-762120,simulation
-762120,strategy
 758130,action
 758130,adventure
 758130,indie
@@ -28947,18 +27765,9 @@ item_id,genres
 756880,strategy
 670400,indie
 670400,rpg
-772260,action
-772260,casual
 757990,action
 758140,action
 758140,indie
-740800,casual
-688750,adventure
-688750,casual
-688750,indie
-688750,rpg
-688750,strategy
-688750,early access
 729200,adventure
 729200,casual
 729200,indie
@@ -28970,8 +27779,6 @@ item_id,genres
 755570,indie
 755570,rpg
 755570,early access
-692880,casual
-692880,indie
 773471,action
 773471,casual
 773471,free to play
@@ -28982,10 +27789,6 @@ item_id,genres
 773470,free to play
 773470,massively multiplayer
 773470,sports
-503490,action
-503490,indie
-503490,rpg
-503490,early access
 773472,action
 773472,casual
 773472,free to play
@@ -29031,19 +27834,12 @@ item_id,genres
 775390,casual
 775390,indie
 775390,strategy
-753390,action
-753390,adventure
-753390,indie
-753390,simulation
 771830,indie
 771830,simulation
 767580,casual
 767580,indie
 767580,simulation
 767580,strategy
-690200,action
-690200,indie
-690200,early access
 751350,action
 751350,casual
 751350,free to play
@@ -29124,14 +27920,10 @@ item_id,genres
 759130,simulation
 678920,adventure
 678920,indie
-529060,simulation
-529060,early access
 715740,action
 715740,indie
 716081,action
 716081,indie
-548280,casual
-548280,indie
 744240,action
 744240,adventure
 744240,indie
@@ -29207,9 +27999,6 @@ item_id,genres
 763730,adventure
 763730,indie
 763730,early access
-513640,action
-513640,adventure
-513640,indie
 764470,action
 764470,adventure
 764470,indie
@@ -29299,14 +28088,8 @@ item_id,genres
 701870,casual
 701870,indie
 701870,strategy
-595500,action
-595500,adventure
-595500,indie
 418566,indie
 418566,strategy
-587160,action
-587160,adventure
-587160,indie
 770130,indie
 770130,rpg
 770130,strategy
@@ -29338,8 +28121,6 @@ item_id,genres
 769710,racing
 769710,simulation
 769710,sports
-756450,casual
-756450,indie
 665960,indie
 665960,simulation
 656030,adventure
@@ -29354,7 +28135,6 @@ item_id,genres
 749242,action
 749242,indie
 749242,massively multiplayer
-761720,casual
 760100,action
 760100,adventure
 760100,casual
@@ -29374,10 +28154,6 @@ item_id,genres
 733070,casual
 733070,indie
 733070,strategy
-765990,action
-765990,adventure
-765990,casual
-765990,indie
 730750,action
 730750,indie
 730750,rpg
@@ -29435,17 +28211,8 @@ item_id,genres
 739253,free to play
 739253,indie
 739253,massively multiplayer
-673930,indie
-673930,rpg
-673930,simulation
-673930,sports
-673930,strategy
 744170,action
 744170,indie
-673910,indie
-673910,rpg
-673910,simulation
-673910,sports
 765840,adventure
 757690,indie
 742460,action
@@ -29535,22 +28302,9 @@ item_id,genres
 755140,indie
 755140,simulation
 755140,strategy
-619150,indie
-619150,simulation
-619150,early access
-622440,simulation
-622440,strategy
-622440,early access
-760450,adventure
-760450,casual
-760450,indie
 653100,action
 653100,casual
 653100,indie
-760440,action
-760440,adventure
-760440,casual
-760440,indie
 751170,education
 751170,software training
 751160,education
@@ -29596,10 +28350,6 @@ item_id,genres
 760870,casual
 760870,indie
 760870,simulation
-757900,action
-757900,adventure
-757900,simulation
-757900,early access
 768560,adventure
 768560,casual
 768560,massively multiplayer
@@ -29631,11 +28381,6 @@ item_id,genres
 633930,action
 633930,indie
 633930,strategy
-579560,adventure
-579560,indie
-579560,rpg
-579560,simulation
-579560,early access
 606370,rpg
 758920,casual
 758920,indie
@@ -29668,7 +28413,6 @@ item_id,genres
 771300,action
 771300,adventure
 759170,strategy
-704450,rpg
 770000,indie
 770000,rpg
 770000,strategy
@@ -29680,11 +28424,6 @@ item_id,genres
 566240,adventure
 566240,indie
 566240,early access
-737002,rpg
-737001,rpg
-737000,rpg
-738710,rpg
-744680,rpg
 592813,adventure
 592813,indie
 592813,rpg
@@ -29692,14 +28431,9 @@ item_id,genres
 605230,massively multiplayer
 605230,simulation
 605230,early access
-646210,indie
 755040,action
 755040,casual
 755040,rpg
-437010,indie
-437010,simulation
-437010,strategy
-437010,early access
 740090,adventure
 740090,casual
 745160,adventure
@@ -29720,7 +28454,6 @@ item_id,genres
 744450,action
 744450,simulation
 744450,strategy
-738711,rpg
 741670,action
 741670,indie
 741670,simulation
@@ -29769,7 +28502,6 @@ item_id,genres
 764460,racing
 677998,simulation
 702960,simulation
-764510,strategy
 682580,action
 682580,massively multiplayer
 682580,rpg
@@ -29875,8 +28607,6 @@ item_id,genres
 544550,indie
 544550,simulation
 544550,early access
-759101,action
-759101,free to play
 763590,action
 763590,adventure
 763590,indie
@@ -29884,12 +28614,6 @@ item_id,genres
 762390,casual
 762390,free to play
 762390,indie
-759110,action
-759110,free to play
-759100,action
-759100,free to play
-759102,action
-759102,free to play
 411970,action
 411970,adventure
 411970,indie
@@ -29942,11 +28666,6 @@ item_id,genres
 760930,early access
 564190,action
 564190,adventure
-677180,action
-677180,indie
-677180,massively multiplayer
-760700,action
-760700,indie
 727180,adventure
 727180,casual
 727180,indie
@@ -29955,14 +28674,6 @@ item_id,genres
 727180,simulation
 727180,strategy
 727180,early access
-710190,casual
-710190,indie
-710190,early access
-377300,action
-377300,indie
-377300,simulation
-377300,strategy
-377300,early access
 651050,casual
 651050,indie
 644200,adventure
@@ -30040,11 +28751,6 @@ item_id,genres
 755560,adventure
 755560,indie
 755560,sports
-712080,action
-712080,adventure
-712080,indie
-712080,rpg
-712080,early access
 756150,casual
 756150,indie
 756150,simulation
@@ -30134,7 +28840,6 @@ item_id,genres
 729390,action
 729390,indie
 729390,early access
-758090,adventure
 740170,adventure
 740170,early access
 675355,simulation
@@ -30158,9 +28863,6 @@ item_id,genres
 764600,adventure
 764600,indie
 764600,rpg
-732140,action
-732140,adventure
-732140,indie
 752240,indie
 752240,early access
 757290,casual
@@ -30204,7 +28906,6 @@ item_id,genres
 690040,action
 690040,indie
 690040,early access
-730940,rpg
 502970,rpg
 727480,casual
 727480,indie
@@ -30290,9 +28991,6 @@ item_id,genres
 703300,design &amp; illustration
 703300,photo editing
 703300,utilities
-740100,adventure
-740100,indie
-740100,strategy
 711064,action
 711064,free to play
 711064,indie
@@ -30313,16 +29011,7 @@ item_id,genres
 766471,simulation
 766472,simulation
 766520,simulation
-284080,action
-284080,adventure
-284080,free to play
 766521,simulation
-757480,adventure
-757480,indie
-670930,action
-670930,adventure
-670930,casual
-670930,indie
 637798,casual
 637798,simulation
 739281,action
@@ -30340,11 +29029,6 @@ item_id,genres
 721140,action
 741390,casual
 741390,strategy
-679240,action
-679240,adventure
-679240,indie
-679240,simulation
-679240,early access
 756722,racing
 756722,simulation
 756722,sports
@@ -30354,9 +29038,6 @@ item_id,genres
 756724,racing
 756724,simulation
 756724,sports
-737660,action
-737660,indie
-737660,early access
 749050,action
 749050,adventure
 749050,casual
@@ -30397,12 +29078,6 @@ item_id,genres
 733020,casual
 733020,indie
 733020,strategy
-645530,action
-645530,adventure
-645530,casual
-645530,indie
-645530,rpg
-645530,simulation
 740470,action
 740470,adventure
 740470,free to play
@@ -30413,7 +29088,6 @@ item_id,genres
 741930,rpg
 758380,indie
 758380,racing
-756640,adventure
 752910,action
 752910,casual
 752910,indie
@@ -30427,8 +29101,6 @@ item_id,genres
 698980,action
 698980,adventure
 698980,casual
-719160,indie
-719160,strategy
 761320,action
 761320,adventure
 761320,casual
@@ -30445,12 +29117,6 @@ item_id,genres
 739030,action
 739030,adventure
 739030,indie
-378690,adventure
-378690,indie
-378690,rpg
-746110,action
-746110,indie
-746110,early access
 752110,free to play
 752110,indie
 752110,strategy
@@ -30495,11 +29161,6 @@ item_id,genres
 717790,action
 717790,indie
 717790,early access
-488430,action
-488430,adventure
-488430,free to play
-488430,indie
-488430,strategy
 723880,action
 723880,adventure
 723880,indie
@@ -30553,11 +29214,6 @@ item_id,genres
 634160,indie
 634160,rpg
 634160,simulation
-661142,adventure
-661142,casual
-661142,indie
-661142,rpg
-661142,simulation
 726200,adventure
 726200,casual
 726200,indie
@@ -30568,11 +29224,6 @@ item_id,genres
 661140,simulation
 752790,action
 752790,indie
-661141,adventure
-661141,casual
-661141,indie
-661141,rpg
-661141,simulation
 696310,adventure
 696310,indie
 742280,adventure
@@ -30607,15 +29258,10 @@ item_id,genres
 759590,free to play
 759590,massively multiplayer
 759590,racing
-563740,action
-563740,adventure
-563740,indie
 751280,adventure
 751280,indie
 747750,adventure
 747750,early access
-672140,indie
-672140,strategy
 462603,action
 462603,adventure
 462603,indie
@@ -30826,10 +29472,6 @@ item_id,genres
 744720,rpg
 744720,simulation
 744720,early access
-598640,action
-598640,casual
-598640,indie
-598640,sports
 715890,action
 715890,adventure
 747130,adventure
@@ -30859,9 +29501,6 @@ item_id,genres
 760130,simulation
 760130,sports
 760130,strategy
-622820,action
-622820,casual
-622820,indie
 733050,casual
 733050,indie
 733050,strategy
@@ -30921,35 +29560,13 @@ item_id,genres
 757750,action
 757750,adventure
 757750,indie
-730630,action
-730630,adventure
-730630,massively multiplayer
-730630,rpg
-730630,simulation
-730630,strategy
 718940,casual
 718940,free to play
 718940,rpg
-730631,action
-730631,adventure
-730631,massively multiplayer
-730631,rpg
-730631,simulation
-730631,strategy
 738560,adventure
 738560,indie
 725020,indie
-730632,action
-730632,adventure
-730632,massively multiplayer
-730632,rpg
-730632,simulation
-730632,strategy
 746360,casual
-424030,action
-424030,indie
-424030,simulation
-424030,early access
 604920,rpg
 751750,indie
 732470,action
@@ -31055,7 +29672,6 @@ item_id,genres
 753040,strategy
 749340,casual
 749340,indie
-730700,indie
 612880,action
 552700,rpg
 662353,action
@@ -31129,13 +29745,6 @@ item_id,genres
 752990,indie
 752990,rpg
 752990,strategy
-711700,action
-711700,adventure
-711700,casual
-711700,indie
-711700,rpg
-711700,simulation
-711700,strategy
 738730,action
 738730,adventure
 738730,casual
@@ -31313,9 +29922,6 @@ item_id,genres
 747420,casual
 747420,indie
 747420,strategy
-747700,action
-747700,indie
-747700,simulation
 739200,action
 739200,adventure
 739200,indie
@@ -31374,7 +29980,6 @@ item_id,genres
 734490,casual
 734490,indie
 734490,strategy
-738580,strategy
 743410,adventure
 743410,casual
 743410,indie
@@ -31447,13 +30052,6 @@ item_id,genres
 751120,free to play
 711260,action
 711260,indie
-754270,action
-754270,casual
-754270,indie
-681740,action
-681740,adventure
-681740,indie
-681740,rpg
 739940,indie
 739940,strategy
 592600,sports
@@ -31487,9 +30085,6 @@ item_id,genres
 746890,simulation
 734540,casual
 734540,indie
-590820,adventure
-590820,indie
-590820,rpg
 657280,audio production
 657280,utilities
 657280,early access
@@ -31634,10 +30229,6 @@ item_id,genres
 709410,indie
 709410,rpg
 709410,strategy
-695970,action
-695970,casual
-695970,indie
-695970,early access
 754210,action
 754210,adventure
 754210,indie
@@ -31736,9 +30327,6 @@ item_id,genres
 728660,action
 728660,adventure
 728660,indie
-503750,action
-503750,casual
-503750,indie
 739410,action
 739410,indie
 733760,action
@@ -31836,9 +30424,6 @@ item_id,genres
 738850,indie
 652040,action
 652040,indie
-730390,action
-730390,adventure
-730390,indie
 751702,casual
 751702,simulation
 665790,action
@@ -31947,7 +30532,6 @@ item_id,genres
 493080,indie
 493080,rpg
 493080,strategy
-632470,rpg
 652140,action
 652140,adventure
 652140,casual
@@ -31955,8 +30539,6 @@ item_id,genres
 652140,early access
 748790,action
 748790,indie
-705530,action
-705530,indie
 749280,adventure
 749280,casual
 749280,indie
@@ -32014,8 +30596,6 @@ item_id,genres
 723830,action
 723830,adventure
 723830,indie
-725353,action
-737780,action
 714510,action
 714510,adventure
 714510,indie
@@ -32037,11 +30617,6 @@ item_id,genres
 718290,design &amp; illustration
 718150,design &amp; illustration
 717130,design &amp; illustration
-712120,action
-712120,early access
-680750,adventure
-680750,casual
-680750,indie
 748140,indie
 748140,simulation
 741280,adventure
@@ -32076,9 +30651,6 @@ item_id,genres
 739800,casual
 739800,indie
 739800,rpg
-696770,adventure
-696770,free to play
-696770,indie
 697530,indie
 697530,strategy
 613730,action
@@ -32089,9 +30661,6 @@ item_id,genres
 730950,casual
 730950,indie
 730950,strategy
-667690,indie
-667690,sports
-667690,strategy
 361100,action
 361100,indie
 361100,early access
@@ -32130,10 +30699,6 @@ item_id,genres
 693310,action
 693310,casual
 693310,indie
-611710,rpg
-633060,adventure
-633060,indie
-633060,simulation
 736840,casual
 736840,indie
 699720,adventure
@@ -32216,17 +30781,11 @@ item_id,genres
 724640,simulation
 735260,casual
 735260,indie
-675480,action
-675480,indie
 612960,simulation
 687760,adventure
-625740,action
-625740,indie
 584790,action
 584790,casual
 584790,indie
-659150,adventure
-659150,indie
 738320,action
 738320,adventure
 738320,free to play
@@ -32283,9 +30842,6 @@ item_id,genres
 692170,simulation
 692170,strategy
 738000,rpg
-575340,adventure
-575340,indie
-575340,strategy
 731590,action
 731590,indie
 745230,indie
@@ -32306,8 +30862,6 @@ item_id,genres
 659530,early access
 712000,indie
 712000,strategy
-661450,adventure
-661450,indie
 726500,adventure
 726500,indie
 635940,adventure
@@ -32356,9 +30910,6 @@ item_id,genres
 735520,action
 735520,casual
 735520,strategy
-737510,action
-737510,adventure
-737510,indie
 697270,action
 697270,indie
 697270,strategy
@@ -32419,8 +30970,6 @@ item_id,genres
 719830,racing
 719830,simulation
 719830,early access
-738270,indie
-738270,simulation
 742730,casual
 742730,strategy
 675010,simulation
@@ -32461,8 +31010,6 @@ item_id,genres
 658440,early access
 726430,adventure
 726430,indie
-527150,action
-527150,indie
 650240,rpg
 650240,strategy
 650242,rpg
@@ -32512,9 +31059,6 @@ item_id,genres
 732150,indie
 713940,action
 713940,indie
-680590,adventure
-680590,indie
-680590,early access
 626600,rpg
 626600,strategy
 738880,action
@@ -32543,9 +31087,6 @@ item_id,genres
 726040,indie
 742430,adventure
 742430,indie
-629610,indie
-629610,rpg
-629610,strategy
 729170,action
 729170,casual
 729170,indie
@@ -32605,11 +31146,6 @@ item_id,genres
 582160,action
 582160,adventure
 582160,rpg
-371140,action
-371140,adventure
-371140,indie
-371140,rpg
-371140,strategy
 741320,action
 741320,free to play
 741320,indie
@@ -32618,8 +31154,6 @@ item_id,genres
 727860,indie
 727860,massively multiplayer
 727860,strategy
-660860,action
-660860,casual
 732090,adventure
 732090,indie
 736610,action
@@ -32635,9 +31169,6 @@ item_id,genres
 607890,adventure
 607890,casual
 607890,rpg
-720250,indie
-720250,simulation
-720250,strategy
 729580,casual
 729580,free to play
 729580,indie
@@ -32657,8 +31188,6 @@ item_id,genres
 743520,casual
 743520,indie
 743520,strategy
-701630,action
-701630,indie
 497800,adventure
 497800,indie
 497800,rpg
@@ -32721,8 +31250,6 @@ item_id,genres
 592470,casual
 592470,indie
 592470,simulation
-741730,adventure
-741730,indie
 592474,casual
 592474,indie
 592474,simulation
@@ -32790,9 +31317,6 @@ item_id,genres
 717330,early access
 711110,casual
 711110,indie
-698050,adventure
-698050,indie
-698050,rpg
 727730,adventure
 727730,indie
 724600,action
@@ -32901,10 +31425,6 @@ item_id,genres
 658160,adventure
 658160,casual
 658160,indie
-650690,adventure
-650690,casual
-650690,indie
-650690,simulation
 727590,action
 727590,casual
 727590,indie
@@ -33059,9 +31579,6 @@ item_id,genres
 720640,adventure
 720640,indie
 606080,strategy
-723750,action
-723750,casual
-723750,indie
 613470,adventure
 613470,indie
 675870,action
@@ -33327,19 +31844,11 @@ item_id,genres
 736330,simulation
 736330,sports
 736330,strategy
-733110,adventure
-733110,indie
-733110,rpg
 725640,indie
 512160,casual
 512160,indie
 512160,sports
 512160,early access
-717780,action
-717780,adventure
-717780,casual
-717780,indie
-717780,racing
 722730,adventure
 722730,indie
 722730,rpg
@@ -33442,7 +31951,6 @@ item_id,genres
 549940,indie
 549940,rpg
 549940,strategy
-716170,action
 699100,action
 699100,strategy
 699100,early access
@@ -33489,8 +31997,6 @@ item_id,genres
 433530,indie
 433530,massively multiplayer
 681340,casual
-723130,action
-723130,indie
 708920,action
 708920,indie
 724340,casual
@@ -33593,12 +32099,6 @@ item_id,genres
 686680,simulation
 686680,strategy
 686680,early access
-644800,action
-644800,adventure
-644800,indie
-644800,massively multiplayer
-644800,rpg
-644800,early access
 699680,casual
 699680,indie
 699680,massively multiplayer
@@ -33640,8 +32140,6 @@ item_id,genres
 686500,adventure
 731220,casual
 731220,indie
-711760,adventure
-711760,indie
 570050,action
 715430,action
 715430,indie
@@ -34147,8 +32645,6 @@ item_id,genres
 716930,adventure
 716930,casual
 716930,indie
-457410,action
-457410,indie
 711150,indie
 402940,adventure
 402940,indie
@@ -34184,8 +32680,6 @@ item_id,genres
 725880,indie
 725880,racing
 725880,simulation
-569510,casual
-569510,free to play
 544630,action
 544630,adventure
 544630,sports
@@ -34241,11 +32735,6 @@ item_id,genres
 715980,casual
 715980,indie
 715980,simulation
-657080,action
-657080,casual
-657080,indie
-657080,racing
-657080,early access
 696250,adventure
 696250,indie
 696250,simulation
@@ -34271,9 +32760,6 @@ item_id,genres
 654690,indie
 654690,strategy
 654690,early access
-546120,action
-546120,indie
-546120,strategy
 723000,casual
 723000,free to play
 723000,indie
@@ -34551,10 +33037,6 @@ item_id,genres
 709720,action
 709720,adventure
 709720,simulation
-689470,indie
-689470,rpg
-689470,simulation
-689470,strategy
 713600,action
 713600,adventure
 713600,casual
@@ -34811,9 +33293,6 @@ item_id,genres
 710110,indie
 710110,simulation
 710110,strategy
-693280,action
-693280,adventure
-693280,early access
 682640,action
 682640,adventure
 682640,casual
@@ -34918,16 +33397,10 @@ item_id,genres
 637741,simulation
 677090,indie
 677090,strategy
-555510,indie
-555510,simulation
-555510,strategy
 714240,action
 714240,indie
 637742,casual
 637742,simulation
-684830,action
-684830,adventure
-684830,rpg
 706970,adventure
 706970,indie
 706970,rpg
@@ -35197,8 +33670,6 @@ item_id,genres
 386620,indie
 386620,simulation
 386620,strategy
-630650,adventure
-630650,indie
 404530,action
 404530,indie
 404530,simulation
@@ -35243,8 +33714,6 @@ item_id,genres
 656070,indie
 699370,strategy
 699370,early access
-713220,action
-713220,indie
 695830,casual
 695830,indie
 695830,strategy
@@ -35259,9 +33728,6 @@ item_id,genres
 605335,rpg
 714660,design &amp; illustration
 714660,utilities
-630720,action
-630720,indie
-630720,rpg
 699930,indie
 699930,rpg
 666040,action
@@ -35308,9 +33774,6 @@ item_id,genres
 385410,adventure
 385410,casual
 385410,indie
-659720,action
-659720,adventure
-659720,indie
 707720,action
 707720,adventure
 707720,casual
@@ -35327,7 +33790,6 @@ item_id,genres
 703090,indie
 703090,massively multiplayer
 703090,strategy
-708360,sports
 672880,action
 672880,casual
 672880,indie
@@ -35378,9 +33840,6 @@ item_id,genres
 692290,action
 692290,adventure
 692290,indie
-707950,action
-707950,casual
-707950,indie
 623611,simulation
 709560,indie
 708190,indie
@@ -35451,12 +33910,6 @@ item_id,genres
 689120,action
 689120,indie
 689120,early access
-617740,action
-617740,adventure
-617740,free to play
-617740,massively multiplayer
-617740,rpg
-617740,simulation
 702910,adventure
 702910,casual
 702910,indie
@@ -35621,9 +34074,6 @@ item_id,genres
 709690,indie
 709690,rpg
 709690,strategy
-463951,adventure
-463951,casual
-463951,indie
 672730,free to play
 672730,indie
 710040,indie
@@ -35721,11 +34171,6 @@ item_id,genres
 698351,indie
 698351,rpg
 698351,strategy
-667290,action
-667290,indie
-667290,massively multiplayer
-667290,simulation
-667290,strategy
 695950,adventure
 695950,casual
 698350,adventure
@@ -35738,11 +34183,6 @@ item_id,genres
 698352,indie
 698352,rpg
 698352,strategy
-667291,action
-667291,indie
-667291,massively multiplayer
-667291,simulation
-667291,strategy
 698353,adventure
 698353,casual
 698353,indie
@@ -35761,10 +34201,6 @@ item_id,genres
 689400,casual
 689400,free to play
 689400,indie
-420170,adventure
-420170,indie
-638470,action
-638470,indie
 696730,action
 696730,adventure
 696730,indie
@@ -35772,8 +34208,6 @@ item_id,genres
 558490,adventure
 558490,casual
 558490,indie
-582460,indie
-582460,strategy
 679430,indie
 679430,strategy
 693320,adventure
@@ -35869,16 +34303,10 @@ item_id,genres
 686910,indie
 668280,action
 668280,indie
-652960,action
-652960,adventure
 662190,adventure
 662190,casual
 554620,action
 554620,adventure
-664120,casual
-664120,indie
-664120,simulation
-664120,strategy
 580910,casual
 580910,indie
 580910,simulation
@@ -36033,15 +34461,10 @@ item_id,genres
 658292,action
 658303,action
 658290,action
-658305,action
 658293,action
-658306,action
 683240,action
 683240,casual
 683240,rpg
-658304,action
-696280,adventure
-696280,indie
 689340,casual
 689340,indie
 689340,strategy
@@ -36051,8 +34474,6 @@ item_id,genres
 691990,casual
 691990,indie
 691990,simulation
-658270,action
-658271,action
 704390,casual
 704390,indie
 411891,simulation
@@ -36335,12 +34756,6 @@ item_id,genres
 693160,free to play
 693160,massively multiplayer
 693160,rpg
-613050,casual
-613050,indie
-616490,action
-616490,indie
-616490,rpg
-616490,early access
 468650,action
 468650,adventure
 468650,indie
@@ -36626,9 +35041,6 @@ item_id,genres
 688170,casual
 688170,strategy
 688090,rpg
-666150,indie
-666150,simulation
-666150,strategy
 681514,free to play
 681516,free to play
 697420,indie
@@ -36739,11 +35151,6 @@ item_id,genres
 667170,action
 667170,indie
 667170,early access
-409350,action
-409350,adventure
-409350,indie
-409350,rpg
-409350,early access
 676520,action
 676520,adventure
 563710,casual
@@ -36886,8 +35293,6 @@ item_id,genres
 689300,action
 689300,casual
 689300,indie
-470090,action
-470090,indie
 648630,action
 693910,indie
 675630,casual
@@ -36942,13 +35347,6 @@ item_id,genres
 679650,indie
 682730,casual
 682730,indie
-502020,action
-502020,adventure
-502020,casual
-502020,free to play
-502020,indie
-502020,massively multiplayer
-502020,early access
 657110,casual
 657110,strategy
 692300,indie
@@ -37087,16 +35485,11 @@ item_id,genres
 614860,massively multiplayer
 614860,rpg
 614860,early access
-650270,massively multiplayer
-650270,rpg
 672260,indie
 655040,action
 655040,adventure
 655040,indie
 655040,simulation
-682670,adventure
-682670,indie
-682670,rpg
 650220,indie
 650220,simulation
 650220,strategy
@@ -37141,8 +35534,6 @@ item_id,genres
 690700,action
 690700,adventure
 690700,indie
-585820,indie
-585820,strategy
 652600,adventure
 652600,indie
 672380,action
@@ -37241,12 +35632,6 @@ item_id,genres
 655910,action
 655910,casual
 655910,indie
-674550,indie
-674550,rpg
-674550,early access
-644330,action
-644330,adventure
-644330,rpg
 487000,action
 487000,adventure
 487000,indie
@@ -37761,8 +36146,6 @@ item_id,genres
 654660,casual
 654660,indie
 654660,strategy
-386430,indie
-386430,sports
 678710,action
 678710,adventure
 678710,indie
@@ -37792,9 +36175,6 @@ item_id,genres
 587460,casual
 587460,free to play
 587460,strategy
-670550,adventure
-670550,racing
-670550,sports
 327690,action
 327690,free to play
 327690,strategy
@@ -37910,11 +36290,6 @@ item_id,genres
 665410,simulation
 653210,adventure
 653210,indie
-516030,adventure
-516030,casual
-516030,indie
-516030,rpg
-516030,strategy
 536770,adventure
 536770,casual
 536770,indie
@@ -37938,9 +36313,6 @@ item_id,genres
 665090,adventure
 665090,indie
 665090,rpg
-375390,action
-375390,adventure
-375390,indie
 666660,adventure
 666660,strategy
 647960,indie
@@ -38488,9 +36860,6 @@ item_id,genres
 639050,action
 639050,free to play
 639050,strategy
-588800,action
-588800,adventure
-588800,indie
 652700,adventure
 652700,casual
 652700,indie
@@ -38522,8 +36891,6 @@ item_id,genres
 662690,indie
 573820,racing
 659971,action
-445020,indie
-445020,strategy
 659970,action
 652340,casual
 652340,indie
@@ -38558,7 +36925,6 @@ item_id,genres
 657180,early access
 617570,audio production
 617570,utilities
-487500,indie
 653950,adventure
 653950,indie
 645460,action
@@ -38656,9 +37022,6 @@ item_id,genres
 659710,adventure
 659710,indie
 659710,rpg
-651370,action
-651370,adventure
-651370,indie
 625080,design &amp; illustration
 650880,adventure
 650880,casual
@@ -38784,12 +37147,6 @@ item_id,genres
 650250,casual
 650250,indie
 612260,simulation
-510370,action
-510370,adventure
-510370,free to play
-510370,indie
-510370,rpg
-510370,strategy
 628490,action
 628490,adventure
 628490,casual
@@ -38922,7 +37279,6 @@ item_id,genres
 620745,rpg
 647890,adventure
 647890,casual
-650310,rpg
 620900,action
 620900,indie
 648980,indie
@@ -39099,8 +37455,6 @@ item_id,genres
 641380,action
 573832,action
 573832,adventure
-642010,simulation
-642010,strategy
 582550,casual
 582550,indie
 582550,simulation
@@ -39271,9 +37625,6 @@ item_id,genres
 631553,action
 631552,action
 631551,action
-608580,action
-608580,adventure
-608580,early access
 631550,action
 619890,action
 645960,simulation
@@ -39391,8 +37742,6 @@ item_id,genres
 592860,simulation
 592860,sports
 639700,indie
-634810,action
-634810,adventure
 468160,casual
 468160,indie
 468160,strategy
@@ -39416,8 +37765,6 @@ item_id,genres
 598021,adventure
 523110,audio production
 523110,video production
-618550,casual
-618550,indie
 620530,adventure
 620530,casual
 620530,free to play
@@ -39429,9 +37776,6 @@ item_id,genres
 365810,casual
 365810,indie
 365810,simulation
-640230,adventure
-640230,simulation
-640230,sports
 641940,action
 641940,indie
 641940,simulation
@@ -39685,11 +38029,6 @@ item_id,genres
 641020,strategy
 635370,indie
 635370,simulation
-640200,action
-640200,adventure
-640200,free to play
-640200,massively multiplayer
-640200,rpg
 612520,strategy
 612300,strategy
 639070,action
@@ -39763,9 +38102,6 @@ item_id,genres
 534780,indie
 534780,early access
 636131,simulation
-628410,action
-628410,adventure
-628410,free to play
 605951,action
 605951,indie
 605951,strategy
@@ -40082,10 +38418,6 @@ item_id,genres
 632510,indie
 574820,casual
 574820,indie
-468250,free to play
-468250,indie
-468250,massively multiplayer
-468250,strategy
 620320,rpg
 620326,rpg
 620321,rpg
@@ -40097,8 +38429,6 @@ item_id,genres
 624390,action
 624390,casual
 624390,indie
-628870,free to play
-628870,sports
 629280,adventure
 629280,casual
 633310,simulation
@@ -40159,20 +38489,14 @@ item_id,genres
 551916,strategy
 554371,indie
 554371,strategy
-551913,indie
-551913,strategy
 553170,indie
 553170,strategy
 551912,indie
 551912,strategy
 553271,indie
 553271,strategy
-551915,indie
-551915,strategy
 551918,indie
 551918,strategy
-551914,indie
-551914,strategy
 547620,indie
 547620,strategy
 564890,indie
@@ -40236,9 +38560,6 @@ item_id,genres
 616110,casual
 616110,indie
 633280,simulation
-621000,casual
-621000,indie
-621000,strategy
 618510,action
 618510,indie
 628340,action
@@ -40409,12 +38730,6 @@ item_id,genres
 586880,adventure
 586880,casual
 586880,indie
-547860,action
-547860,adventure
-547860,indie
-547860,massively multiplayer
-547860,rpg
-547860,early access
 609100,adventure
 609100,indie
 609100,strategy
@@ -40471,7 +38786,6 @@ item_id,genres
 468720,rpg
 468720,simulation
 468720,strategy
-485130,indie
 589430,action
 589430,indie
 589430,massively multiplayer
@@ -40690,11 +39004,6 @@ item_id,genres
 620270,strategy
 626900,indie
 623670,indie
-443590,action
-443590,adventure
-443590,casual
-443590,indie
-443590,rpg
 575860,action
 575860,adventure
 575860,casual
@@ -40742,24 +39051,14 @@ item_id,genres
 625660,casual
 625660,indie
 625660,simulation
-588480,action
-588480,casual
-588480,indie
-588480,sports
 617560,animation &amp; modeling
 617560,design &amp; illustration
-612570,indie
-612570,rpg
-612570,strategy
 370620,adventure
 370620,casual
 370620,indie
 370620,rpg
 543940,casual
 543940,indie
-382560,action
-382560,adventure
-382560,indie
 627370,action
 627370,strategy
 564700,adventure
@@ -40776,7 +39075,6 @@ item_id,genres
 614003,simulation
 614002,simulation
 626650,audio production
-430890,audio production
 623890,adventure
 623890,indie
 512315,simulation
@@ -40788,11 +39086,6 @@ item_id,genres
 582270,rpg
 582270,simulation
 625350,adventure
-547370,action
-547370,casual
-547370,free to play
-547370,massively multiplayer
-547370,rpg
 624850,design &amp; illustration
 624850,web publishing
 622830,strategy
@@ -40913,9 +39206,6 @@ item_id,genres
 546380,adventure
 546380,casual
 546380,indie
-619790,adventure
-619790,simulation
-619790,sports
 586470,adventure
 586470,indie
 616860,casual
@@ -41203,14 +39493,8 @@ item_id,genres
 568770,free to play
 568770,indie
 568770,simulation
-620210,adventure
-620210,casual
-620210,indie
 614650,adventure
 614650,casual
-615530,adventure
-615530,casual
-615530,indie
 610520,adventure
 610520,indie
 618700,design &amp; illustration
@@ -41259,9 +39543,6 @@ item_id,genres
 585970,action
 585970,casual
 585970,indie
-504430,action
-504430,adventure
-504430,indie
 410330,indie
 410330,strategy
 599480,adventure
@@ -41450,16 +39731,10 @@ item_id,genres
 619190,indie
 619190,rpg
 619190,strategy
-492822,action
-492822,indie
-492821,action
-492821,indie
 519110,adventure
 519110,casual
 587570,adventure
 587570,free to play
-492820,action
-492820,indie
 598590,action
 598590,adventure
 598590,indie
@@ -41626,9 +39901,6 @@ item_id,genres
 609200,rpg
 616550,strategy
 548130,action
-438330,adventure
-438330,indie
-438330,strategy
 602450,free to play
 602450,massively multiplayer
 602450,rpg
@@ -41806,12 +40078,6 @@ item_id,genres
 605050,indie
 580010,adventure
 580010,casual
-612900,action
-612900,rpg
-415620,adventure
-415620,indie
-415620,rpg
-415620,simulation
 569681,action
 569684,action
 509744,casual
@@ -42120,8 +40386,6 @@ item_id,genres
 562640,rpg
 605790,adventure
 605790,casual
-494240,action
-494240,indie
 509560,adventure
 509560,free to play
 509560,indie
@@ -42146,14 +40410,11 @@ item_id,genres
 555700,action
 555700,adventure
 555700,indie
-603930,action
-603930,indie
 597270,strategy
 609240,adventure
 609240,indie
 539340,adventure
 539340,indie
-604580,adventure
 593052,action
 570363,casual
 570363,indie
@@ -42187,9 +40448,6 @@ item_id,genres
 606860,adventure
 606860,casual
 606860,indie
-304690,free to play
-304690,indie
-304690,massively multiplayer
 355280,casual
 355280,indie
 606060,action
@@ -42516,8 +40774,6 @@ item_id,genres
 577100,indie
 577100,massively multiplayer
 577100,rpg
-554720,casual
-554720,indie
 588750,indie
 588750,racing
 588750,simulation
@@ -42569,10 +40825,6 @@ item_id,genres
 600450,indie
 599440,design &amp; illustration
 599440,web publishing
-530340,action
-530340,casual
-530340,free to play
-530340,indie
 599441,design &amp; illustration
 599441,web publishing
 509130,indie
@@ -42892,8 +41144,6 @@ item_id,genres
 591950,strategy
 585590,casual
 585590,indie
-449380,animation &amp; modeling
-449380,design &amp; illustration
 587070,action
 587070,adventure
 587070,casual
@@ -43233,8 +41483,6 @@ item_id,genres
 564940,indie
 583260,adventure
 583260,indie
-591710,action
-591710,rpg
 587210,casual
 587210,indie
 372080,indie
@@ -43320,7 +41568,6 @@ item_id,genres
 587660,indie
 588100,action
 588100,indie
-574590,indie
 537080,simulation
 560170,action
 560170,adventure
@@ -43539,9 +41786,6 @@ item_id,genres
 581590,casual
 581590,indie
 581590,simulation
-543560,adventure
-543560,free to play
-543560,indie
 515140,racing
 515140,simulation
 515140,sports
@@ -43559,9 +41803,6 @@ item_id,genres
 579860,indie
 509780,action
 509780,indie
-584820,casual
-584820,indie
-584820,sports
 525520,indie
 525520,rpg
 525520,strategy
@@ -43862,8 +42103,6 @@ item_id,genres
 554570,early access
 521650,strategy
 521660,strategy
-341050,adventure
-341050,indie
 534820,action
 534820,casual
 534820,free to play
@@ -44077,8 +42316,6 @@ item_id,genres
 572030,action
 578320,adventure
 578320,casual
-563730,action
-563730,rpg
 576280,action
 576280,indie
 576280,rpg
@@ -44474,13 +42711,6 @@ item_id,genres
 550440,adventure
 550440,casual
 550440,indie
-508460,action
-508460,strategy
-508460,early access
-352720,indie
-352720,simulation
-352720,strategy
-352720,early access
 575930,adventure
 575930,indie
 575930,rpg
@@ -44489,10 +42719,6 @@ item_id,genres
 444490,action
 444490,indie
 444490,massively multiplayer
-364210,casual
-364210,rpg
-364210,simulation
-364210,strategy
 573500,indie
 573500,rpg
 573500,strategy
@@ -44534,7 +42760,6 @@ item_id,genres
 512560,free to play
 512560,strategy
 512560,early access
-516360,adventure
 569245,casual
 569245,simulation
 569248,casual
@@ -44682,9 +42907,6 @@ item_id,genres
 542280,adventure
 542280,casual
 542280,indie
-526002,action
-526002,massively multiplayer
-526002,rpg
 557570,indie
 500320,adventure
 500320,indie
@@ -44760,9 +42982,6 @@ item_id,genres
 535280,racing
 535280,simulation
 535280,strategy
-539250,racing
-539250,simulation
-539250,strategy
 559900,action
 570960,action
 570960,free to play
@@ -45132,10 +43351,6 @@ item_id,genres
 514920,indie
 514920,racing
 514920,early access
-528740,free to play
-528740,massively multiplayer
-528740,simulation
-528740,strategy
 557001,action
 557001,indie
 557001,strategy
@@ -45149,17 +43364,11 @@ item_id,genres
 431830,action
 431830,adventure
 431830,indie
-526000,action
-526000,massively multiplayer
-526000,rpg
 423590,adventure
 423590,indie
 554340,adventure
 554340,indie
 568940,action
-526001,action
-526001,massively multiplayer
-526001,rpg
 356460,action
 356460,indie
 356460,racing
@@ -45266,12 +43475,6 @@ item_id,genres
 533010,indie
 558030,action
 558030,casual
-521250,action
-521250,adventure
-521250,casual
-521250,indie
-521250,simulation
-521250,strategy
 568150,action
 568150,casual
 568150,indie
@@ -45413,10 +43616,6 @@ item_id,genres
 549660,indie
 545370,adventure
 545370,indie
-506940,action
-506940,casual
-506940,indie
-506940,strategy
 564180,action
 564180,adventure
 564180,indie
@@ -45533,13 +43732,6 @@ item_id,genres
 547030,casual
 547030,free to play
 547030,indie
-466450,action
-466450,adventure
-255252,action
-255252,free to play
-255252,massively multiplayer
-255252,rpg
-255252,strategy
 539980,action
 539980,adventure
 539980,casual
@@ -45586,9 +43778,6 @@ item_id,genres
 551810,simulation
 551810,sports
 551810,strategy
-561240,action
-561240,indie
-561240,massively multiplayer
 527420,adventure
 527420,casual
 563590,action
@@ -45716,8 +43905,6 @@ item_id,genres
 525018,adventure
 525033,action
 525033,adventure
-525019,action
-525019,adventure
 525035,action
 525035,adventure
 558390,action
@@ -45781,8 +43968,6 @@ item_id,genres
 553610,indie
 553610,simulation
 553610,strategy
-548420,action
-548420,rpg
 547410,massively multiplayer
 547410,racing
 547410,simulation
@@ -45799,8 +43984,6 @@ item_id,genres
 559381,indie
 559381,simulation
 537130,adventure
-525010,action
-525010,adventure
 535840,casual
 535840,indie
 550240,adventure
@@ -46068,10 +44251,6 @@ item_id,genres
 555660,indie
 555520,adventure
 555520,casual
-556740,action
-556740,adventure
-556740,indie
-556740,rpg
 556650,adventure
 556650,casual
 556650,free to play
@@ -46496,10 +44675,6 @@ item_id,genres
 534350,casual
 534350,simulation
 534350,strategy
-413110,action
-413110,rpg
-413110,simulation
-413110,early access
 544440,casual
 544440,simulation
 544440,strategy
@@ -46820,8 +44995,6 @@ item_id,genres
 453480,strategy
 489180,animation &amp; modeling
 489180,design &amp; illustration
-472690,action
-472690,indie
 488993,design &amp; illustration
 488993,photo editing
 488993,utilities
@@ -46999,9 +45172,6 @@ item_id,genres
 542710,casual
 533280,action
 533280,indie
-492840,action
-492840,free to play
-492840,indie
 529580,adventure
 537360,casual
 537360,indie
@@ -47176,9 +45346,6 @@ item_id,genres
 525330,strategy
 542640,design &amp; illustration
 542640,web publishing
-495900,action
-495900,indie
-495900,sports
 528300,adventure
 528300,indie
 543090,strategy
@@ -47405,13 +45572,9 @@ item_id,genres
 522651,action
 522651,indie
 522651,rpg
-522334,action
-522334,adventure
 532240,indie
 532240,simulation
 532240,strategy
-522333,action
-522333,adventure
 522590,indie
 471730,action
 471730,indie
@@ -47554,8 +45717,6 @@ item_id,genres
 541800,action
 541800,indie
 535950,action
-526910,adventure
-526910,indie
 539260,simulation
 539260,strategy
 487150,simulation
@@ -47788,9 +45949,6 @@ item_id,genres
 252850,indie
 252850,sports
 252850,early access
-531810,action
-531810,indie
-531810,sports
 529200,action
 529200,indie
 529200,sports
@@ -48064,9 +46222,6 @@ item_id,genres
 497640,casual
 497640,free to play
 497640,indie
-427630,action
-427630,indie
-398950,rpg
 525600,adventure
 525600,casual
 525600,indie
@@ -48189,9 +46344,6 @@ item_id,genres
 369530,simulation
 369530,strategy
 369530,early access
-364500,action
-364500,indie
-364500,strategy
 355400,action
 355400,racing
 355400,early access
@@ -48208,8 +46360,6 @@ item_id,genres
 533040,casual
 416180,action
 416180,indie
-527520,action
-527520,indie
 496930,adventure
 496930,casual
 496930,indie
@@ -48319,10 +46469,6 @@ item_id,genres
 502650,sports
 530500,adventure
 530500,rpg
-433370,adventure
-433370,indie
-433370,rpg
-433370,strategy
 489170,indie
 489170,strategy
 505650,free to play
@@ -48385,8 +46531,6 @@ item_id,genres
 512430,casual
 512430,indie
 512430,strategy
-530720,casual
-530720,indie
 510630,free to play
 510630,indie
 510630,sports
@@ -48402,9 +46546,6 @@ item_id,genres
 522980,casual
 522980,free to play
 522980,indie
-367320,action
-367320,adventure
-367320,indie
 464300,racing
 464300,simulation
 464300,sports
@@ -48730,15 +46871,6 @@ item_id,genres
 509930,indie
 503320,adventure
 503320,indie
-475131,action
-475131,adventure
-475131,rpg
-475132,action
-475132,adventure
-475132,rpg
-475130,action
-475130,adventure
-475130,rpg
 516930,indie
 526570,action
 526570,adventure
@@ -48759,10 +46891,6 @@ item_id,genres
 491491,simulation
 525390,audio production
 491492,simulation
-496570,action
-496570,indie
-496570,massively multiplayer
-496570,rpg
 516810,action
 516810,adventure
 516810,casual
@@ -48970,7 +47098,6 @@ item_id,genres
 466770,action
 466770,indie
 466770,early access
-432200,utilities
 497520,design &amp; illustration
 521010,action
 521010,indie
@@ -48994,7 +47121,6 @@ item_id,genres
 523910,rpg
 523910,simulation
 523910,strategy
-522940,action
 516460,indie
 516460,simulation
 516460,early access
@@ -49074,11 +47200,6 @@ item_id,genres
 503830,adventure
 503830,indie
 503830,rpg
-430440,action
-430440,indie
-430440,rpg
-430440,strategy
-430440,early access
 325730,action
 325730,adventure
 325730,indie
@@ -49228,8 +47349,6 @@ item_id,genres
 462860,rpg
 504260,casual
 504260,indie
-422080,action
-422080,indie
 411380,action
 288220,indie
 288220,simulation
@@ -49574,9 +47693,6 @@ item_id,genres
 510380,strategy
 509910,rpg
 509910,strategy
-509430,indie
-509430,simulation
-509430,strategy
 435440,free to play
 435440,massively multiplayer
 435440,strategy
@@ -49857,8 +47973,6 @@ item_id,genres
 262630,action
 262630,adventure
 262630,indie
-392830,action
-392830,indie
 506600,casual
 506600,indie
 506600,rpg
@@ -49872,7 +47986,6 @@ item_id,genres
 376964,simulation
 290870,indie
 290870,strategy
-491380,utilities
 495960,adventure
 495960,casual
 495960,indie
@@ -49894,15 +48007,8 @@ item_id,genres
 508150,indie
 508150,massively multiplayer
 508150,rpg
-503500,action
-503500,adventure
-503500,indie
 503820,adventure
 503820,indie
-406350,racing
-406350,simulation
-406350,sports
-406350,early access
 508290,action
 508290,casual
 508290,indie
@@ -49942,10 +48048,6 @@ item_id,genres
 472770,indie
 506620,adventure
 506620,indie
-436680,casual
-436680,indie
-436680,rpg
-436680,simulation
 486760,casual
 486760,indie
 486760,strategy
@@ -50122,10 +48224,6 @@ item_id,genres
 495010,indie
 495010,strategy
 450250,strategy
-449780,casual
-449780,free to play
-449780,indie
-449780,strategy
 494980,action
 494980,adventure
 494980,indie
@@ -50187,7 +48285,6 @@ item_id,genres
 378520,adventure
 445992,action
 445992,adventure
-489500,adventure
 465060,action
 501200,indie
 376952,simulation
@@ -50452,8 +48549,6 @@ item_id,genres
 493330,design &amp; illustration
 493330,utilities
 499550,strategy
-359980,action
-359980,indie
 333340,action
 333340,adventure
 333340,casual
@@ -50811,15 +48906,7 @@ item_id,genres
 489330,action
 489330,adventure
 489330,indie
-450660,action
-450660,rpg
-487210,action
-487210,rpg
 464120,utilities
-478960,animation &amp; modeling
-478960,education
-478960,utilities
-478960,web publishing
 487220,casual
 487220,indie
 448940,adventure
@@ -50886,13 +48973,6 @@ item_id,genres
 478052,simulation
 478052,sports
 467040,action
-471750,action
-471750,adventure
-471750,free to play
-471750,indie
-471750,massively multiplayer
-471750,rpg
-471750,strategy
 479180,adventure
 479180,indie
 479180,massively multiplayer
@@ -51053,7 +49133,6 @@ item_id,genres
 364420,indie
 364420,rpg
 277700,indie
-432310,sports
 301930,adventure
 301930,indie
 301930,strategy
@@ -51215,14 +49294,11 @@ item_id,genres
 456780,racing
 456780,simulation
 456780,sports
-423670,adventure
 485810,adventure
 485810,indie
 486200,free to play
 486200,massively multiplayer
 486200,rpg
-459460,action
-459460,adventure
 461242,indie
 461242,simulation
 467510,indie
@@ -51264,7 +49340,6 @@ item_id,genres
 440520,utilities
 465480,indie
 465480,strategy
-458440,action
 347330,action
 347330,adventure
 347330,indie
@@ -51401,9 +49476,6 @@ item_id,genres
 470590,indie
 470590,racing
 470590,simulation
-459160,free to play
-459160,massively multiplayer
-459160,rpg
 451000,action
 451000,indie
 482720,indie
@@ -51448,11 +49520,6 @@ item_id,genres
 339110,indie
 405500,action
 405500,sports
-464470,action
-464470,adventure
-464470,indie
-464470,rpg
-464470,early access
 457980,adventure
 457980,indie
 471740,action
@@ -51554,10 +49621,6 @@ item_id,genres
 473770,indie
 473770,racing
 473770,early access
-423620,action
-423620,indie
-423620,rpg
-423620,strategy
 465920,adventure
 465920,casual
 475420,casual
@@ -51590,7 +49653,6 @@ item_id,genres
 435960,simulation
 383150,action
 383180,action
-440930,action
 485950,indie
 485950,strategy
 485280,action
@@ -51714,8 +49776,6 @@ item_id,genres
 374670,early access
 385950,casual
 385950,strategy
-465090,simulation
-465090,sports
 434632,simulation
 434631,simulation
 434633,simulation
@@ -51765,8 +49825,6 @@ item_id,genres
 450341,casual
 450341,indie
 450341,rpg
-476050,design &amp; illustration
-476050,web publishing
 450342,adventure
 450342,casual
 450342,indie
@@ -51775,8 +49833,6 @@ item_id,genres
 470500,software training
 470500,utilities
 470500,video production
-476041,design &amp; illustration
-476041,web publishing
 472830,action
 472830,indie
 476040,design &amp; illustration
@@ -52094,10 +50150,6 @@ item_id,genres
 454060,indie
 454060,simulation
 468310,action
-398280,action
-398280,adventure
-398280,indie
-398280,strategy
 468320,casual
 463190,adventure
 463190,casual
@@ -52270,10 +50322,6 @@ item_id,genres
 435750,design &amp; illustration
 435750,software training
 435750,utilities
-456210,adventure
-456210,indie
-456210,rpg
-456210,strategy
 448730,simulation
 448730,strategy
 459520,casual
@@ -52300,8 +50348,6 @@ item_id,genres
 401510,indie
 388476,indie
 388476,simulation
-459890,action
-459890,indie
 469670,animation &amp; modeling
 469670,design &amp; illustration
 469670,education
@@ -52420,8 +50466,6 @@ item_id,genres
 358760,adventure
 358760,casual
 358760,indie
-426110,casual
-426110,indie
 431300,casual
 464760,action
 464760,adventure
@@ -52982,12 +51026,6 @@ item_id,genres
 457840,action
 457840,adventure
 457840,indie
-457842,action
-457842,adventure
-457842,indie
-457841,action
-457841,adventure
-457841,indie
 454890,action
 454890,casual
 454890,indie
@@ -53157,7 +51195,6 @@ item_id,genres
 405580,strategy
 366780,adventure
 366780,indie
-440921,strategy
 434480,casual
 434480,free to play
 434480,indie
@@ -53213,7 +51250,6 @@ item_id,genres
 455561,indie
 455560,adventure
 455560,indie
-455740,adventure
 402530,adventure
 407690,sports
 455562,adventure
@@ -53352,10 +51388,7 @@ item_id,genres
 447740,adventure
 447740,indie
 447740,rpg
-440920,strategy
-440915,strategy
 375450,strategy
-440912,strategy
 431230,adventure
 431230,indie
 431230,strategy
@@ -53472,9 +51505,6 @@ item_id,genres
 455530,indie
 455530,simulation
 453740,action
-432660,action
-432660,adventure
-432660,indie
 444760,indie
 444760,simulation
 444760,strategy
@@ -53735,10 +51765,6 @@ item_id,genres
 453460,strategy
 453160,design &amp; illustration
 453160,web publishing
-443000,action
-443000,indie
-443000,simulation
-443000,strategy
 369990,indie
 369990,strategy
 405440,action
@@ -53976,9 +52002,6 @@ item_id,genres
 450093,indie
 450093,rpg
 450093,strategy
-446510,action
-446510,indie
-446510,strategy
 450094,indie
 450094,rpg
 450094,strategy
@@ -54059,9 +52082,6 @@ item_id,genres
 425544,action
 425544,indie
 425544,strategy
-366580,adventure
-366580,indie
-366580,strategy
 442220,action
 442220,casual
 442220,free to play
@@ -54201,15 +52221,6 @@ item_id,genres
 444420,casual
 444420,indie
 444420,rpg
-445321,free to play
-445321,massively multiplayer
-445321,rpg
-445330,free to play
-445330,massively multiplayer
-445330,rpg
-445320,free to play
-445320,massively multiplayer
-445320,rpg
 429160,action
 429160,indie
 378810,adventure
@@ -54363,10 +52374,6 @@ item_id,genres
 440130,free to play
 440130,indie
 440130,simulation
-384730,action
-384730,adventure
-384730,indie
-384730,rpg
 431510,adventure
 431510,casual
 431510,indie
@@ -54440,17 +52447,9 @@ item_id,genres
 408680,racing
 408680,simulation
 408680,sports
-438830,adventure
-438830,casual
-438830,indie
-438830,rpg
-438830,simulation
 402350,racing
 402350,simulation
 402350,sports
-438120,action
-438120,adventure
-438120,indie
 434220,action
 434220,adventure
 434220,indie
@@ -54472,9 +52471,6 @@ item_id,genres
 438980,rpg
 438980,simulation
 438980,strategy
-437580,action
-437580,adventure
-437580,rpg
 427040,casual
 427040,indie
 427040,simulation
@@ -54604,7 +52600,6 @@ item_id,genres
 438020,action
 438020,indie
 438020,strategy
-420540,simulation
 437640,free to play
 437640,massively multiplayer
 437640,rpg
@@ -54679,9 +52674,6 @@ item_id,genres
 432800,adventure
 432800,indie
 432800,rpg
-346220,massively multiplayer
-346220,rpg
-346220,simulation
 397820,casual
 396010,action
 396010,indie
@@ -54771,7 +52763,6 @@ item_id,genres
 437660,rpg
 437660,simulation
 437660,strategy
-424880,simulation
 411340,accounting
 387130,action
 387130,indie
@@ -54808,8 +52799,6 @@ item_id,genres
 434060,simulation
 350740,action
 350740,indie
-432670,action
-432670,adventure
 390430,casual
 390430,simulation
 434270,action
@@ -54826,8 +52815,6 @@ item_id,genres
 353700,action
 353700,adventure
 353700,indie
-381716,action
-381716,adventure
 339340,action
 339340,adventure
 262060,indie
@@ -54925,7 +52912,6 @@ item_id,genres
 263940,simulation
 420380,simulation
 420380,sports
-432530,indie
 386480,adventure
 386480,casual
 386480,indie
@@ -54954,9 +52940,6 @@ item_id,genres
 424320,adventure
 424320,casual
 424320,indie
-431420,action
-431420,indie
-431420,simulation
 429950,action
 429950,adventure
 429950,indie
@@ -54971,13 +52954,6 @@ item_id,genres
 420070,action
 420070,adventure
 420070,indie
-282370,action
-282370,indie
-432220,action
-432220,adventure
-432220,indie
-432220,rpg
-432220,strategy
 405640,indie
 428010,indie
 428900,action
@@ -55008,11 +52984,6 @@ item_id,genres
 431540,free to play
 431540,indie
 428060,indie
-402050,action
-402050,adventure
-402050,free to play
-402050,indie
-402050,rpg
 431470,adventure
 431470,rpg
 431470,strategy
@@ -55072,9 +53043,6 @@ item_id,genres
 390730,action
 390730,indie
 411401,action
-409230,action
-409230,indie
-409230,strategy
 430060,animation &amp; modeling
 430060,design &amp; illustration
 430060,education
@@ -55109,10 +53077,6 @@ item_id,genres
 416380,action
 416380,indie
 325981,simulation
-414050,action
-414050,adventure
-414050,indie
-414050,rpg
 334791,racing
 334791,simulation
 334791,sports
@@ -55161,9 +53125,6 @@ item_id,genres
 406950,utilities
 429470,adventure
 429470,indie
-429730,action
-429730,free to play
-429730,massively multiplayer
 426930,action
 426930,indie
 426930,early access
@@ -55218,8 +53179,6 @@ item_id,genres
 426590,simulation
 426590,strategy
 426590,early access
-428030,indie
-428030,rpg
 428020,indie
 428020,rpg
 390410,casual
@@ -55279,9 +53238,6 @@ item_id,genres
 422300,indie
 422300,strategy
 422300,early access
-428090,action
-428090,indie
-428090,rpg
 393380,action
 393380,indie
 393380,strategy
@@ -55341,8 +53297,6 @@ item_id,genres
 200150,casual
 200150,strategy
 402460,casual
-423450,indie
-423450,rpg
 412242,action
 412242,free to play
 412242,massively multiplayer
@@ -55466,9 +53420,6 @@ item_id,genres
 425750,simulation
 425940,indie
 425940,simulation
-426900,adventure
-426900,casual
-426900,indie
 422140,simulation
 422140,sports
 396360,indie
@@ -55543,8 +53494,6 @@ item_id,genres
 421940,action
 421940,casual
 421940,indie
-419210,action
-419210,indie
 392600,indie
 413330,indie
 413330,rpg
@@ -55625,12 +53574,8 @@ item_id,genres
 387060,indie
 423320,indie
 423320,rpg
-423330,indie
-423330,rpg
 423120,indie
 423120,rpg
-423130,indie
-423130,rpg
 369310,casual
 369310,indie
 369310,strategy
@@ -55662,8 +53607,6 @@ item_id,genres
 396810,indie
 396810,massively multiplayer
 396810,rpg
-422400,action
-422400,rpg
 423740,action
 423740,rpg
 424750,casual
@@ -55718,8 +53661,6 @@ item_id,genres
 408610,indie
 408610,racing
 408610,sports
-379250,massively multiplayer
-379250,simulation
 369300,adventure
 420770,action
 420770,adventure
@@ -55742,19 +53683,12 @@ item_id,genres
 423760,casual
 423760,indie
 423760,strategy
-424070,action
-424070,adventure
-424070,casual
-424070,indie
-424070,strategy
 304580,casual
 304580,simulation
 397040,action
 397040,free to play
 397040,massively multiplayer
 397040,rpg
-346370,action
-346370,indie
 419951,action
 419951,casual
 419951,indie
@@ -55794,10 +53728,6 @@ item_id,genres
 422120,adventure
 422120,indie
 422120,rpg
-422160,action
-422160,adventure
-422160,indie
-422160,rpg
 363180,casual
 363180,indie
 363180,strategy
@@ -55816,7 +53746,6 @@ item_id,genres
 401330,adventure
 401330,casual
 401330,indie
-423370,simulation
 411630,action
 411630,adventure
 411630,indie
@@ -55915,9 +53844,6 @@ item_id,genres
 342530,casual
 342530,indie
 342530,early access
-421830,action
-421830,indie
-421830,rpg
 418910,indie
 418910,rpg
 418910,simulation
@@ -55934,8 +53860,6 @@ item_id,genres
 388030,massively multiplayer
 388030,strategy
 403700,action
-419060,indie
-419060,strategy
 359060,action
 359060,indie
 359060,racing
@@ -55947,8 +53871,6 @@ item_id,genres
 420000,simulation
 421630,indie
 421630,rpg
-421640,indie
-421640,rpg
 410480,indie
 410480,strategy
 386280,action
@@ -55990,9 +53912,6 @@ item_id,genres
 386130,rpg
 387930,indie
 382470,rpg
-418840,adventure
-418840,casual
-418840,indie
 418440,adventure
 418440,casual
 418440,indie
@@ -56027,9 +53946,6 @@ item_id,genres
 397420,casual
 396850,adventure
 396850,casual
-420390,free to play
-420390,massively multiplayer
-420390,rpg
 416320,adventure
 416320,casual
 416320,strategy
@@ -56071,13 +53987,8 @@ item_id,genres
 415950,casual
 415950,indie
 415950,simulation
-420410,free to play
-420410,massively multiplayer
-420410,rpg
 415400,casual
 415400,indie
-417420,adventure
-417420,indie
 346730,action
 346730,casual
 346730,indie
@@ -56093,8 +54004,6 @@ item_id,genres
 412940,free to play
 412940,simulation
 379243,simulation
-418000,indie
-418000,early access
 379242,simulation
 394290,action
 394290,casual
@@ -56125,10 +54034,6 @@ item_id,genres
 333300,indie
 333300,rpg
 333300,strategy
-415870,action
-415870,indie
-419290,adventure
-419290,rpg
 385511,action
 385511,adventure
 385511,indie
@@ -56202,9 +54107,6 @@ item_id,genres
 338120,casual
 338120,indie
 345681,simulation
-417520,adventure
-417520,indie
-417520,rpg
 325972,simulation
 409100,indie
 414210,action
@@ -56224,9 +54126,6 @@ item_id,genres
 365960,racing
 365960,simulation
 365960,sports
-400330,racing
-400330,simulation
-400330,sports
 414500,action
 414500,adventure
 414500,casual
@@ -56276,7 +54175,6 @@ item_id,genres
 401450,free to play
 401450,strategy
 382467,rpg
-408010,indie
 372310,adventure
 372310,indie
 403180,adventure
@@ -56329,8 +54227,6 @@ item_id,genres
 287980,strategy
 416640,indie
 416640,rpg
-416650,indie
-416650,rpg
 409380,casual
 409380,simulation
 399020,indie
@@ -56374,10 +54270,6 @@ item_id,genres
 401170,indie
 401170,rpg
 401170,strategy
-410030,action
-410030,indie
-410030,rpg
-410030,strategy
 288260,action
 288260,casual
 288260,indie
@@ -56526,9 +54418,6 @@ item_id,genres
 415750,simulation
 365880,adventure
 365880,indie
-402410,action
-402410,casual
-402410,indie
 415220,action
 415220,casual
 415220,indie
@@ -56555,9 +54444,6 @@ item_id,genres
 360620,early access
 390970,adventure
 390970,casual
-381290,action
-381290,simulation
-381290,early access
 329440,adventure
 415890,action
 415890,indie
@@ -56572,8 +54458,6 @@ item_id,genres
 413510,indie
 413510,early access
 414590,indie
-407960,indie
-407960,strategy
 388070,action
 388070,adventure
 388070,indie
@@ -56692,15 +54576,8 @@ item_id,genres
 350172,adventure
 313100,action
 313100,adventure
-410940,adventure
-410940,indie
-410940,rpg
-410940,strategy
 401629,action
 401629,adventure
-410680,adventure
-410680,casual
-410680,indie
 412930,adventure
 412930,casual
 412930,simulation
@@ -56726,10 +54603,6 @@ item_id,genres
 410910,rpg
 411570,indie
 411570,rpg
-410920,indie
-410920,rpg
-411580,indie
-411580,rpg
 405470,audio production
 405470,utilities
 405470,video production
@@ -56773,8 +54646,6 @@ item_id,genres
 378630,indie
 408750,casual
 408750,indie
-340980,indie
-340980,strategy
 389870,adventure
 389870,rpg
 389870,strategy
@@ -56917,8 +54788,6 @@ item_id,genres
 411850,casual
 411850,indie
 411850,simulation
-402630,adventure
-402630,indie
 410210,indie
 410210,racing
 364640,casual
@@ -56934,17 +54803,9 @@ item_id,genres
 410770,simulation
 410770,strategy
 382462,rpg
-405930,massively multiplayer
-409111,free to play
-409111,massively multiplayer
-409110,free to play
-409110,massively multiplayer
 330450,action
 330450,casual
 330450,indie
-410800,action
-410800,indie
-410800,simulation
 362930,racing
 351300,action
 351300,indie
@@ -56977,9 +54838,6 @@ item_id,genres
 258658,simulation
 388450,casual
 403460,action
-404580,adventure
-404580,free to play
-404580,indie
 382400,rpg
 382400,simulation
 382400,strategy
@@ -57040,8 +54898,6 @@ item_id,genres
 376110,indie
 367820,rpg
 367820,early access
-404280,casual
-404280,simulation
 326010,simulation
 400822,action
 400822,massively multiplayer
@@ -57055,14 +54911,6 @@ item_id,genres
 407230,adventure
 407230,indie
 407230,rpg
-381680,adventure
-381680,indie
-381680,rpg
-381680,simulation
-381680,strategy
-409150,action
-409150,casual
-409150,indie
 364260,adventure
 364260,casual
 364260,indie
@@ -57070,8 +54918,6 @@ item_id,genres
 404030,casual
 404030,indie
 404030,simulation
-408470,adventure
-408470,indie
 337570,indie
 337570,simulation
 370220,action
@@ -57100,12 +54946,6 @@ item_id,genres
 407460,utilities
 407460,video production
 407460,web publishing
-401500,indie
-401500,rpg
-408940,adventure
-408940,casual
-408940,free to play
-408940,indie
 406840,software training
 409370,indie
 409370,rpg
@@ -57149,9 +54989,6 @@ item_id,genres
 319430,adventure
 319430,indie
 319430,rpg
-396440,action
-396440,simulation
-396440,strategy
 407120,free to play
 407120,indie
 407120,sports
@@ -57217,11 +55054,6 @@ item_id,genres
 406400,action
 406400,indie
 406400,early access
-405350,action
-405350,adventure
-405350,casual
-405350,indie
-405350,strategy
 352530,indie
 352530,racing
 404650,indie
@@ -57267,9 +55099,6 @@ item_id,genres
 378477,action
 401860,adventure
 401860,indie
-406500,action
-406500,casual
-406500,indie
 370460,action
 312920,sports
 396920,indie
@@ -57325,8 +55154,6 @@ item_id,genres
 360680,indie
 384590,action
 384590,indie
-406660,indie
-406660,rpg
 397740,indie
 397740,rpg
 406650,indie
@@ -57464,9 +55291,6 @@ item_id,genres
 381010,adventure
 381010,casual
 381010,simulation
-401400,casual
-401400,free to play
-401400,strategy
 384090,action
 384090,adventure
 384090,indie
@@ -57518,8 +55342,6 @@ item_id,genres
 401270,strategy
 307590,action
 307590,indie
-379630,action
-379630,indie
 404670,adventure
 404670,indie
 236690,sports
@@ -57540,9 +55362,6 @@ item_id,genres
 404480,indie
 404480,rpg
 404480,simulation
-404910,adventure
-404910,free to play
-404910,indie
 379550,simulation
 379230,simulation
 381850,adventure
@@ -57601,9 +55420,6 @@ item_id,genres
 278510,action
 397980,action
 397980,indie
-394790,casual
-394790,indie
-394790,strategy
 388430,action
 388430,indie
 383780,adventure
@@ -57640,13 +55456,6 @@ item_id,genres
 363040,indie
 363040,rpg
 363040,strategy
-401300,action
-401300,casual
-401300,indie
-401300,racing
-400320,adventure
-400320,indie
-400320,rpg
 371530,action
 371530,indie
 371530,rpg
@@ -57654,8 +55463,6 @@ item_id,genres
 391490,indie
 391490,rpg
 391490,strategy
-403210,free to play
-403210,indie
 395890,casual
 403320,action
 403320,adventure
@@ -57720,8 +55527,6 @@ item_id,genres
 357910,strategy
 340370,adventure
 340370,casual
-401350,action
-401350,indie
 364328,simulation
 360080,simulation
 392880,racing
@@ -57770,9 +55575,6 @@ item_id,genres
 322910,action
 322910,indie
 322910,strategy
-392960,free to play
-392960,indie
-392960,strategy
 397230,action
 397230,indie
 395020,action
@@ -57802,8 +55604,6 @@ item_id,genres
 387981,strategy
 374500,rpg
 374500,strategy
-399760,adventure
-399760,indie
 399230,action
 399230,adventure
 399230,casual
@@ -57861,8 +55661,6 @@ item_id,genres
 397690,indie
 397780,indie
 397780,rpg
-397790,indie
-397790,rpg
 314410,action
 314410,adventure
 314410,indie
@@ -57945,17 +55743,10 @@ item_id,genres
 340830,action
 340830,indie
 340830,rpg
-398430,indie
 362140,adventure
 362140,casual
 362140,indie
 362140,rpg
-253050,animation &amp; modeling
-253050,design &amp; illustration
-253050,education
-253050,software training
-253050,utilities
-253050,video production
 298360,action
 298360,indie
 298360,strategy
@@ -58009,9 +55800,6 @@ item_id,genres
 363240,strategy
 386050,action
 386050,indie
-397010,action
-397010,adventure
-397010,indie
 347660,action
 347660,indie
 347660,early access
@@ -58028,8 +55816,6 @@ item_id,genres
 293460,indie
 293460,rpg
 330390,rpg
-397050,simulation
-397050,strategy
 396820,action
 355500,animation &amp; modeling
 355500,design &amp; illustration
@@ -58117,9 +55903,6 @@ item_id,genres
 390630,indie
 390630,rpg
 390630,strategy
-390640,indie
-390640,rpg
-390640,strategy
 387160,action
 387160,adventure
 387160,indie
@@ -58130,8 +55913,6 @@ item_id,genres
 395050,strategy
 394390,action
 394390,indie
-395970,action
-395970,indie
 365120,action
 365120,adventure
 365120,indie
@@ -58162,7 +55943,6 @@ item_id,genres
 363980,simulation
 394561,free to play
 394561,simulation
-396290,indie
 363670,indie
 336220,action
 336220,adventure
@@ -58179,22 +55959,10 @@ item_id,genres
 385680,indie
 385680,strategy
 385680,early access
-396190,action
-396190,indie
 396230,indie
 396230,rpg
 396250,indie
 396250,rpg
-383370,action
-383370,free to play
-383370,indie
-383370,massively multiplayer
-383370,simulation
-386910,action
-386910,free to play
-386910,indie
-386910,massively multiplayer
-386910,simulation
 381170,action
 381170,adventure
 381170,indie
@@ -58206,8 +55974,6 @@ item_id,genres
 384570,rpg
 308560,adventure
 308560,indie
-387140,adventure
-387140,indie
 393950,action
 393950,indie
 325790,indie
@@ -58231,10 +55997,6 @@ item_id,genres
 335820,rpg
 391170,action
 391170,indie
-372910,adventure
-372910,free to play
-372910,massively multiplayer
-372910,rpg
 391340,adventure
 391340,casual
 391340,indie
@@ -58252,8 +56014,6 @@ item_id,genres
 383590,simulation
 373730,indie
 373730,strategy
-393500,adventure
-393500,indie
 370160,indie
 370160,strategy
 348810,action
@@ -58270,19 +56030,12 @@ item_id,genres
 337700,simulation
 352840,indie
 352840,rpg
-390800,action
-390800,indie
-387910,adventure
-387910,indie
-387910,rpg
 363510,action
 363510,adventure
 363510,casual
 363510,indie
 363510,rpg
 363510,simulation
-394710,adventure
-394710,indie
 395440,action
 395440,indie
 365770,action
@@ -58298,9 +56051,6 @@ item_id,genres
 384360,casual
 384360,indie
 377520,strategy
-378380,action
-378380,adventure
-378380,indie
 356250,adventure
 356250,indie
 363580,indie
@@ -58313,8 +56063,6 @@ item_id,genres
 349460,strategy
 357070,action
 357070,indie
-380050,simulation
-380050,strategy
 258648,simulation
 369801,casual
 369801,simulation
@@ -58322,14 +56070,8 @@ item_id,genres
 389930,strategy
 356050,adventure
 356050,indie
-392320,action
-392320,indie
 376130,action
 376130,indie
-391450,action
-391450,adventure
-391450,indie
-391450,strategy
 325955,simulation
 369802,casual
 369802,simulation
@@ -58406,10 +56148,6 @@ item_id,genres
 367415,rpg
 360650,casual
 360650,strategy
-375980,action
-375980,adventure
-375980,casual
-375980,rpg
 378270,action
 378270,indie
 370700,adventure
@@ -58470,17 +56208,10 @@ item_id,genres
 365020,action
 365020,adventure
 365020,indie
-366600,action
-366600,adventure
-366600,indie
 389620,action
 389620,indie
-349710,action
-349710,casual
-349710,indie
 365150,adventure
 360550,indie
-360560,indie
 373690,indie
 372660,indie
 390760,action
@@ -58539,9 +56270,6 @@ item_id,genres
 378731,action
 378731,indie
 378731,racing
-320290,action
-320290,adventure
-320290,indie
 282780,action
 282780,adventure
 282780,indie
@@ -58566,17 +56294,12 @@ item_id,genres
 383700,casual
 329920,action
 329920,adventure
-388350,casual
-388350,simulation
-388350,sports
-388350,strategy
 390580,action
 390580,adventure
 390580,free to play
 390580,indie
 389900,action
 389900,strategy
-386780,sports
 377890,action
 377890,indie
 377890,strategy
@@ -58627,8 +56350,6 @@ item_id,genres
 389570,free to play
 389570,simulation
 389400,casual
-386110,adventure
-386110,rpg
 379990,action
 379990,adventure
 379990,indie
@@ -58637,10 +56358,6 @@ item_id,genres
 387280,adventure
 387280,indie
 387280,rpg
-301500,action
-301500,adventure
-301500,indie
-301500,simulation
 316010,free to play
 316010,strategy
 377710,adventure
@@ -58649,11 +56366,6 @@ item_id,genres
 369110,action
 369110,indie
 369110,rpg
-366680,adventure
-366680,casual
-366680,indie
-366680,simulation
-366680,strategy
 385580,indie
 356790,action
 356790,indie
@@ -58678,9 +56390,6 @@ item_id,genres
 383750,adventure
 383750,casual
 387850,adventure
-383320,action
-383320,indie
-383320,rpg
 333814,action
 333814,adventure
 380790,casual
@@ -58752,9 +56461,6 @@ item_id,genres
 389910,indie
 389910,rpg
 389910,strategy
-306401,rpg
-306401,simulation
-306401,strategy
 389916,indie
 389916,rpg
 389916,strategy
@@ -58822,9 +56528,6 @@ item_id,genres
 372150,action
 372150,adventure
 372150,indie
-383430,indie
-383430,massively multiplayer
-383430,rpg
 361500,adventure
 361500,indie
 385150,adventure
@@ -58832,8 +56535,6 @@ item_id,genres
 385150,indie
 383530,action
 383530,indie
-374360,action
-374360,adventure
 284220,action
 284220,indie
 387960,action
@@ -58843,8 +56544,6 @@ item_id,genres
 386520,rpg
 296550,adventure
 296550,indie
-386530,indie
-386530,rpg
 331500,action
 331500,strategy
 383730,web publishing
@@ -58949,10 +56648,6 @@ item_id,genres
 378480,rpg
 378480,simulation
 378480,early access
-323900,casual
-323900,free to play
-323900,indie
-323900,strategy
 325951,simulation
 382151,action
 382151,massively multiplayer
@@ -58966,11 +56661,6 @@ item_id,genres
 385070,adventure
 385070,indie
 385070,rpg
-384021,action
-384021,rpg
-387080,action
-387080,adventure
-387080,indie
 381130,indie
 381130,simulation
 381130,strategy
@@ -59003,8 +56693,6 @@ item_id,genres
 381791,sports
 364350,adventure
 364350,indie
-384930,action
-384930,indie
 373390,adventure
 373390,rpg
 373390,strategy
@@ -59040,8 +56728,6 @@ item_id,genres
 350150,early access
 385650,action
 385650,indie
-382060,action
-382060,indie
 370510,action
 370510,adventure
 370510,casual
@@ -59052,10 +56738,6 @@ item_id,genres
 370510,sports
 370510,strategy
 356910,action
-385820,casual
-385820,indie
-385820,strategy
-383990,action
 375170,action
 375170,casual
 375170,indie
@@ -59068,8 +56750,6 @@ item_id,genres
 352188,simulation
 341550,action
 341550,indie
-381770,action
-381770,indie
 379320,action
 379320,indie
 369510,action
@@ -59080,11 +56760,6 @@ item_id,genres
 369510,strategy
 333490,adventure
 333490,indie
-377020,action
-377020,adventure
-377020,indie
-377020,simulation
-377020,strategy
 385540,adventure
 385540,indie
 373980,indie
@@ -59136,7 +56811,6 @@ item_id,genres
 376372,action
 376372,indie
 376372,strategy
-366630,indie
 385160,action
 385160,indie
 382220,indie
@@ -59165,10 +56839,6 @@ item_id,genres
 382200,strategy
 349140,adventure
 349140,indie
-317750,action
-317750,adventure
-317750,indie
-317750,simulation
 369509,action
 369509,casual
 369509,free to play
@@ -59189,8 +56859,6 @@ item_id,genres
 378510,indie
 378510,rpg
 378510,strategy
-383570,action
-383570,indie
 352185,simulation
 352187,simulation
 366350,indie
@@ -59269,24 +56937,14 @@ item_id,genres
 300570,simulation
 382180,action
 382180,indie
-383920,adventure
-383920,casual
-383920,indie
 369040,action
 369040,adventure
 369040,casual
 369040,indie
 369040,simulation
 369040,strategy
-381090,action
-381090,adventure
-381090,indie
 364840,action
 364840,racing
-375560,action
-375560,casual
-375560,indie
-375560,rpg
 383250,action
 383250,indie
 380690,action
@@ -59349,9 +57007,6 @@ item_id,genres
 373200,sports
 382950,action
 382950,indie
-374800,racing
-374800,simulation
-374800,sports
 345260,action
 345260,strategy
 345240,action
@@ -59360,8 +57015,6 @@ item_id,genres
 359230,indie
 359230,simulation
 359230,strategy
-374300,action
-374300,rpg
 366970,action
 366970,indie
 367260,action
@@ -59375,8 +57028,6 @@ item_id,genres
 364670,strategy
 364670,early access
 366250,action
-374301,action
-374301,rpg
 375760,indie
 375760,simulation
 375760,strategy
@@ -59412,8 +57063,6 @@ item_id,genres
 283080,adventure
 283080,indie
 283080,rpg
-379970,adventure
-379970,indie
 363360,action
 363360,indie
 363360,simulation
@@ -59423,8 +57072,6 @@ item_id,genres
 371970,indie
 371970,rpg
 329050,action
-379270,indie
-379270,strategy
 377280,indie
 377280,strategy
 359496,action
@@ -59442,18 +57089,9 @@ item_id,genres
 380740,simulation
 358144,action
 361290,simulation
-380970,simulation
 378110,adventure
 378110,simulation
 378110,strategy
-380930,indie
-380930,simulation
-380930,strategy
-380760,adventure
-380760,casual
-380760,indie
-380760,rpg
-380760,simulation
 380800,adventure
 380800,indie
 351640,action
@@ -59468,7 +57106,6 @@ item_id,genres
 369506,strategy
 322850,simulation
 322850,sports
-375470,simulation
 380170,indie
 380170,rpg
 380170,strategy
@@ -59477,7 +57114,6 @@ item_id,genres
 367550,simulation
 367550,sports
 367550,strategy
-376440,audio production
 341540,adventure
 341540,casual
 341540,indie
@@ -59531,10 +57167,6 @@ item_id,genres
 372820,free to play
 372820,indie
 372820,early access
-379040,adventure
-379040,free to play
-379040,indie
-379040,rpg
 365970,adventure
 365970,indie
 365970,rpg
@@ -59640,10 +57272,6 @@ item_id,genres
 370340,indie
 370341,action
 370341,indie
-348190,free to play
-348190,indie
-348190,rpg
-348190,strategy
 334772,racing
 334772,simulation
 334772,sports
@@ -59661,8 +57289,6 @@ item_id,genres
 371491,simulation
 371492,simulation
 371493,simulation
-374130,casual
-374130,indie
 291472,design &amp; illustration
 291472,web publishing
 297643,design &amp; illustration
@@ -59693,9 +57319,6 @@ item_id,genres
 373590,strategy
 362860,adventure
 362860,indie
-369010,action
-369010,adventure
-369010,indie
 365800,indie
 365800,simulation
 365800,strategy
@@ -59704,8 +57327,6 @@ item_id,genres
 352170,indie
 352170,racing
 352170,simulation
-375140,indie
-375140,rpg
 375130,indie
 375130,rpg
 376530,rpg
@@ -59713,9 +57334,6 @@ item_id,genres
 370750,rpg
 370750,strategy
 370750,early access
-372410,indie
-372410,rpg
-372410,strategy
 331570,action
 331570,adventure
 331570,casual
@@ -59777,9 +57395,6 @@ item_id,genres
 333771,utilities
 375220,casual
 375220,free to play
-376190,indie
-376190,rpg
-376190,strategy
 343690,action
 349720,casual
 349720,free to play
@@ -59852,21 +57467,13 @@ item_id,genres
 268970,early access
 348840,indie
 348840,strategy
-373450,indie
-373450,strategy
 365310,action
 365310,casual
 365310,indie
 365310,racing
-374180,indie
-374180,strategy
 367800,action
 367800,casual
 367800,indie
-374540,adventure
-374540,casual
-374540,indie
-374540,simulation
 365240,strategy
 369890,action
 369890,adventure
@@ -59883,9 +57490,6 @@ item_id,genres
 374100,indie
 335110,casual
 335110,strategy
-374260,action
-374260,adventure
-374260,indie
 365900,adventure
 365900,casual
 365900,indie
@@ -59974,22 +57578,7 @@ item_id,genres
 369980,indie
 369960,indie
 369910,indie
-373350,adventure
-373350,casual
-373350,indie
-369720,action
-369720,adventure
-369720,casual
-369720,free to play
-369720,rpg
-369720,strategy
 277773,simulation
-369710,action
-369710,adventure
-369710,casual
-369710,free to play
-369710,rpg
-369710,strategy
 372970,action
 372970,early access
 330580,action
@@ -60023,10 +57612,6 @@ item_id,genres
 325723,action
 325723,rpg
 369290,adventure
-359860,action
-359860,free to play
-359860,massively multiplayer
-359860,strategy
 278570,adventure
 278570,casual
 278570,indie
@@ -60057,9 +57642,6 @@ item_id,genres
 371110,indie
 371110,rpg
 235800,indie
-372730,action
-372730,adventure
-372730,indie
 373290,action
 373290,indie
 373290,rpg
@@ -60072,16 +57654,6 @@ item_id,genres
 374160,action
 374160,indie
 374160,rpg
-363770,action
-363770,strategy
-357790,action
-357790,strategy
-363780,action
-363780,strategy
-363781,action
-363781,strategy
-373960,casual
-373960,indie
 365320,indie
 372770,action
 372770,indie
@@ -60098,9 +57670,6 @@ item_id,genres
 372280,casual
 372280,indie
 372280,rpg
-372860,adventure
-372860,indie
-372860,strategy
 371790,adventure
 371790,indie
 371790,strategy
@@ -60117,15 +57686,9 @@ item_id,genres
 340670,simulation
 368290,free to play
 368290,indie
-369131,rpg
-369131,strategy
-369130,rpg
-369130,strategy
 340661,rpg
 367000,casual
 367000,indie
-354650,adventure
-354650,indie
 373780,action
 373780,adventure
 373780,indie
@@ -60149,9 +57712,6 @@ item_id,genres
 367300,indie
 371330,casual
 371330,indie
-370530,adventure
-370530,indie
-370530,rpg
 301210,rpg
 302020,rpg
 302030,rpg
@@ -60219,8 +57779,6 @@ item_id,genres
 372520,indie
 307580,adventure
 307580,indie
-366660,action
-366660,rpg
 354180,adventure
 354180,indie
 373220,indie
@@ -60245,8 +57803,6 @@ item_id,genres
 360350,simulation
 371190,simulation
 371190,strategy
-373250,simulation
-373250,strategy
 372870,simulation
 364320,simulation
 370402,action
@@ -60254,17 +57810,11 @@ item_id,genres
 370402,indie
 359780,casual
 359780,simulation
-372180,strategy
 372020,indie
 372020,rpg
 372020,strategy
-372670,rpg
 351090,casual
-372700,rpg
 353330,indie
-372580,action
-372580,adventure
-372580,indie
 286940,action
 286940,adventure
 286940,free to play
@@ -60296,10 +57846,6 @@ item_id,genres
 372100,adventure
 372100,indie
 372100,rpg
-372070,action
-372070,adventure
-372070,indie
-372070,rpg
 368700,action
 368700,indie
 370080,casual
@@ -60317,12 +57863,6 @@ item_id,genres
 368340,early access
 372550,indie
 372550,rpg
-370520,action
-370520,casual
-370520,indie
-370520,racing
-370520,simulation
-370520,sports
 364480,casual
 364480,indie
 312710,action
@@ -60378,8 +57918,6 @@ item_id,genres
 304212,indie
 304212,simulation
 348430,indie
-371800,adventure
-371800,indie
 243970,action
 243970,indie
 243970,strategy
@@ -60430,8 +57968,6 @@ item_id,genres
 359400,adventure
 359400,indie
 359400,rpg
-367180,action
-367180,indie
 340350,action
 340350,free to play
 340350,indie
@@ -60445,8 +57981,6 @@ item_id,genres
 368400,indie
 368401,action
 368401,indie
-363810,adventure
-363810,indie
 320820,adventure
 320820,indie
 367640,adventure
@@ -60535,8 +58069,6 @@ item_id,genres
 354600,simulation
 354600,strategy
 342100,indie
-368870,action
-368870,rpg
 356210,adventure
 356210,casual
 359630,action
@@ -60569,10 +58101,6 @@ item_id,genres
 363830,free to play
 363830,rpg
 363830,strategy
-342010,action
-342010,indie
-342010,simulation
-342010,strategy
 268340,action
 268340,adventure
 268340,indie
@@ -60672,15 +58200,10 @@ item_id,genres
 365070,free to play
 365070,indie
 365070,simulation
-361070,action
-361070,adventure
-361070,indie
 350620,action
 350620,adventure
 350620,indie
 356110,indie
-349830,action
-349830,rpg
 297920,simulation
 297920,strategy
 329380,action
@@ -60727,7 +58250,6 @@ item_id,genres
 364970,education
 364970,software training
 364970,utilities
-367190,indie
 366190,animation &amp; modeling
 366190,design &amp; illustration
 366190,utilities
@@ -60773,11 +58295,6 @@ item_id,genres
 290650,casual
 290650,indie
 290650,rpg
-366900,action
-366900,casual
-366900,indie
-366900,racing
-366900,simulation
 322210,action
 322210,indie
 357711,indie
@@ -60786,8 +58303,6 @@ item_id,genres
 312450,free to play
 312450,simulation
 312450,strategy
-367810,action
-367810,indie
 355262,action
 355262,casual
 355262,free to play
@@ -60836,8 +58351,6 @@ item_id,genres
 364940,indie
 367040,action
 367040,indie
-363740,adventure
-363740,indie
 327450,adventure
 327450,casual
 327450,indie
@@ -60907,12 +58420,6 @@ item_id,genres
 366610,indie
 347710,adventure
 347710,indie
-363320,action
-363320,adventure
-363320,free to play
-363320,indie
-363320,simulation
-363320,strategy
 355250,action
 361670,action
 354430,action
@@ -60931,9 +58438,6 @@ item_id,genres
 345820,adventure
 345820,indie
 345820,rpg
-366430,adventure
-366430,indie
-366430,rpg
 359580,action
 359580,adventure
 359580,indie
@@ -60964,7 +58468,6 @@ item_id,genres
 342817,simulation
 342819,casual
 342819,simulation
-362300,massively multiplayer
 349770,adventure
 349770,indie
 349770,rpg
@@ -61033,8 +58536,6 @@ item_id,genres
 347880,action
 329530,rpg
 329530,strategy
-358950,action
-358950,adventure
 360960,action
 360960,adventure
 360960,indie
@@ -61055,27 +58556,17 @@ item_id,genres
 331790,adventure
 331790,indie
 331790,rpg
-364170,action
-364170,adventure
-364170,free to play
-364170,indie
 335200,action
 335200,adventure
 364660,casual
 364660,indie
 356160,adventure
 356160,casual
-363480,action
-363480,indie
-363480,rpg
 350460,action
 350460,indie
 350460,rpg
 245177,action
 245177,indie
-344000,action
-344000,indie
-344000,rpg
 363920,action
 363920,indie
 364240,photo editing
@@ -61085,8 +58576,6 @@ item_id,genres
 361110,action
 361110,adventure
 361110,indie
-364920,adventure
-364920,indie
 342650,action
 342650,casual
 342650,indie
@@ -61137,8 +58626,6 @@ item_id,genres
 361870,indie
 361870,rpg
 361870,strategy
-358010,rpg
-358010,strategy
 279740,photo editing
 279740,utilities
 279740,video production
@@ -61173,13 +58660,7 @@ item_id,genres
 355380,strategy
 355360,indie
 355360,rpg
-356860,action
-356860,indie
-356860,rpg
 351220,rpg
-362040,action
-362040,casual
-362040,indie
 357330,action
 357330,indie
 357330,early access
@@ -61221,9 +58702,6 @@ item_id,genres
 349350,indie
 349350,simulation
 349350,strategy
-359540,action
-359540,free to play
-359540,indie
 324260,action
 324260,indie
 324260,rpg
@@ -61298,9 +58776,6 @@ item_id,genres
 348620,casual
 348620,free to play
 348620,indie
-355660,racing
-355660,simulation
-355660,sports
 318480,action
 318480,adventure
 318480,indie
@@ -61365,9 +58840,6 @@ item_id,genres
 350220,indie
 350220,simulation
 350220,early access
-359120,action
-359120,casual
-359120,indie
 308520,indie
 308520,massively multiplayer
 308520,rpg
@@ -61410,8 +58882,6 @@ item_id,genres
 347670,sports
 344500,adventure
 344500,indie
-355870,simulation
-355870,strategy
 348990,simulation
 348990,strategy
 353050,action
@@ -61454,8 +58924,6 @@ item_id,genres
 342870,simulation
 342870,sports
 342870,early access
-356010,indie
-356010,rpg
 356000,indie
 356000,rpg
 316967,simulation
@@ -61484,9 +58952,6 @@ item_id,genres
 300120,indie
 347090,action
 347090,rpg
-355550,adventure
-355550,indie
-355550,rpg
 344461,action
 343611,action
 339384,simulation
@@ -61543,7 +59008,6 @@ item_id,genres
 355270,indie
 222180,action
 222180,indie
-261570,action
 320350,action
 320350,adventure
 352430,indie
@@ -61570,9 +59034,6 @@ item_id,genres
 335850,indie
 335850,rpg
 335850,early access
-353590,adventure
-353590,casual
-353590,indie
 338453,adventure
 338453,indie
 349740,adventure
@@ -61580,8 +59041,6 @@ item_id,genres
 349740,indie
 338360,indie
 338360,strategy
-355290,adventure
-355290,indie
 339034,action
 339034,adventure
 339032,action
@@ -61628,21 +59087,12 @@ item_id,genres
 339790,simulation
 339790,sports
 353300,indie
-353320,racing
-353320,simulation
-353320,sports
 340080,adventure
 340080,casual
 340080,simulation
 334390,action
 334390,indie
 334390,rpg
-338540,action
-338540,free to play
-338540,massively multiplayer
-338540,rpg
-338540,simulation
-338540,strategy
 341510,casual
 341510,indie
 341510,rpg
@@ -61670,10 +59120,6 @@ item_id,genres
 286280,simulation
 286280,strategy
 316240,simulation
-339540,action
-339540,indie
-339540,rpg
-339540,early access
 343770,casual
 343770,indie
 342890,casual
@@ -61695,8 +59141,6 @@ item_id,genres
 350500,action
 350500,indie
 350500,simulation
-341990,action
-341990,strategy
 345060,action
 345060,casual
 345060,indie
@@ -61752,9 +59196,6 @@ item_id,genres
 345130,casual
 345130,indie
 277767,simulation
-350750,casual
-350750,indie
-350750,simulation
 341410,indie
 341410,rpg
 346950,adventure
@@ -61767,10 +59208,6 @@ item_id,genres
 352030,adventure
 352030,indie
 352030,rpg
-345050,indie
-345050,massively multiplayer
-345050,simulation
-345050,strategy
 328940,indie
 351680,adventure
 351680,indie
@@ -61819,9 +59256,6 @@ item_id,genres
 348970,rpg
 338161,simulation
 338161,strategy
-351070,adventure
-351070,free to play
-351070,indie
 294060,action
 294060,adventure
 294060,indie
@@ -61835,7 +59269,6 @@ item_id,genres
 320988,simulation
 295188,simulation
 320986,simulation
-347120,racing
 347980,rpg
 347980,strategy
 275127,simulation
@@ -61878,18 +59311,7 @@ item_id,genres
 342270,indie
 342270,strategy
 295184,simulation
-328060,action
-328060,adventure
-328060,casual
-328060,free to play
-328060,racing
 295183,simulation
-339550,adventure
-339550,indie
-339550,rpg
-348320,action
-348320,adventure
-348320,indie
 326380,adventure
 326380,casual
 348561,indie
@@ -61910,8 +59332,6 @@ item_id,genres
 349540,strategy
 349060,casual
 349060,indie
-349620,action
-349620,indie
 349260,action
 349260,indie
 338960,casual
@@ -61964,20 +59384,10 @@ item_id,genres
 349780,casual
 349780,indie
 349780,simulation
-348690,action
-348690,adventure
-348690,casual
-348690,free to play
-348690,indie
-348690,rpg
-348920,adventure
 343300,adventure
 343300,casual
 343300,indie
 295173,simulation
-347910,action
-347910,indie
-347910,simulation
 295174,simulation
 345900,racing
 345900,simulation
@@ -62025,7 +59435,6 @@ item_id,genres
 341820,casual
 341820,indie
 341820,simulation
-350870,adventure
 348790,adventure
 348790,indie
 341750,adventure
@@ -62045,8 +59454,6 @@ item_id,genres
 277821,action
 277821,racing
 277821,sports
-350720,casual
-350720,indie
 345220,strategy
 346180,action
 346180,indie
@@ -62054,9 +59461,6 @@ item_id,genres
 343320,indie
 343320,rpg
 325610,strategy
-344920,action
-344920,indie
-344920,rpg
 350840,adventure
 324020,action
 282515,action
@@ -62071,15 +59475,10 @@ item_id,genres
 342767,simulation
 342768,casual
 342768,simulation
-348330,strategy
-346720,action
-346720,free to play
-346720,massively multiplayer
 345200,action
 345200,adventure
 345200,casual
 345200,indie
-344150,indie
 273840,racing
 273840,simulation
 273840,sports
@@ -62153,9 +59552,6 @@ item_id,genres
 331930,strategy
 291470,design &amp; illustration
 291470,web publishing
-346290,action
-346290,adventure
-346290,indie
 349080,action
 349080,casual
 349080,indie
@@ -62213,12 +59609,6 @@ item_id,genres
 346920,action
 346920,casual
 346920,indie
-341480,action
-341480,adventure
-341480,indie
-341480,rpg
-341480,simulation
-341480,strategy
 341070,action
 341070,indie
 338202,action
@@ -62226,7 +59616,6 @@ item_id,genres
 324710,adventure
 324710,casual
 324710,indie
-320860,adventure
 310510,action
 310510,adventure
 310510,indie
@@ -62240,12 +59629,8 @@ item_id,genres
 344340,simulation
 344340,sports
 344340,strategy
-338250,adventure
-338250,indie
-338250,rpg
 346890,action
 346890,strategy
-348610,adventure
 340210,indie
 340210,strategy
 340210,early access
@@ -62347,12 +59732,6 @@ item_id,genres
 319014,strategy
 319630,action
 319630,adventure
-319013,rpg
-319013,strategy
-319000,rpg
-319000,strategy
-319010,rpg
-319010,strategy
 333250,action
 333250,adventure
 333250,casual
@@ -62370,8 +59749,6 @@ item_id,genres
 335240,free to play
 335240,indie
 335240,massively multiplayer
-343380,indie
-343380,rpg
 343370,indie
 343370,rpg
 259570,action
@@ -62398,8 +59775,6 @@ item_id,genres
 214420,action
 214420,free to play
 214420,indie
-347010,indie
-347010,simulation
 346320,indie
 346320,simulation
 346320,strategy
@@ -62513,11 +59888,6 @@ item_id,genres
 342500,simulation
 342500,strategy
 295178,simulation
-327174,action
-327174,adventure
-344510,action
-344510,indie
-344510,strategy
 295177,simulation
 258050,action
 258050,indie
@@ -62601,10 +59971,6 @@ item_id,genres
 340200,casual
 340200,indie
 340200,simulation
-344470,indie
-344470,rpg
-344470,simulation
-344470,strategy
 343270,adventure
 343270,indie
 337940,adventure
@@ -62704,13 +60070,8 @@ item_id,genres
 323450,adventure
 323450,rpg
 334740,strategy
-329270,rpg
-329270,strategy
 326670,rpg
 326670,strategy
-306930,free to play
-306930,massively multiplayer
-306930,strategy
 340400,indie
 340400,rpg
 342330,indie
@@ -62719,10 +60080,6 @@ item_id,genres
 304910,action
 304910,indie
 304910,simulation
-335970,adventure
-335970,casual
-335970,indie
-335970,simulation
 306395,rpg
 306395,simulation
 306395,strategy
@@ -62756,7 +60113,6 @@ item_id,genres
 340630,action
 340630,casual
 340630,indie
-294260,racing
 305940,indie
 305940,simulation
 305940,strategy
@@ -62767,11 +60123,6 @@ item_id,genres
 295087,simulation
 295088,casual
 295088,simulation
-340460,action
-340460,casual
-340460,free to play
-340460,indie
-340460,strategy
 295090,casual
 295090,simulation
 295089,casual
@@ -62781,10 +60132,6 @@ item_id,genres
 337880,adventure
 337880,indie
 337880,simulation
-328480,action
-328480,free to play
-328480,massively multiplayer
-328480,rpg
 339000,action
 339000,casual
 339000,indie
@@ -62794,14 +60141,10 @@ item_id,genres
 338480,indie
 339820,rpg
 339820,early access
-338840,action
-338840,rpg
-338840,early access
 337410,free to play
 337410,massively multiplayer
 337410,rpg
 337930,simulation
-339750,simulation
 339330,action
 339330,adventure
 339330,indie
@@ -62821,21 +60164,9 @@ item_id,genres
 339870,adventure
 339870,indie
 339870,simulation
-339360,indie
-339360,rpg
 338830,indie
 338830,rpg
 338830,strategy
-311161,action
-311161,free to play
-311162,action
-311162,free to play
-311163,action
-311163,free to play
-311164,action
-311164,free to play
-336100,action
-336100,strategy
 277850,indie
 277850,sports
 336280,indie
@@ -62843,9 +60174,6 @@ item_id,genres
 331300,action
 331300,casual
 331300,indie
-304970,animation &amp; modeling
-304970,design &amp; illustration
-304970,utilities
 339620,action
 339620,casual
 339620,strategy
@@ -62864,9 +60192,6 @@ item_id,genres
 338770,indie
 338770,rpg
 338770,strategy
-333200,casual
-333200,indie
-333200,simulation
 327173,action
 327173,adventure
 336760,adventure
@@ -62884,36 +60209,11 @@ item_id,genres
 336610,rpg
 339080,action
 339080,indie
-334111,free to play
-334111,massively multiplayer
-334111,rpg
-334110,free to play
-334110,massively multiplayer
-334110,rpg
-334112,free to play
-334112,massively multiplayer
-334112,rpg
-333891,free to play
-333891,massively multiplayer
-333891,rpg
-334113,free to play
-334113,massively multiplayer
-334113,rpg
-333892,free to play
-333892,massively multiplayer
-333892,rpg
-333890,free to play
-333890,massively multiplayer
-333890,rpg
 336700,casual
 336700,indie
 314160,simulation
 331357,action
-337661,action
-337661,rpg
 331358,action
-337660,action
-337660,rpg
 334270,indie
 334270,simulation
 334270,strategy
@@ -63038,7 +60338,6 @@ item_id,genres
 321300,rpg
 321300,simulation
 321300,strategy
-321540,animation &amp; modeling
 335330,action
 335330,free to play
 277754,simulation
@@ -63046,25 +60345,19 @@ item_id,genres
 330620,rpg
 330620,simulation
 330620,strategy
-333460,action
 325150,action
 325150,indie
-337380,action
-337380,indie
 316960,simulation
 294810,action
 336930,action
 336930,indie
 277680,casual
 277680,indie
-337430,adventure
-337430,indie
 323490,adventure
 323490,casual
 323490,indie
 317040,action
 317040,rpg
-312930,sports
 335890,indie
 337400,casual
 337400,free to play
@@ -63095,8 +60388,6 @@ item_id,genres
 318690,indie
 318521,indie
 318521,simulation
-334600,adventure
-334600,indie
 289690,action
 289690,adventure
 335580,animation &amp; modeling
@@ -63141,13 +60432,6 @@ item_id,genres
 327840,indie
 327840,racing
 327840,sports
-335180,action
-335180,adventure
-335180,free to play
-335180,indie
-335180,rpg
-335180,simulation
-335180,strategy
 331650,action
 331650,indie
 331650,racing
@@ -63202,8 +60486,6 @@ item_id,genres
 335900,indie
 335900,rpg
 335900,strategy
-333140,adventure
-333140,indie
 300620,adventure
 300620,casual
 300620,indie
@@ -63217,8 +60499,6 @@ item_id,genres
 295560,rpg
 295560,simulation
 310460,adventure
-311950,action
-311950,indie
 331220,action
 331220,indie
 333720,adventure
@@ -63246,9 +60526,6 @@ item_id,genres
 315080,strategy
 334970,action
 334970,indie
-333790,animation &amp; modeling
-333790,video production
-335410,strategy
 241560,action
 241560,massively multiplayer
 241560,racing
@@ -63367,11 +60644,9 @@ item_id,genres
 331670,strategy
 334510,action
 334510,indie
-329260,strategy
 335350,casual
 335350,indie
 335350,simulation
-323420,strategy
 266980,adventure
 257260,adventure
 257260,casual
@@ -63388,8 +60663,6 @@ item_id,genres
 332150,action
 332150,indie
 332150,early access
-334860,action
-334860,indie
 325210,action
 325210,adventure
 325210,early access
@@ -63428,10 +60701,6 @@ item_id,genres
 326590,strategy
 321560,action
 321560,indie
-326440,strategy
-330511,action
-330511,adventure
-330511,indie
 330510,action
 330510,adventure
 330510,indie
@@ -63474,16 +60743,11 @@ item_id,genres
 332130,adventure
 332130,strategy
 297831,strategy
-334330,animation &amp; modeling
-334330,video production
 333220,indie
 327310,action
 327310,casual
 327310,indie
 310640,simulation
-331380,casual
-331380,indie
-331380,simulation
 330350,action
 330350,adventure
 330350,casual
@@ -63535,8 +60799,6 @@ item_id,genres
 331130,indie
 331130,massively multiplayer
 331130,rpg
-331900,action
-331900,rpg
 312310,action
 312310,indie
 312310,simulation
@@ -63546,9 +60808,6 @@ item_id,genres
 327610,casual
 327610,indie
 327610,strategy
-329823,design &amp; illustration
-329823,web publishing
-332470,strategy
 305960,action
 305960,indie
 305960,rpg
@@ -63626,9 +60885,6 @@ item_id,genres
 294860,strategy
 305880,adventure
 305880,indie
-260410,casual
-260410,free to play
-260410,indie
 275690,action
 275690,rpg
 204630,action
@@ -63692,8 +60948,6 @@ item_id,genres
 272080,simulation
 272080,sports
 272080,strategy
-329500,indie
-329500,strategy
 327830,simulation
 327830,strategy
 321800,adventure
@@ -63713,7 +60967,6 @@ item_id,genres
 320670,adventure
 320670,casual
 328990,indie
-268710,indie
 318710,action
 318710,adventure
 282512,action
@@ -63721,8 +60974,6 @@ item_id,genres
 327270,rpg
 328820,action
 328820,rpg
-328821,action
-328821,rpg
 326990,action
 326990,indie
 264690,indie
@@ -63769,11 +61020,6 @@ item_id,genres
 330630,design &amp; illustration
 330630,web publishing
 328930,simulation
-331270,adventure
-331270,indie
-331270,rpg
-331270,simulation
-331270,strategy
 310100,action
 310100,indie
 310100,strategy
@@ -63783,7 +61029,6 @@ item_id,genres
 318100,early access
 209650,action
 317660,action
-328530,action
 274940,action
 274940,indie
 284730,adventure
@@ -63863,7 +61108,6 @@ item_id,genres
 327910,action
 327910,adventure
 327910,strategy
-329350,indie
 326391,strategy
 308420,action
 308420,indie
@@ -63876,16 +61120,9 @@ item_id,genres
 329480,indie
 326810,animation &amp; modeling
 326810,video production
-329310,action
-329310,adventure
-329310,indie
-329310,early access
 329150,action
 329150,casual
 329150,indie
-329020,free to play
-329020,indie
-329020,rpg
 317610,action
 317610,indie
 317610,strategy
@@ -63931,7 +61168,6 @@ item_id,genres
 317480,indie
 317480,racing
 317480,sports
-318170,adventure
 314730,utilities
 323700,casual
 323700,indie
@@ -63943,8 +61179,6 @@ item_id,genres
 316060,adventure
 320721,strategy
 320750,strategy
-322060,action
-322060,adventure
 326430,action
 326430,adventure
 320730,strategy
@@ -63953,8 +61187,6 @@ item_id,genres
 328550,indie
 328550,rpg
 328200,rpg
-328560,indie
-328560,rpg
 292370,indie
 292370,rpg
 284460,action
@@ -64004,11 +61236,6 @@ item_id,genres
 327860,indie
 327860,rpg
 327860,early access
-327870,action
-327870,adventure
-327870,free to play
-327870,indie
-327870,rpg
 201210,free to play
 201210,rpg
 201210,strategy
@@ -64037,9 +61264,6 @@ item_id,genres
 292985,strategy
 326290,adventure
 326290,indie
-300650,action
-300650,adventure
-300650,indie
 301896,action
 301896,adventure
 295018,casual
@@ -64067,8 +61291,6 @@ item_id,genres
 326690,indie
 326690,massively multiplayer
 326690,strategy
-326800,indie
-326800,strategy
 325570,action
 325570,indie
 262210,action
@@ -64086,8 +61308,6 @@ item_id,genres
 282680,indie
 282680,strategy
 282680,early access
-303710,casual
-303710,indie
 251170,adventure
 325502,design &amp; illustration
 325502,web publishing
@@ -64127,18 +61347,12 @@ item_id,genres
 327400,simulation
 323390,casual
 323390,strategy
-321930,action
-321930,adventure
-321930,indie
 321920,action
 321920,adventure
 321920,indie
 325143,simulation
 302510,action
 325110,casual
-298300,massively multiplayer
-298300,rpg
-298300,strategy
 318510,indie
 318510,simulation
 313470,indie
@@ -64164,8 +61378,6 @@ item_id,genres
 326050,animation &amp; modeling
 326050,design &amp; illustration
 326050,photo editing
-323500,action
-323500,rpg
 321830,action
 321830,casual
 321830,indie
@@ -64220,8 +61432,6 @@ item_id,genres
 321940,rpg
 317510,action
 317510,casual
-324490,adventure
-324490,indie
 294460,action
 294460,adventure
 294460,indie
@@ -64238,7 +61448,6 @@ item_id,genres
 323610,simulation
 323610,strategy
 302440,simulation
-321020,casual
 319930,adventure
 319930,indie
 258520,adventure
@@ -64272,18 +61481,6 @@ item_id,genres
 311660,indie
 316480,adventure
 316480,indie
-321630,rpg
-311670,action
-311670,adventure
-323130,action
-323170,action
-323170,adventure
-323180,action
-323180,adventure
-323140,action
-323160,action
-323120,free to play
-323150,action
 306393,rpg
 306393,simulation
 306393,strategy
@@ -64294,10 +61491,6 @@ item_id,genres
 312380,strategy
 299660,action
 299660,indie
-324460,action
-324460,adventure
-324460,indie
-324460,rpg
 311140,action
 321150,adventure
 321150,casual
@@ -64354,9 +61547,6 @@ item_id,genres
 323260,casual
 282440,action
 323280,casual
-322940,indie
-322940,simulation
-322940,strategy
 312750,rpg
 263860,indie
 263860,strategy
@@ -64416,7 +61606,6 @@ item_id,genres
 297140,web publishing
 257690,adventure
 257690,indie
-319120,rpg
 292630,adventure
 292630,casual
 292630,indie
@@ -64429,10 +61618,6 @@ item_id,genres
 279111,rpg
 320630,adventure
 320630,casual
-320880,action
-320880,adventure
-320880,casual
-320880,indie
 316420,casual
 319850,casual
 319850,indie
@@ -64462,15 +61647,10 @@ item_id,genres
 294995,simulation
 294997,casual
 294997,simulation
-318290,strategy
 301380,adventure
 301380,indie
 294996,casual
 294996,simulation
-320710,action
-320710,free to play
-320710,massively multiplayer
-320710,rpg
 294830,simulation
 294830,strategy
 304730,casual
@@ -64493,8 +61673,6 @@ item_id,genres
 315890,action
 315890,adventure
 265550,action
-320030,action
-320030,rpg
 222634,simulation
 321580,strategy
 257730,free to play
@@ -64522,9 +61700,6 @@ item_id,genres
 246070,indie
 294932,casual
 294932,simulation
-317070,casual
-317070,indie
-317070,simulation
 39520,simulation
 39520,strategy
 249094,strategy
@@ -64536,13 +61711,6 @@ item_id,genres
 315960,indie
 315960,simulation
 315960,strategy
-308170,indie
-308170,rpg
-308170,simulation
-308170,strategy
-319340,casual
-319340,indie
-319340,strategy
 321620,action
 259253,action
 315120,action
@@ -64552,9 +61720,6 @@ item_id,genres
 271370,strategy
 312050,action
 312050,adventure
-315190,audio production
-315190,utilities
-315190,video production
 316660,action
 316660,casual
 316660,indie
@@ -64639,10 +61804,6 @@ item_id,genres
 303510,casual
 303510,indie
 308268,action
-270170,free to play
-270170,indie
-270170,rpg
-270170,simulation
 308269,action
 303870,action
 303870,adventure
@@ -64677,18 +61838,11 @@ item_id,genres
 289520,rpg
 289520,strategy
 318960,simulation
-265350,action
-265350,casual
-265350,indie
 319840,indie
 319840,rpg
 317720,action
 317720,indie
 317720,strategy
-317910,action
-317910,indie
-317910,simulation
-317910,sports
 248530,action
 248530,adventure
 248530,casual
@@ -64716,13 +61870,10 @@ item_id,genres
 297830,strategy
 304214,indie
 304214,simulation
-318080,indie
 316020,action
 316020,indie
 310400,free to play
 310400,simulation
-318450,adventure
-318450,casual
 290810,early access
 308261,action
 308263,action
@@ -64739,10 +61890,6 @@ item_id,genres
 312630,indie
 312630,strategy
 316440,action
-317560,indie
-317560,simulation
-316870,indie
-316870,strategy
 316441,action
 316448,action
 316820,action
@@ -64783,8 +61930,6 @@ item_id,genres
 314770,indie
 314770,simulation
 283580,simulation
-317210,indie
-317210,rpg
 295550,free to play
 295550,massively multiplayer
 295550,rpg
@@ -64799,8 +61944,6 @@ item_id,genres
 311680,adventure
 311680,casual
 311680,simulation
-316850,indie
-316850,rpg
 316671,adventure
 316671,indie
 316670,adventure
@@ -64864,21 +62007,9 @@ item_id,genres
 315240,video production
 294971,casual
 294971,simulation
-316040,action
 291930,simulation
 291930,strategy
 315560,simulation
-313320,action
-313320,adventure
-313320,casual
-313320,free to play
-313320,indie
-313320,massively multiplayer
-313320,racing
-313320,rpg
-313320,simulation
-313320,sports
-313320,strategy
 313360,adventure
 313360,casual
 267653,animation &amp; modeling
@@ -64897,9 +62028,6 @@ item_id,genres
 315490,education
 315490,software training
 315490,utilities
-316900,action
-316900,adventure
-316900,indie
 315610,action
 315610,adventure
 315610,indie
@@ -64912,9 +62040,6 @@ item_id,genres
 264140,simulation
 316651,indie
 316651,rpg
-300860,casual
-300860,simulation
-300860,sports
 295439,action
 298600,action
 298600,indie
@@ -64944,10 +62069,6 @@ item_id,genres
 311870,action
 311870,indie
 311870,rpg
-314390,action
-314390,indie
-314390,rpg
-313560,strategy
 306391,rpg
 306391,simulation
 306391,strategy
@@ -64964,10 +62085,6 @@ item_id,genres
 267773,rpg
 267773,strategy
 258666,simulation
-315510,action
-315510,casual
-315510,indie
-315510,rpg
 313281,strategy
 299720,casual
 299720,indie
@@ -65056,8 +62173,6 @@ item_id,genres
 264560,adventure
 264560,indie
 264560,rpg
-297970,racing
-297970,sports
 298820,adventure
 298820,casual
 298820,indie
@@ -65067,8 +62182,6 @@ item_id,genres
 279820,simulation
 284870,adventure
 284870,casual
-297050,action
-297050,indie
 302870,action
 302870,adventure
 302870,indie
@@ -65159,9 +62272,6 @@ item_id,genres
 311800,early access
 305860,design &amp; illustration
 305860,utilities
-312590,action
-312590,indie
-312590,rpg
 306601,adventure
 306601,indie
 265170,action
@@ -65251,9 +62361,6 @@ item_id,genres
 262142,rpg
 244630,action
 244630,free to play
-313290,casual
-313290,simulation
-313290,strategy
 306460,action
 306460,adventure
 306460,casual
@@ -65267,11 +62374,6 @@ item_id,genres
 307070,rpg
 291390,action
 291390,indie
-311000,adventure
-311000,indie
-311000,rpg
-307550,action
-307550,indie
 301110,action
 295438,action
 311080,action
@@ -65351,7 +62453,6 @@ item_id,genres
 291330,casual
 291330,indie
 291330,sports
-235940,strategy
 258661,simulation
 307410,sports
 302350,adventure
@@ -65400,9 +62501,6 @@ item_id,genres
 297760,simulation
 297760,sports
 297760,strategy
-304520,adventure
-304520,indie
-304520,rpg
 305150,action
 305150,casual
 305150,indie
@@ -65441,9 +62539,6 @@ item_id,genres
 301300,action
 301300,casual
 301300,indie
-302380,casual
-302380,free to play
-302380,indie
 116100,indie
 116100,racing
 303340,action
@@ -65650,9 +62745,6 @@ item_id,genres
 304310,simulation
 304320,free to play
 304320,simulation
-304610,action
-304610,adventure
-304610,indie
 280030,action
 280030,indie
 280031,action
@@ -65664,9 +62756,6 @@ item_id,genres
 278360,adventure
 278360,casual
 278360,indie
-304570,adventure
-304570,casual
-304570,indie
 291610,indie
 265830,action
 265830,adventure
@@ -65686,9 +62775,6 @@ item_id,genres
 301260,casual
 301260,simulation
 301260,strategy
-303990,indie
-303990,simulation
-303990,sports
 296650,action
 296650,casual
 296650,indie
@@ -65834,7 +62920,6 @@ item_id,genres
 290970,simulation
 290970,strategy
 358260,action
-358420,action
 294330,indie
 294330,rpg
 294330,strategy
@@ -65849,7 +62934,6 @@ item_id,genres
 358340,adventure
 358390,action
 358390,free to play
-358330,adventure
 358350,action
 358320,action
 358320,adventure
@@ -65857,11 +62941,7 @@ item_id,genres
 358410,action
 358230,action
 358230,adventure
-300790,indie
-300790,rpg
 259251,action
-259380,action
-259380,rpg
 228180,audio production
 228180,software training
 228180,utilities
@@ -65875,8 +62955,6 @@ item_id,genres
 286440,action
 286440,indie
 286440,strategy
-300130,adventure
-300130,indie
 268930,adventure
 268930,early access
 268930,indie
@@ -65892,8 +62970,6 @@ item_id,genres
 299290,rpg
 358210,action
 297940,rpg
-358240,action
-358240,adventure
 358300,action
 299280,rpg
 358200,adventure
@@ -65907,10 +62983,6 @@ item_id,genres
 358220,adventure
 294650,adventure
 294650,casual
-298180,action
-298180,adventure
-298180,indie
-298180,rpg
 296910,action
 296910,casual
 296910,indie
@@ -65968,10 +63040,6 @@ item_id,genres
 295870,action
 295870,indie
 295870,rpg
-298810,action
-298810,adventure
-298810,indie
-298810,rpg
 283350,action
 291130,action
 291130,adventure
@@ -65983,17 +63051,12 @@ item_id,genres
 296990,rpg
 296990,simulation
 296990,strategy
-358280,action
 270941,design &amp; illustration
 270941,education
 270941,software training
 270941,utilities
-358170,action
-358170,adventure
-358180,action
 358250,action
 358250,adventure
-358440,action
 358270,racing
 358290,action
 358290,adventure
@@ -66093,9 +63156,6 @@ item_id,genres
 264440,action
 264440,indie
 264440,early access
-295530,action
-295530,free to play
-295530,indie
 283180,adventure
 283180,indie
 293180,action
@@ -66117,21 +63177,12 @@ item_id,genres
 286080,adventure
 286080,free to play
 286080,indie
-295500,indie
-295500,rpg
-295500,simulation
-295500,strategy
 245175,action
 245175,indie
 293200,indie
 293200,strategy
 271499,casual
 271499,simulation
-278120,casual
-278120,early access
-278120,indie
-278120,simulation
-278120,strategy
 243220,indie
 296170,action
 296170,adventure
@@ -66200,13 +63251,9 @@ item_id,genres
 268810,adventure
 268810,casual
 268810,indie
-292690,adventure
-292690,indie
 288840,adventure
 291630,adventure
 291640,adventure
-259381,action
-259381,rpg
 222558,simulation
 205990,strategy
 281511,strategy
@@ -66272,9 +63319,6 @@ item_id,genres
 267340,casual
 267340,indie
 267340,strategy
-294270,casual
-294270,indie
-294270,strategy
 288710,casual
 288710,simulation
 281343,action
@@ -66328,10 +63372,6 @@ item_id,genres
 270550,casual
 270550,indie
 270550,strategy
-277930,adventure
-277930,indie
-277930,rpg
-277930,early access
 264540,action
 264540,indie
 265990,indie
@@ -66388,7 +63428,6 @@ item_id,genres
 281103,utilities
 227560,action
 227560,indie
-267830,audio production
 262610,audio production
 278530,adventure
 278530,indie
@@ -66400,8 +63439,6 @@ item_id,genres
 251210,indie
 251210,strategy
 286920,action
-288900,action
-288900,rpg
 271964,design &amp; illustration
 271964,web publishing
 269010,indie
@@ -66513,11 +63550,6 @@ item_id,genres
 272770,racing
 272770,simulation
 272770,sports
-251390,action
-251390,adventure
-251390,indie
-251390,rpg
-251390,strategy
 204530,action
 204530,indie
 204530,strategy
@@ -66607,10 +63639,6 @@ item_id,genres
 239160,action
 239160,adventure
 261920,utilities
-284070,action
-284070,early access
-284070,free to play
-284070,strategy
 262080,action
 262080,indie
 267220,action
@@ -66624,10 +63652,6 @@ item_id,genres
 264200,action
 264200,casual
 264200,indie
-281050,action
-281050,casual
-281050,free to play
-281050,indie
 213670,action
 213670,adventure
 213670,rpg
@@ -66685,14 +63709,10 @@ item_id,genres
 263820,adventure
 263820,indie
 263820,rpg
-264841,adventure
-264841,indie
-264841,rpg
 260380,indie
 260380,strategy
 273700,action
 273700,indie
-274130,action
 251870,adventure
 277842,design &amp; illustration
 277842,web publishing
@@ -66748,8 +63768,6 @@ item_id,genres
 264160,indie
 264160,rpg
 264160,strategy
-262341,massively multiplayer
-262341,rpg
 274480,action
 274480,indie
 274480,rpg
@@ -66837,8 +63855,6 @@ item_id,genres
 271423,simulation
 271422,casual
 271422,simulation
-273130,action
-273130,adventure
 245950,action
 245950,rpg
 275290,strategy
@@ -66866,9 +63882,6 @@ item_id,genres
 271520,action
 271520,free to play
 271520,indie
-256280,action
-256280,adventure
-256280,indie
 265464,design &amp; illustration
 265464,web publishing
 270950,casual
@@ -66946,8 +63959,6 @@ item_id,genres
 266270,sports
 258411,casual
 258411,simulation
-274161,action
-274161,rpg
 249650,indie
 249650,rpg
 249650,strategy
@@ -67050,8 +64061,6 @@ item_id,genres
 246420,action
 246420,indie
 246420,strategy
-261600,simulation
-261600,sports
 247304,action
 247304,adventure
 271410,casual
@@ -67237,7 +64246,6 @@ item_id,genres
 258510,audio production
 241660,audio production
 241660,software training
-258512,audio production
 258511,audio production
 247303,action
 247303,adventure
@@ -67248,7 +64256,6 @@ item_id,genres
 258420,strategy
 258389,casual
 258389,simulation
-260850,strategy
 24679,simulation
 222618,simulation
 268090,action
@@ -67257,8 +64264,6 @@ item_id,genres
 268090,indie
 268090,rpg
 222623,simulation
-267380,action
-267380,rpg
 251690,action
 251690,indie
 251690,sports
@@ -67292,10 +64297,6 @@ item_id,genres
 253350,adventure
 248970,action
 248970,indie
-259760,action
-259760,adventure
-259760,indie
-259760,rpg
 261980,action
 261980,adventure
 261980,free to play
@@ -67400,8 +64401,6 @@ item_id,genres
 259550,rpg
 241280,action
 241280,indie
-264610,action
-264610,rpg
 222616,simulation
 222615,simulation
 231330,action
@@ -67712,9 +64711,6 @@ item_id,genres
 254080,strategy
 254100,strategy
 253940,rpg
-248410,action
-248410,indie
-248410,rpg
 227020,simulation
 227020,strategy
 251430,adventure
@@ -67744,8 +64740,6 @@ item_id,genres
 248450,indie
 248450,rpg
 248450,simulation
-51100,action
-51100,free to play
 240820,action
 240820,indie
 238910,indie
@@ -67825,8 +64819,6 @@ item_id,genres
 107410,strategy
 222640,adventure
 222640,strategy
-274160,action
-274160,rpg
 246740,action
 246740,adventure
 246740,indie
@@ -67940,8 +64932,6 @@ item_id,genres
 239070,adventure
 239070,indie
 239070,rpg
-254260,action
-254260,rpg
 243440,action
 243440,free to play
 243441,action
@@ -67983,9 +64973,6 @@ item_id,genres
 215534,indie
 215534,rpg
 222587,simulation
-231910,action
-231910,adventure
-231910,casual
 241600,action
 241600,indie
 241600,rpg
@@ -68134,7 +65121,6 @@ item_id,genres
 235250,casual
 235250,indie
 235250,strategy
-224850,action
 219441,action
 238210,action
 238210,rpg
@@ -68151,10 +65137,6 @@ item_id,genres
 222118,simulation
 222117,casual
 222117,simulation
-237780,action
-237780,adventure
-237780,indie
-237780,strategy
 232970,action
 232970,casual
 232970,indie
@@ -68227,10 +65209,6 @@ item_id,genres
 234940,adventure
 234940,casual
 234940,indie
-227400,action
-227400,indie
-227400,massively multiplayer
-227400,rpg
 223710,action
 223710,adventure
 223710,indie
@@ -68335,9 +65313,6 @@ item_id,genres
 230410,free to play
 105420,action
 105420,indie
-231801,action
-231801,adventure
-231801,indie
 8870,action
 208798,action
 208798,adventure
@@ -68364,7 +65339,6 @@ item_id,genres
 234690,free to play
 234690,massively multiplayer
 234690,rpg
-224840,action
 222105,casual
 222105,simulation
 227131,adventure
@@ -68382,11 +65356,6 @@ item_id,genres
 222106,casual
 222106,simulation
 230920,strategy
-224380,audio production
-224380,software training
-224380,utilities
-224380,video production
-224380,web publishing
 210550,casual
 215370,simulation
 215370,strategy
@@ -68635,8 +65604,6 @@ item_id,genres
 227300,simulation
 228280,rpg
 228280,strategy
-73118,action
-73118,rpg
 212672,action
 222547,simulation
 222070,casual
@@ -68812,7 +65779,6 @@ item_id,genres
 215255,adventure
 220810,racing
 220809,racing
-58643,strategy
 215971,action
 215971,simulation
 215971,strategy
@@ -69136,9 +66102,6 @@ item_id,genres
 207730,action
 207730,strategy
 205230,action
-218290,strategy
-218290,indie
-218290,simulation
 208296,simulation
 214530,rpg
 214530,strategy
@@ -69194,8 +66157,6 @@ item_id,genres
 214830,action
 214830,casual
 214830,rpg
-210190,casual
-210190,simulation
 218510,indie
 218510,strategy
 212780,indie
@@ -69269,7 +66230,6 @@ item_id,genres
 216463,action
 215670,adventure
 215670,indie
-24077,simulation
 216930,casual
 210170,action
 210170,indie
@@ -69355,9 +66315,6 @@ item_id,genres
 208366,simulation
 208351,simulation
 208346,simulation
-204524,action
-204523,action
-204522,action
 214700,adventure
 214700,indie
 214700,casual
@@ -69379,8 +66336,6 @@ item_id,genres
 214100,indie
 214100,casual
 214100,simulation
-204840,action
-204840,strategy
 211180,adventure
 211180,casual
 211180,indie
@@ -69437,7 +66392,6 @@ item_id,genres
 201790,action
 201790,indie
 201790,strategy
-24067,simulation
 201809,action
 201809,indie
 201809,strategy
@@ -69505,7 +66459,6 @@ item_id,genres
 203345,strategy
 210950,action
 210950,adventure
-58646,strategy
 206882,strategy
 206882,simulation
 209793,indie
@@ -69520,9 +66473,6 @@ item_id,genres
 209610,casual
 209610,indie
 209610,simulation
-210490,action
-210490,strategy
-210490,indie
 97330,strategy
 207114,racing
 213930,rpg
@@ -69577,8 +66527,6 @@ item_id,genres
 201276,strategy
 55391,action
 200310,strategy
-200891,action
-200891,adventure
 202750,action
 202750,adventure
 211740,action
@@ -69672,7 +66620,6 @@ item_id,genres
 207170,adventure
 207170,indie
 207170,rpg
-210290,strategy
 207150,action
 207150,indie
 207150,strategy
@@ -69691,7 +66638,6 @@ item_id,genres
 207168,strategy
 204860,action
 204860,strategy
-58645,strategy
 208543,strategy
 208543,rpg
 208543,indie
@@ -69741,7 +66687,6 @@ item_id,genres
 47410,free to play
 47410,massively multiplayer
 47410,strategy
-45775,action
 205870,indie
 205870,casual
 102840,action
@@ -69754,7 +66699,6 @@ item_id,genres
 80330,indie
 80360,adventure
 80360,indie
-45776,action
 80350,adventure
 80350,indie
 71000,action
@@ -69766,9 +66710,6 @@ item_id,genres
 73187,simulation
 102500,action
 102500,rpg
-63803,adventure
-63803,strategy
-63803,indie
 48805,simulation
 200590,action
 18120,action
@@ -69895,9 +66836,6 @@ item_id,genres
 42147,adventure
 42147,casual
 42147,indie
-42180,adventure
-42180,indie
-42180,casual
 96200,action
 96200,indie
 9200,action
@@ -70011,7 +66949,6 @@ item_id,genres
 109702,indie
 109700,indie
 109700,strategy
-65230,simulation
 42929,strategy
 102810,action
 102810,adventure
@@ -70065,9 +67002,6 @@ item_id,genres
 99120,action
 95300,action
 95300,indie
-72200,casual
-72200,indie
-72200,simulation
 48720,action
 48720,rpg
 16866,strategy
@@ -70288,8 +67222,6 @@ item_id,genres
 65500,adventure
 8970,indie
 35417,action
-60600,action
-60600,indie
 25010,action
 70500,action
 70500,adventure
@@ -70424,7 +67356,6 @@ item_id,genres
 8190,adventure
 46280,rpg
 46280,strategy
-34050,strategy
 20570,strategy
 20820,action
 20820,indie
@@ -70629,8 +67560,6 @@ item_id,genres
 25990,simulation
 24028,simulation
 20530,action
-20902,action
-20902,rpg
 11130,adventure
 11150,adventure
 11140,adventure
@@ -70684,7 +67613,6 @@ item_id,genres
 33710,simulation
 12670,simulation
 34900,indie
-34910,indie
 32340,adventure
 32350,action
 32350,simulation
@@ -70757,9 +67685,7 @@ item_id,genres
 3590,strategy
 12630,action
 12630,rpg
-29150,indie
 29900,action
-29140,indie
 18700,action
 18700,indie
 3710,action
@@ -70781,8 +67707,6 @@ item_id,genres
 26300,indie
 27000,adventure
 27000,indie
-31500,casual
-31500,indie
 27600,indie
 27600,casual
 29130,indie
@@ -70924,7 +67848,6 @@ item_id,genres
 17740,action
 17740,free to play
 17740,strategy
-11020,racing
 15100,action
 15100,adventure
 15120,action
@@ -71077,19 +68000,6 @@ item_id,genres
 774931,animation &amp; modeling
 774931,design &amp; illustration
 774931,utilities
-574090,action
-375340,casual
-375340,indie
-375340,strategy
-692790,adventure
-692790,indie
-736410,indie
-602300,action
-602300,adventure
-602300,indie
-386470,casual
-386470,indie
-386470,racing
 767170,casual
 767170,indie
 768840,action
@@ -71132,8 +68042,6 @@ item_id,genres
 768856,free to play
 768856,indie
 768856,racing
-603320,indie
-603320,strategy
 581910,action
 581910,casual
 581910,strategy
@@ -71148,19 +68056,10 @@ item_id,genres
 765240,indie
 765240,strategy
 765240,early access
-602420,indie
 656710,action
 656710,adventure
 656710,casual
 656710,indie
-390710,action
-390710,indie
-467340,action
-467340,adventure
-467340,indie
-458490,adventure
-458490,indie
-458490,simulation
 764070,action
 764070,adventure
 764070,casual
@@ -71178,15 +68077,6 @@ item_id,genres
 671090,indie
 765610,casual
 765610,indie
-494090,casual
-553940,casual
-553940,indie
-553940,simulation
-553940,early access
-517100,adventure
-517100,casual
-675170,action
-675170,simulation
 765200,action
 765200,adventure
 765200,casual
@@ -71196,21 +68086,11 @@ item_id,genres
 776950,racing
 776950,simulation
 776950,sports
-494430,action
-494430,adventure
-494430,indie
-494430,rpg
-494430,simulation
-454000,adventure
-454000,indie
 767500,adventure
 767500,indie
 765390,action
 765390,adventure
 765390,indie
-701410,action
-701410,adventure
-701410,indie
 771140,casual
 771140,indie
 771140,strategy
@@ -71246,10 +68126,6 @@ item_id,genres
 763090,casual
 763090,indie
 763090,strategy
-573110,indie
-573110,rpg
-708150,casual
-708150,strategy
 749540,action
 749540,adventure
 749540,casual
@@ -71263,19 +68139,12 @@ item_id,genres
 747850,rpg
 747850,simulation
 747850,early access
-454940,action
-454940,adventure
-454940,indie
 766600,action
 766600,simulation
 766600,early access
 754810,free to play
 754810,simulation
 754820,indie
-510190,action
-510190,free to play
-510190,massively multiplayer
-510190,early access
 746050,action
 746050,casual
 746050,indie
@@ -71283,10 +68152,6 @@ item_id,genres
 746050,simulation
 246920,action
 246920,indie
-503920,action
-503920,adventure
-689820,adventure
-689820,indie
 470310,indie
 470310,rpg
 470310,strategy
@@ -71311,16 +68176,10 @@ item_id,genres
 748110,adventure
 748110,indie
 748110,early access
-544790,adventure
-544790,casual
-544790,indie
-544790,simulation
-544790,strategy
 667590,racing
 667590,early access
 240,action
 280,action
-90044,action
 320,action
 220,action
 200990,strategy
@@ -71329,7 +68188,6 @@ item_id,genres
 3920,rpg
 1500,indie
 1500,strategy
-340,action
 1002,indie
 39200,rpg
 1200,action
@@ -71365,18 +68223,6 @@ item_id,genres
 2100,action
 2100,rpg
 3320,casual
-491180,action
-491180,adventure
-491180,indie
-718050,action
-718050,adventure
-718050,casual
-718050,rpg
-549700,action
-549700,adventure
-549700,indie
-549700,early access
-664580,action
 763740,casual
 763740,indie
 752400,action
@@ -71420,40 +68266,10 @@ item_id,genres
 769600,early access
 772450,action
 772450,indie
-772190,action
-772190,adventure
-772190,indie
-716780,action
-716780,adventure
-716780,indie
-716780,rpg
-716800,action
-716800,adventure
-716800,indie
-716800,simulation
-716800,strategy
-718250,action
-718250,casual
-718250,indie
-718250,early access
-729640,action
-729640,casual
-729640,indie
 765180,action
 765180,adventure
 765180,indie
 765180,early access
-755830,action
-755830,casual
-755830,indie
-755830,simulation
-708070,action
-708070,adventure
-708070,indie
-708070,early access
-759900,action
-759900,adventure
-759900,rpg
 770520,action
 770520,casual
 770520,indie
@@ -71483,12 +68299,8 @@ item_id,genres
 766700,casual
 766700,indie
 766700,rpg
-250440,action
-250440,indie
 755310,utilities
 755310,video production
-771070,action
-771070,indie
 754350,action
 754350,free to play
 754350,massively multiplayer
@@ -71507,7 +68319,6 @@ item_id,genres
 200960,strategy
 200960,rpg
 200960,indie
-90007,sports
 40990,action
 40990,adventure
 259340,action
@@ -71520,22 +68331,12 @@ item_id,genres
 13230,action
 80,action
 767010,indie
-772180,casual
-772180,indie
-772180,simulation
-772180,sports
-772180,early access
 761480,adventure
 761480,indie
-771810,action
-771810,adventure
-771810,indie
 767590,casual
 767590,indie
 747320,indie
 747320,rpg
-769330,casual
-769330,indie
 745400,action
 745400,adventure
 745400,casual
