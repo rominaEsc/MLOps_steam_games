@@ -12,7 +12,13 @@ df_reviews = pd.read_csv('data/df_reviews.csv')
 df_users_items = pd.read_csv('data/df_users_items.csv')
 df_users = pd.read_csv('data/df_users.csv')
 df_user_id_item_id_price = pd.read_csv("data/df_user_id_item_id_price.csv")
+df_developer = pd.read_csv('data/df_developer.csv')
 
+
+# ---------------------------------------------------------------------------------------
+
+def check(input,df,columna):
+    return any(part in input.lower() for part in df[columna])
 
 # ---------------------------------------------------------------------------------------
 
@@ -109,13 +115,13 @@ def developer(desarrollador : str ):
     if check(desarrollador_minusculas,df_developer,'developer'):
         
         df_filtrado = df_developer[df_developer.developer == desarrollador_minusculas]
-        cantidad_de_items = df_filtrado.shape[0]
 
 
         df_xanio = df_filtrado.groupby(['year']).size().reset_index(name=('cantidad_total'))
         df_filtrado_free = df_filtrado[df_filtrado.price == 0].groupby(['year']).size().reset_index(name=('cantidad_free'))
         df = df_xanio.merge(df_filtrado_free,how='left')
-        df['porcentaje'] = df.cantidad_free /df.cantidad_total *100
+        cantidad_de_items = df.shape[0]
+        df['porcentaje'] = round(df.cantidad_free /df.cantidad_total,3) *100
         df['porcentaje'] = df['porcentaje'].fillna(0)
 
 
@@ -126,7 +132,9 @@ def developer(desarrollador : str ):
             "cantidad_de_items": cantidad_de_items,
             "anios": anios,
             "porcentaje_free_por_anio": porcentaje_free_por_anio
-        }
+            }
+        
     else:
          out = (F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "kotoshiro"')
+
     return out
