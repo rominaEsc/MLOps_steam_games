@@ -14,24 +14,40 @@ df_users = pd.read_csv('data/df_users.csv')
 df_user_id_item_id_price = pd.read_csv("data/df_user_id_item_id_price.csv")
 
 
+# ---------------------------------------------------------------------------------------
 
 # Función 1: función userdata
 
 @app.get('/userdata/{user_id}')
 
 def userdata(user_id: str):
-    # si el usuario no existe devuelve: {'dinero_gastado': 0.0, 'porcentaje_de_recomendaciones': nan, 'items_recomendados': 0, 'items_comprados': 0}
+    # Si el usuario no existe devuelve: {'dinero_gastado': 0.0, 'porcentaje_de_recomendaciones': nan, 'items_recomendados': 0, 'items_comprados': 0}
+    
     user_id = user_id.strip()
+
+    # Dinero gastado
     df_filtrado_dinero = df_user_id_item_id_price[df_user_id_item_id_price.user_id == user_id]
-    dinero_gastado = df_filtrado_dinero.price.sum()
+    dinero_gastado = round(df_filtrado_dinero.price.sum(),2)
+
+    # Porcentaje de recomendaciones
     df_filtrado_recomendaciones = df_reviews[df_reviews.user_id == user_id]
-    porcentaje_de_recomendacion = round(df_filtrado_recomendaciones.recommend.mean(),3)*100
-    items_comprados = df_filtrado_dinero.shape[0]
-    items_recomendados = df_filtrado_recomendaciones.shape[0]
+
+    if df_filtrado_recomendaciones.shape[0] == 0:
+        porcentaje_de_recomendacion = 0
+    else:
+        porcentaje_de_recomendacion = round(df_filtrado_recomendaciones.recommend.mean(),3)*100
+    
+    # items comprados
+    items_comprados = int(df_filtrado_dinero.shape[0])
+    
+    # items recomendados
+    items_recomendados = int(df_filtrado_recomendaciones.shape[0])
 
 
     return {"dinero_gastado":dinero_gastado, "porcentaje_de_recomendaciones": porcentaje_de_recomendacion, 'items_recomendados': items_recomendados,'items_comprados':items_comprados}
 
+
+# ---------------------------------------------------------------------------------------
 # 2. Función 2: countreviews
 
 @app.get('/countreviews/{fecha_inicio}')
@@ -52,10 +68,9 @@ def countreviews (fecha_inicio:(str), fecha_fin):
 def genre (genero):
     genero_minusculas = genero.lower().strip()
     if genero_minusculas in list(df_genres.name):
-        puesto = df_genres[df_genres.name == genero_minusculas].reset_index().at[0,'ranking']
+        puesto = int(df_genres[df_genres.name == genero_minusculas].reset_index().at[0,'ranking'])
     else:
         puesto = 'No se encuentra. Intente nuevamente. Ej: Action'
-
     return {"genero": genero_minusculas, "ranking":puesto}
 
 # Función 4: función genre
