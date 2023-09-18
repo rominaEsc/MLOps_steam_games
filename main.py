@@ -32,10 +32,17 @@ def userdata(user_id: str):
 
     return {"dinero_gastado":dinero_gastado, "porcentaje_de_recomendaciones": porcentaje_de_recomendacion, 'items_recomendados': items_recomendados,'items_comprados':items_comprados}
 
-# 2. falta
+# 2. Función 2: countreviews
 
-#@app.get('/userdata/{user_id}')
+@app.get('/countreviews/{fecha_inicio}')
 
+def countreviews (fecha_inicio:(str), fecha_fin):
+
+    df_filtrado = df_reviews[(df_reviews['posted_date'] >= fecha_inicio) & (df_reviews['posted_date'] <= fecha_fin)]
+    cant_usuarios = df_filtrado.shape[0]
+    porcentaje_de_recomendacion = round(df_filtrado.recommend.mean(),3)*100
+    return {"cantidad":cant_usuarios, "porcentaje":porcentaje_de_recomendacion}
+    # return df_filtrado
 
 # Función 3: función genre
 
