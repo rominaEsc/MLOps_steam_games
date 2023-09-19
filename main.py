@@ -17,8 +17,8 @@ df_developer = pd.read_csv('data/df_developer.csv')
 
 # ---------------------------------------------------------------------------------------
 
-def check(input,df,columna):
-    return any(part in input.lower() for part in df[columna])
+# def check(input,df,columna):
+#     return any(part in input.lower() for part in df[columna])
 
 # ---------------------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ def userdata(user_id: str):
     
     user_id = user_id.strip()
 
-    if check(user_id,df_user_id_item_id_price,'user_id'):
+    if any(part in user_id for part in df_user_id_item_id_price['user_id']):
 
         # Dinero gastado
         df_filtrado_dinero = df_user_id_item_id_price[df_user_id_item_id_price.user_id == user_id]
@@ -57,6 +57,7 @@ def userdata(user_id: str):
          out = (F'El usuario {user_id}, no éxiste. Intente nuevamente. EJ: "76561197970982479"')
 
     return out
+
 # ---------------------------------------------------------------------------------------
 # 2. Función 2: countreviews
 
@@ -117,7 +118,8 @@ def developer(desarrollador : str ):
 
     desarrollador_minusculas = desarrollador.lower().strip()
 
-    if check(desarrollador_minusculas,df_developer,'developer'):
+    
+    if any(part in desarrollador_minusculas for part in df_developer['developer']):
         
         df_filtrado = df_developer[df_developer.developer == desarrollador_minusculas]
 
@@ -134,7 +136,7 @@ def developer(desarrollador : str ):
         porcentaje_free_por_anio = df['porcentaje'].tolist()
 
         out = {
-            "cantidad_de_items_free": cantidad_de_items,
+            "cantidad_de_items": cantidad_de_items,
             "anios": anios,
             "porcentaje_free_por_anio": porcentaje_free_por_anio
             }
