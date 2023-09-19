@@ -145,3 +145,17 @@ def developer(desarrollador : str ):
          out = (F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "kotoshiro"')
 
     return out
+
+
+# Función 6: sentiment_analysis
+
+@app.get('/sentiment_analysis/{anio}')
+
+def sentiment_analysis( anio : int ):
+
+    df_filtrado = df_reviews[df_reviews.year == anio].groupby(['sentiment_analysis']).size().reset_index(name=('cantidad'))
+    negative = df_filtrado.at[0,'cantidad']
+    neutral = df_filtrado.at[1,'cantidad']
+    positive = df_filtrado.at[2,'cantidad']
+
+    return {"Negative":negative,"Neutral":neutral,"Positive":positive}
