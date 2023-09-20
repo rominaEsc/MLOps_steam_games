@@ -112,7 +112,7 @@ def userforgenre( genero : str ):
         user_url_top5 = list(top5.user_url)
 
         out = {"users_top5":users_top5, "user_url_top5":user_url_top5}
-        
+
         return out
 
     else:
@@ -132,27 +132,26 @@ def developer(desarrollador : str ):
     if any(part in desarrollador_minusculas for part in df_developer['developer']):
         
         df_filtrado = df_developer[df_developer.developer == desarrollador_minusculas]
-
-
         df_xanio = df_filtrado.groupby(['year']).size().reset_index(name=('cantidad_total'))
         df_filtrado_free = df_filtrado[df_filtrado.price == 0].groupby(['year']).size().reset_index(name=('cantidad_free'))
         df = df_xanio.merge(df_filtrado_free,how='left')
-        cantidad_de_items = df.shape[0]
-        df['porcentaje'] = round(df.cantidad_free /df.cantidad_total,3) *100
-        df['porcentaje'] = df['porcentaje'].fillna(0)
+        df = df.fillna(0)
 
+        df['porcentaje'] = (df.cantidad_free / df.cantidad_total * 100).round().astype(int)
+        df['cantidad_free'] = df['cantidad_free'].astype('int64')
 
         anios = df_xanio['year'].tolist()
+        cantidad_de_items = df['cantidad_total'].tolist()
         porcentaje_free_por_anio = df['porcentaje'].tolist()
 
         out = {
-            "cantidad_de_items": cantidad_de_items,
             "anios": anios,
+            "cantidad_total_de_items": cantidad_de_items,
             "porcentaje_free_por_anio": porcentaje_free_por_anio
             }
         
     else:
-         out = {F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "kotoshiro"'}
+         out = {F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "stegalosaurus game development"'}
 
     return out
 
@@ -163,13 +162,20 @@ def developer(desarrollador : str ):
 
 def sentiment_analysis( anio : int ):
 
-    df_filtrado = df_reviews[df_reviews.year == anio].groupby(['sentiment_analysis']).size().reset_index(name=('cantidad'))
+    lista_de_anios = list(df_reviews.year.unique())
+    lista_de_anios = [int(x) for x in lista_de_anios if not np.isnan(x)]
+    lista_de_anios = sorted(lista_de_anios)
+    if anio in lista_de_anios:
 
-    negative = int(df_filtrado.iloc[0,1])
-    neutral = int(df_filtrado.iloc[1,1])
-    positive = int(df_filtrado.iloc[2,1])
+        df_filtrado = df_reviews[df_reviews.year == anio].groupby(['sentiment_analysis']).size().reset_index(name=('cantidad'))
 
-    return {"Negative":negative,"Neutral":neutral,"Positive":positive}
+        negative = int(df_filtrado.iloc[0,1])
+        neutral = int(df_filtrado.iloc[1,1])
+        positive = int(df_filtrado.iloc[2,1])
+
+        return {"Negative":negative,"Neutral":neutral,"Positive":positive}
+    else:
+        return {f'El año ingresado no se encuentra. Puede ingresar una de las siguientes opciones:{lista_de_anios}'}
 
 
 # --------
@@ -206,6 +212,6 @@ def recomendacion(titulo:str):
         lista = (results[titulo])
         data = {'titulo':titulo , 'lista recomendada': lista}
     else:
-        mensaje = "El item ingresado: {}, no se encuentra en la base de datos.".format(titulo)
+        mensaje = "El item ingresado: {}, no se encuentra en la base de datos. Intente nuevamente. Ej: Counter-Strike ".format(titulo)
         data = {mensaje}    
     return data
