@@ -111,7 +111,8 @@ def userforgenre( genero : str ):
         users_top5 = list(top5.user_id)
         user_url_top5 = list(top5.user_url)
 
-        out = {"users_top5":users_top5}#, "user_url_top5":user_url_top5}
+        # out = {"users_top5":users_top5}, 
+        out ={"user_url_top5":user_url_top5}
         return out
 
     else:
@@ -194,7 +195,7 @@ for idx, row in sist_recomendacion_df.iterrows():
     similar_items = [(f"{sist_recomendacion_df.loc[i, 'title']}") for i in similar_indices]
     results[f"{row['title']}"] = similar_items[1:]
 
-# @app.get('/recomendacion/{titulo}')
+@app.get('/recomendacion/{titulo}')
 
 def recomendacion(titulo:str):
     '''Ingresas un nombre de pelicula y te recomienda las similares en una lista'''
