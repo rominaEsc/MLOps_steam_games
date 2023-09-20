@@ -13,6 +13,8 @@ df_users_items = pd.read_csv('data/df_users_items.csv')
 df_users = pd.read_csv('data/df_users.csv')
 df_user_id_item_id_price = pd.read_csv("data/df_user_id_item_id_price.csv")
 df_developer = pd.read_csv('data/df_developer.csv')
+sist_recomendacion_df=pd.read_csv('data/sist_recomendacion_df_item.csv')
+
 
 
 # ---------------------------------------------------------------------------------------
@@ -90,6 +92,7 @@ def genre (genero):
 
 @app.get('/userforgenre/{genero}')
 
+
 def userforgenre( genero : str ): 
     genero_min = genero.lower().strip()
 
@@ -97,13 +100,14 @@ def userforgenre( genero : str ):
 
         lista_de_items_del_genero = list(df_item_genre[df_item_genre.genres == genero_min].item_id)
         df = df_users_items[df_users_items.item_id.isin(lista_de_items_del_genero)]
+
         top5 = df.groupby('user_id')['playtime_forever'].sum().reset_index()
         top5 = top5.sort_values('playtime_forever',ascending=False).head() # aca ta el user id y las hs de juego
         top5 = top5.merge(df_users[['user_id','user_url']], on='user_id', how='left')
         users_top5 = list(top5.user_id)
         user_url_top5 = list(top5.user_url)
 
-        out = {"users_top5":users_top5, "user_url_top5":user_url_top5}
+        out = {"users_top5":users_top5}#, "user_url_top5":user_url_top5}
         return out
 
     else:
@@ -161,3 +165,42 @@ def sentiment_analysis( anio : int ):
     positive = int(df_filtrado.iloc[2,1])
 
     return {"Negative":negative,"Neutral":neutral,"Positive":positive}
+
+
+# --------
+
+# Instanciamos el CV
+vectorizer = CountVectorizer()
+stopwords = STOPWORDS
+# eliminamos las "stop words", palabras comunes no informativas
+tf = TfidfVectorizer(stop_words='english')
+
+# calculamos los features para cada ítem (texto)
+tfidf_matrix = tf.fit_transform(sist_recomendacion_df['texto'])
+
+# calculamos las similitudes entre todos los documentos
+cosine_similarities = linear_kernel(tfidf_matrix, tfidf_matrix)
+n = 5
+
+results = {} 
+for idx, row in sist_recomendacion_df.iterrows():
+    # guardamos los indices similares basados en la similitud coseno. Los ordenamos en modo ascendente, siendo 0 nada de similitud y 1 total
+    similar_indices = cosine_similarities[idx].argsort()[:-n-2:-1] 
+    # guardamos los N más cercanos
+    similar_items = [(f"{sist_recomendacion_df.loc[i, 'title']}") for i in similar_indices]
+    results[f"{row['title']}"] = similar_items[1:]
+
+# @app.get('/recomendacion/{titulo}')
+
+def recomendacion(titulo:str):
+    '''Ingresas un nombre de pelicula y te recomienda las similares en una lista'''
+    titulo = titulo.title().strip()
+
+    if sist_recomendacion_df['title'].str.contains(titulo).any():
+        titulo = titulo.title().strip()
+        lista = (results[titulo])
+        data = {'titulo':titulo , 'lista recomendada': lista}
+    else:
+        mensaje = "El item ingresado: {}, no se encuentra en la base de datos.".format(titulo)
+        data = {mensaje}    
+    return data
