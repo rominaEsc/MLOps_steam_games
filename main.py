@@ -154,8 +154,8 @@ def developer(desarrollador : str ):
 def sentiment_analysis( anio : int ):
 
     df_filtrado = df_reviews[df_reviews.year == anio].groupby(['sentiment_analysis']).size().reset_index(name=('cantidad'))
-    negative = int(df_filtrado.at[0,'cantidad'])
-    neutral = int(df_filtrado.at[1,'cantidad'])
-    positive = int(df_filtrado.at[2,'cantidad'])
+    negative = df_filtrado.iloc[0,1]
+    neutral = df_filtrado.iloc[1,1]
+    positive = df_filtrado.iloc[2,1]
 
     return {"Negative":negative,"Neutral":neutral,"Positive":positive}
