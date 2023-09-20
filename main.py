@@ -103,11 +103,12 @@ def userforgenre( genero : str ):
         users_top5 = list(top5.user_id)
         user_url_top5 = list(top5.user_url)
 
-        return {"users_top5":users_top5, "user_url_top5":user_url_top5}
+        out = {"users_top5":users_top5, "user_url_top5":user_url_top5}
+        return out
 
     else:
-        mensaje = 'el género ', genero, ' no éxiste. Intente nuevamente. EJ: "Action"'
-        return mensaje
+        out = {f'el género {genero} no éxiste. Intente nuevamente. EJ: "Action"'}
+        return out
 
 
 # Función 5:
@@ -154,8 +155,9 @@ def developer(desarrollador : str ):
 def sentiment_analysis( anio : int ):
 
     df_filtrado = df_reviews[df_reviews.year == anio].groupby(['sentiment_analysis']).size().reset_index(name=('cantidad'))
-    negative = df_filtrado.iloc[0,1]
-    neutral = df_filtrado.iloc[1,1]
-    positive = df_filtrado.iloc[2,1]
+
+    negative = int(df_filtrado.iloc[0,1])
+    neutral = int(df_filtrado.iloc[1,1])
+    positive = int(df_filtrado.iloc[2,1])
 
     return {"Negative":negative,"Neutral":neutral,"Positive":positive}
