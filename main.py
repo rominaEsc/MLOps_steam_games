@@ -3,6 +3,8 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from pprint import pprint
+from wordcloud import WordCloud, STOPWORDS
+
 
 app = FastAPI()
 
