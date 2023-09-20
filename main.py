@@ -142,7 +142,7 @@ def developer(desarrollador : str ):
             }
         
     else:
-         out = (F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "kotoshiro"')
+         out = {F'El desarrollador {desarrollador}, no éxiste. Intente nuevamente. EJ: "kotoshiro"'}
 
     return out
 
