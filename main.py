@@ -111,8 +111,8 @@ def userforgenre( genero : str ):
         users_top5 = list(top5.user_id)
         user_url_top5 = list(top5.user_url)
 
-        # out = {"users_top5":users_top5}, 
-        out ={"user_url_top5":user_url_top5}
+        out = {"users_top5":users_top5, "user_url_top5":user_url_top5}
+        
         return out
 
     else:
