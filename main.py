@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from pprint import pprint
@@ -34,7 +35,8 @@ sist_recomendacion_df=pd.read_csv('data/sist_recomendacion_df_item.csv')
 
 def userdata(user_id: str):
     # Si el usuario no existe devuelve: {'dinero_gastado': 0.0, 'porcentaje_de_recomendaciones': nan, 'items_recomendados': 0, 'items_comprados': 0}
-    
+    '''Al ingresar el id de un usuario, devuelve la cantidad de dinero gastado por dicho usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.'''
+
     user_id = user_id.strip()
 
     if any(part in user_id for part in df_user_id_item_id_price['user_id']):
@@ -69,26 +71,29 @@ def userdata(user_id: str):
 
 @app.get('/countreviews/{fecha_inicio}')
 
-def countreviews (fecha_inicio:(str), fecha_fin):
+def countreviews (fecha_inicio:(str), fecha_fin(str)):
+    '''Se ingresan dos fechas en formato YYY-MM-DD, respetando el orden cronológico y
+    devuelve la cantidad de usuarios que realizaron reviews entre las fechas dadas y el porcentaje de recomendación de los mismos en base a reviews.recommend'''
 
     df_filtrado = df_reviews[(df_reviews['posted_date'] >= fecha_inicio) & (df_reviews['posted_date'] <= fecha_fin)]
     cant_usuarios = df_filtrado.shape[0]
     porcentaje_de_recomendacion = round(df_filtrado.recommend.mean(),3)*100
-    return {"cantidad":cant_usuarios, "porcentaje":porcentaje_de_recomendacion}
+    return {"cantidad_de_usuarios":cant_usuarios, "porcentaje_de_recomendacion":porcentaje_de_recomendacion}
     # return df_filtrado
 
 # Función 3: función genre
 
 @app.get('/genre/{genero}')
 
-def genre (genero):
+def genre (genero:str):
+    '''Al ingresar el nombre de un género en sring, devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.'''
     genero_minusculas = genero.lower().strip()
     if genero_minusculas in list(df_genres.name):
         puesto = int(df_genres[df_genres.name == genero_minusculas].reset_index().at[0,'ranking'])
         salida = {"genero": genero_minusculas, "ranking":puesto}
     else:
         puesto = 'No se encuentra. Intente nuevamente. Ej: Action'
-        salida = {"genero": genero_minusculas, "ranking":puesto}
+        salida = {"genero": genero_minusculas, "puesto":puesto}
     return salida
 
 
@@ -98,6 +103,8 @@ def genre (genero):
 
 
 def userforgenre( genero : str ): 
+    '''Al ingresar un género, devuelve los user_id y las url del Top 5 de usuarios con más horas de juego en el género'''
+
     genero_min = genero.lower().strip()
 
     if genero_min in list(df_item_genre.genres):
@@ -116,7 +123,7 @@ def userforgenre( genero : str ):
         return out
 
     else:
-        out = {f'el género {genero} no éxiste. Intente nuevamente. EJ: "Action"'}
+        out = {f'El género {genero} no éxiste. Intente nuevamente. EJ: Action'}
         return out
 
 
@@ -125,6 +132,7 @@ def userforgenre( genero : str ):
 @app.get('/developer/{desarrollador}')
 
 def developer(desarrollador : str ):
+    '''Al ingresar el nombre de un desarrollador, devuelve la cantidad de items free y el porcentaje de contenido free por año según empresa desarrolladora.'''
 
     desarrollador_minusculas = desarrollador.lower().strip()
 
@@ -141,12 +149,12 @@ def developer(desarrollador : str ):
         df['cantidad_free'] = df['cantidad_free'].astype('int64')
 
         anios = df_xanio['year'].tolist()
-        cantidad_de_items = df['cantidad_total'].tolist()
+        cantidad_de_items_free = df['cantidad_free'].tolist()
         porcentaje_free_por_anio = df['porcentaje'].tolist()
 
         out = {
             "anios": anios,
-            "cantidad_total_de_items": cantidad_de_items,
+            "cantidad_de_items_free": cantidad_de_items_free,
             "porcentaje_free_por_anio": porcentaje_free_por_anio
             }
         
@@ -161,10 +169,12 @@ def developer(desarrollador : str ):
 @app.get('/sentiment_analysis/{anio}')
 
 def sentiment_analysis( anio : int ):
+    '''Al ingresar el año de lanzamiento (yyyy), se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.'''
 
     lista_de_anios = list(df_reviews.year.unique())
     lista_de_anios = [int(x) for x in lista_de_anios if not np.isnan(x)]
     lista_de_anios = sorted(lista_de_anios)
+
     if anio in lista_de_anios:
 
         df_filtrado = df_reviews[df_reviews.year == anio].groupby(['sentiment_analysis']).size().reset_index(name=('cantidad'))
@@ -204,7 +214,7 @@ for idx, row in sist_recomendacion_df.iterrows():
 @app.get('/recomendacion/{titulo}')
 
 def recomendacion(titulo:str):
-    '''Ingresas un nombre de pelicula y te recomienda las similares en una lista'''
+    ''' Ingresando el id de producto, entrega una lista con 5 juegos recomendados similares al ingresado.'''
     titulo = titulo.title().strip()
 
     if sist_recomendacion_df['title'].str.contains(titulo).any():
