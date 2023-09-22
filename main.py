@@ -71,7 +71,7 @@ def userdata(user_id: str):
 
 @app.get('/countreviews/{fecha_inicio}')
 
-def countreviews (fecha_inicio:(str), fecha_fin(str)):
+def countreviews (fecha_inicio:str, fecha_fin:str):
     '''Se ingresan dos fechas en formato YYY-MM-DD, respetando el orden cronológico y
     devuelve la cantidad de usuarios que realizaron reviews entre las fechas dadas y el porcentaje de recomendación de los mismos en base a reviews.recommend'''
 
