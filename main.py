@@ -5,6 +5,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from pprint import pprint
 from wordcloud import WordCloud, STOPWORDS
+import datetime
+
 
 app = FastAPI()
 
@@ -66,17 +68,27 @@ def userdata(user_id: str):
 # ---------------------------------------------------------------------------------------
 # 2. Función 2: countreviews
 
+def es_fecha_valida(date_text):
+    try:
+        datetime.datetime.strptime(date_text, '%Y-%m-%d')
+        return True
+    except ValueError:
+        return False
+    
+
 @app.get('/countreviews/{fecha_inicio}')
 
-def countreviews (fecha_inicio:str, fecha_fin:str):
-    '''Se ingresan dos fechas en formato YYY-MM-DD, respetando el orden cronológico y
+def countreviews(fecha_inicio: str, fecha_fin: str):
+    '''Se ingresan dos fechas en formato YYYY-MM-DD, respetando el orden cronológico y
     devuelve la cantidad de usuarios que realizaron reviews entre las fechas dadas y el porcentaje de recomendación de los mismos en base a reviews.recommend'''
+
+    if not es_fecha_valida(fecha_inicio) or not es_fecha_valida(fecha_fin):
+        return "Error: Las fechas deben tener el formato YYYY-MM-DD."
 
     df_filtrado = df_reviews[(df_reviews['posted_date'] >= fecha_inicio) & (df_reviews['posted_date'] <= fecha_fin)]
     cant_usuarios = df_filtrado.shape[0]
-    porcentaje_de_recomendacion = round(df_filtrado.recommend.mean(),3)*100
-    return {"cantidad_de_usuarios":cant_usuarios, "porcentaje_de_recomendacion":porcentaje_de_recomendacion}
-
+    porcentaje_de_recomendacion = round(df_filtrado.recommend.mean(), 3) * 100
+    return {"cantidad_de_usuarios": cant_usuarios, "porcentaje_de_recomendacion": porcentaje_de_recomendacion}
 
 # Función 3: función genre
 
