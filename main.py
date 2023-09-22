@@ -84,14 +84,15 @@ def countreviews (fecha_inicio:str, fecha_fin:str):
 
 def genre (genero:str):
     '''Al ingresar el nombre de un género, devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.'''
-    genero_minusculas = genero.lower().strip()
-    if genero_minusculas in list(df_genres.name):
-        puesto = int(df_genres[df_genres.name == genero_minusculas].reset_index().at[0,'ranking'])
-        salida = {"genero": genero_minusculas, "ranking":puesto}
+    genero_normalizado = genero.capitalize().strip()
+    if genero_normalizado in list(df_genres.name):
+        puesto = int(df_genres[df_genres.name == genero_normalizado].reset_index().at[0,'ranking'])
+        salida = {"genero": genero_normalizado, "ranking":puesto}
     else:
         puesto = 'No se encuentra. Intente nuevamente. Ej: Action'
-        salida = {"genero": genero_minusculas, "puesto":puesto}
+        salida = {"genero": genero_normalizado, "puesto":puesto}
     return salida
+
 
 
 # Función 4: función genre
@@ -102,11 +103,11 @@ def genre (genero:str):
 def userforgenre( genero : str ): 
     '''Al ingresar un género, devuelve los user_id y las url del Top 5 de usuarios con más horas de juego en el género'''
 
-    genero_min = genero.lower().strip()
+    genero_nor = genero.capitalize().strip()
 
-    if genero_min in list(df_item_genre.genres):
+    if genero_nor in list(df_item_genre.genres):
 
-        lista_de_items_del_genero = list(df_item_genre[df_item_genre.genres == genero_min].item_id)
+        lista_de_items_del_genero = list(df_item_genre[df_item_genre.genres == genero_nor].item_id)
         df = df_users_items[df_users_items.item_id.isin(lista_de_items_del_genero)]
 
         top5 = df.groupby('user_id')['playtime_forever'].sum().reset_index()
@@ -123,7 +124,6 @@ def userforgenre( genero : str ):
         out = {f'El género {genero} no éxiste. Intente nuevamente. EJ: Action'}
         return out
 
-
 # Función 5:
 
 @app.get('/developer/{desarrollador}')
@@ -131,12 +131,12 @@ def userforgenre( genero : str ):
 def developer(desarrollador : str ):
     '''Al ingresar el nombre de un desarrollador, devuelve la cantidad de items free y el porcentaje de contenido free por año según empresa desarrolladora.'''
 
-    desarrollador_minusculas = desarrollador.lower().strip()
+    desarrollador_normalizado = desarrollador.capitalize().strip()
 
     
-    if any(part in desarrollador_minusculas for part in df_developer['developer']):
+    if any(part == desarrollador_normalizado for part in df_developer['developer']):
         
-        df_filtrado = df_developer[df_developer.developer == desarrollador_minusculas]
+        df_filtrado = df_developer[df_developer.developer == desarrollador_normalizado]
         df_xanio = df_filtrado.groupby(['year']).size().reset_index(name=('cantidad_total'))
         df_filtrado_free = df_filtrado[df_filtrado.price == 0].groupby(['year']).size().reset_index(name=('cantidad_free'))
         df = df_xanio.merge(df_filtrado_free,how='left')
@@ -213,9 +213,9 @@ for idx, row in sist_recomendacion_df.iterrows():
 def recomendacion(item_id:int):
     ''' Ingresando el id de producto, obtenemos una lista con 5 juegos recomendados similares al ingresado.'''
 
-    if any(part == 10 for part in sist_recomendacion_df['item_id']):
+    if any(part == item_id for part in sist_recomendacion_df['item_id']):
 
-        titulo = sist_recomendacion_df[sist_recomendacion_df.item_id == 10].iloc[0,2]
+        titulo = sist_recomendacion_df[sist_recomendacion_df.item_id == item_id].iloc[0,2]
         lista = (results[titulo])
         data = {'item_id':item_id, 'titulo':titulo , 'items_recomendados': lista}
     else:
