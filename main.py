@@ -6,7 +6,6 @@ from sklearn.metrics.pairwise import linear_kernel
 from pprint import pprint
 from wordcloud import WordCloud, STOPWORDS
 
-
 app = FastAPI()
 
 # cargamos los datos
@@ -24,8 +23,6 @@ sist_recomendacion_df=pd.read_csv('data/sist_recomendacion_df_item.csv')
 
 # ---------------------------------------------------------------------------------------
 
-# def check(input,df,columna):
-#     return any(part in input.lower() for part in df[columna])
 
 # ---------------------------------------------------------------------------------------
 
@@ -79,14 +76,14 @@ def countreviews (fecha_inicio:str, fecha_fin:str):
     cant_usuarios = df_filtrado.shape[0]
     porcentaje_de_recomendacion = round(df_filtrado.recommend.mean(),3)*100
     return {"cantidad_de_usuarios":cant_usuarios, "porcentaje_de_recomendacion":porcentaje_de_recomendacion}
-    # return df_filtrado
+
 
 # Función 3: función genre
 
 @app.get('/genre/{genero}')
 
 def genre (genero:str):
-    '''Al ingresar el nombre de un género en sring, devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.'''
+    '''Al ingresar el nombre de un género, devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.'''
     genero_minusculas = genero.lower().strip()
     if genero_minusculas in list(df_genres.name):
         puesto = int(df_genres[df_genres.name == genero_minusculas].reset_index().at[0,'ranking'])
@@ -185,7 +182,7 @@ def sentiment_analysis( anio : int ):
 
         return {"Negative":negative,"Neutral":neutral,"Positive":positive}
     else:
-        return {f'El año ingresado no se encuentra. Puede ingresar una de las siguientes opciones:{lista_de_anios}'}
+        return {f'El año ingresado no se encuentra. Puede ingresar una de las siguientes opciones:{lista_de_anios[1:]}'}
 
 
 # --------
@@ -213,15 +210,15 @@ for idx, row in sist_recomendacion_df.iterrows():
 
 @app.get('/recomendacion/{titulo}')
 
-def recomendacion(titulo:str):
-    ''' Ingresando el id de producto, entrega una lista con 5 juegos recomendados similares al ingresado.'''
-    titulo = titulo.title().strip()
+def recomendacion(item_id:int):
+    ''' Ingresando el id de producto, obtenemos una lista con 5 juegos recomendados similares al ingresado.'''
 
-    if sist_recomendacion_df['title'].str.contains(titulo).any():
-        titulo = titulo.title().strip()
+    if any(part == 10 for part in sist_recomendacion_df['item_id']):
+
+        titulo = sist_recomendacion_df[sist_recomendacion_df.item_id == 10].iloc[0,2]
         lista = (results[titulo])
-        data = {'titulo':titulo , 'lista recomendada': lista}
+        data = {'item_id':item_id, 'titulo':titulo , 'items_recomendados': lista}
     else:
-        mensaje = "El item ingresado: {}, no se encuentra en la base de datos. Intente nuevamente. Ej: Counter-Strike ".format(titulo)
+        mensaje = "El item ingresado: {}, no se encuentra en la base de datos.".format(titulo)
         data = {mensaje}    
     return data
