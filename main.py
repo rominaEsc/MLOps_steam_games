@@ -83,7 +83,7 @@ def countreviews(fecha_inicio: str, fecha_fin: str):
     devuelve la cantidad de usuarios que realizaron reviews entre las fechas dadas y el porcentaje de recomendación de los mismos en base a reviews.recommend'''
 
     if not es_fecha_valida(fecha_inicio) or not es_fecha_valida(fecha_fin):
-        return "Error: Las fechas deben tener el formato YYYY-MM-DD."
+        return "Error: Ingreso una fecha inválida, intente nuevamente."
 
     df_filtrado = df_reviews[(df_reviews['posted_date'] >= fecha_inicio) & (df_reviews['posted_date'] <= fecha_fin)]
     cant_usuarios = df_filtrado.shape[0]
@@ -96,7 +96,7 @@ def countreviews(fecha_inicio: str, fecha_fin: str):
 
 def genre (genero:str):
     '''Al ingresar el nombre de un género, devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.'''
-    genero_normalizado = genero.capitalize().strip()
+    genero_normalizado = genero.title().strip()
     if genero_normalizado in list(df_genres.name):
         puesto = int(df_genres[df_genres.name == genero_normalizado].reset_index().at[0,'ranking'])
         salida = {"genero": genero_normalizado, "ranking":puesto}
@@ -115,7 +115,7 @@ def genre (genero:str):
 def userforgenre( genero : str ): 
     '''Al ingresar un género, devuelve los user_id y las url del Top 5 de usuarios con más horas de juego en el género'''
 
-    genero_nor = genero.capitalize().strip()
+    genero_nor = genero.title().strip()
 
     if genero_nor in list(df_item_genre.genres):
 
@@ -143,7 +143,7 @@ def userforgenre( genero : str ):
 def developer(desarrollador : str ):
     '''Al ingresar el nombre de un desarrollador, devuelve la cantidad de items free y el porcentaje de contenido free por año según empresa desarrolladora.'''
 
-    desarrollador_normalizado = desarrollador.capitalize().strip()
+    desarrollador_normalizado = desarrollador.title().strip()
 
     
     if any(part == desarrollador_normalizado for part in df_developer['developer']):
